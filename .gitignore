@@ -43,8 +43,7 @@ models/
 *.ckpt
 *.safetensors
 
-# Output and data
-output/
+# Logs
 *.log
 
 # OS

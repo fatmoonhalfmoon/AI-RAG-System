@@ -1,0 +1,75 @@
+{
+  "version": "2.1",
+  "mode": "quick",
+  "total_questions": 63,
+  "timestamp": "2026-06-02 23:50:19",
+  "layer1": {
+    "doc_recall@5": 0.8995,
+    "doc_recall@10": 0.9286,
+    "doc_recall@15": 0.9286,
+    "doc_hit_rate@10": 0.9523809523809523
+  },
+  "layer2": {
+    "snippet_coverage@10": 0.8455
+  },
+  "layer3": {
+    "mrr@10": 0.8196,
+    "ndcg@10": 0.8285
+  },
+  "layer4": {
+    "keyword_completeness": 0.4117,
+    "format_check": {
+      "has_merged_context": true,
+      "has_source_docs": true,
+      "has_retrieved_chunks": true,
+      "has_qa_hits": true,
+      "merged_context_length_ok": true,
+      "chunks_non_empty": true
+    }
+  },
+  "group_stats": {
+    "definition": {
+      "n": 24,
+      "recall@10": 0.9792,
+      "coverage@10": 0.8146
+    },
+    "framework": {
+      "n": 29,
+      "recall@10": 0.8966,
+      "coverage@10": 0.881
+    },
+    "comparison": {
+      "n": 10,
+      "recall@10": 0.9,
+      "coverage@10": 0.8167
+    }
+  },
+  "difficulty_stats": {
+    "medium": {
+      "n": 33,
+      "recall@10": 0.9848,
+      "coverage@10": 0.8475
+    },
+    "easy": {
+      "n": 12,
+      "recall@10": 0.8333,
+      "coverage@10": 0.8514
+    },
+    "hard": {
+      "n": 18,
+      "recall@10": 0.8889,
+      "coverage@10": 0.838
+    }
+  },
+  "failure_modes": {
+    "F1": 3,
+    "F2": 0,
+    "F3": 5,
+    "F4": 5,
+    "F5": 43,
+    "F6": 3
+  },
+  "overall_grade": "B+ (良好)",
+  "bottleneck": "",
+  "suggestion": ""
+}
