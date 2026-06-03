@@ -1,0 +1,1802 @@
+[
+  {
+    "question": "什么是我将主管？",
+    "answer": "“通过下属实现经营者的目标的人”",
+    "qa_type": "definition",
+    "source_doc": "10人以下小团队管理手册-堀之内克彦",
+    "chapter": "10 人以下小团队管理手册",
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_6"
+  },
+  {
+    "question": "什么是“完成具体业务”？",
+    "answer": "日常的实际工作和业务操作，程式化的内容相对比较多",
+    "qa_type": "definition",
+    "source_doc": "10人以下小团队管理手册-堀之内克彦",
+    "chapter": "10 人以下小团队管理手册",
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_6"
+  },
+  {
+    "question": "将工作包含哪些内容？",
+    "answer": "“实现经营者的目标”和“完成具体业务”两大类",
+    "qa_type": "framework",
+    "source_doc": "10人以下小团队管理手册-堀之内克彦",
+    "chapter": "10 人以下小团队管理手册",
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_6"
+  },
+  {
+    "question": "公司里的问题大致可以包含哪些内容？",
+    "answer": "两种：一种是以结果的形式出现的，另一种是以原因的形式出现的",
+    "qa_type": "framework",
+    "source_doc": "10人以下小团队管理手册-堀之内克彦",
+    "chapter": "10 人以下小团队管理手册",
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_12"
+  },
+  {
+    "question": "主管的工作大体包含哪些内容？",
+    "answer": "“业务管理”和“员工管理”（即对工作本身的管理和对人的管理）两大部分，具体还可以细分为“制定方针”“ 推进业务”“ 掌控下属”和“协助领导”等四项内容",
+    "qa_type": "framework",
+    "source_doc": "10人以下小团队管理手册-堀之内克彦",
+    "chapter": "10 人以下小团队管理手册",
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_15"
+  },
+  {
+    "question": "我将目标管理包含哪些内容？",
+    "answer": "三种类型：沟通型目标管理、培养能力开发型目标管理和绩效主义实现型目标管理",
+    "qa_type": "framework",
+    "source_doc": "10人以下小团队管理手册-堀之内克彦",
+    "chapter": "10 人以下小团队管理手册",
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_20"
+  },
+  {
+    "question": "什么是判断？",
+    "answer": "在能够分析信息、充分掌握情况的来龙去脉的基础上做出决定",
+    "qa_type": "definition",
+    "source_doc": "10人以下小团队管理手册-堀之内克彦",
+    "chapter": "10 人以下小团队管理手册",
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_39"
+  },
+  {
+    "question": "日本人在这个测试中的平均得包含哪些内容？",
+    "answer": "：A 凝聚性 10.03、B 接纳性 13.45、C 辨别性 11.06、D 扩展性 10.13、E 保全性 11.51、S 压力 7.94",
+    "qa_type": "framework",
+    "source_doc": "10人以下小团队管理手册-堀之内克彦",
+    "chapter": "10 人以下小团队管理手册",
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_45"
+  },
+  {
+    "question": "什么是又继续解释：“OKR的O？",
+    "answer": "目标，英文是objective",
+    "qa_type": "definition",
+    "source_doc": "OKR工作法谷歌、领英等公司的高绩效秘籍",
+    "chapter": "第一章",
+    "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_12"
+  },
+  {
+    "question": "什么是KR？",
+    "answer": "关键结果，英文是key results",
+    "qa_type": "definition",
+    "source_doc": "OKR工作法谷歌、领英等公司的高绩效秘籍",
+    "chapter": "第一章",
+    "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_12"
+  },
+  {
+    "question": "这个包含哪些内容？",
+    "answer": "公司不同职能部门的人员",
+    "qa_type": "framework",
+    "source_doc": "OKR工作法谷歌、领英等公司的高绩效秘籍",
+    "chapter": "第四章",
+    "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_40"
+  },
+  {
+    "question": "什么是[1] 本·拉莫尔特的业务？",
+    "answer": "导管理者如何明确目标并帮助他们在其最重要的目标上取得突破性进展，他指导过数十个组织的上百位管理人员",
+    "qa_type": "definition",
+    "source_doc": "OKR工作法谷歌、领英等公司的高绩效秘籍",
+    "chapter": "第五章",
+    "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_47"
+  },
+  {
+    "question": "什么是也许我们应该将关键结果？",
+    "answer": "“确保出于技术原因丢失的主要潜在客户（年收入在10万美元以上）不超过3个”",
+    "qa_type": "definition",
+    "source_doc": "OKR工作法谷歌、领英等公司的高绩效秘籍",
+    "chapter": "第五章",
+    "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_47"
+  },
+  {
+    "question": "什么是生物性情绪？",
+    "answer": "所有的动物一出生就有的情绪，从你养的小猫小狗，到动物世界里的野生动物，再到咱们人类都有",
+    "qa_type": "definition",
+    "source_doc": "产品思维30讲-梁宁",
+    "chapter": "03 同理心训练：怎样理解愉悦与不爽",
+    "chunk_id": "产品思维30讲-梁宁_small_chunk_8"
+  },
+  {
+    "question": "什么是场景？",
+    "answer": "在空间加时间的点上触发别人的情绪",
+    "qa_type": "definition",
+    "source_doc": "产品思维30讲-梁宁",
+    "chapter": "09 机会判断：怎样找到有势能的趋势",
+    "chunk_id": "产品思维30讲-梁宁_small_chunk_25"
+  },
+  {
+    "question": "战略计划和战略管理有什么区别？",
+    "answer": "，前者 的焦点是制定最优战略决策，而后者的焦点是关注产生新的战略结果——新市场、 新产品和新技术",
+    "qa_type": "comparison",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第15章 为一个州卫生机构锻造新的使命",
+    "chunk_id": "公共管理名著精华_small_chunk_8"
+  },
+  {
+    "question": "什么是的行政学家哈罗德 ·斯坦曾将公共行政案例？",
+    "answer": "：对某一个或一 群行政官员进行的一项决策或一组决策这样的事件的论述",
+    "qa_type": "definition",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第16章 书写案例草稿",
+    "chunk_id": "公共管理名著精华_small_chunk_16"
+  },
+  {
+    "question": "什么是所谓教学的价值？",
+    "answer": "案例应作为教学的一个重要组成部分 或环节，每一个案例都需要一种理论，有助于大家理解理论",
+    "qa_type": "definition",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第16章 书写案例草稿",
+    "chunk_id": "公共管理名著精华_small_chunk_18"
+  },
+  {
+    "question": "什么是这里关键因素？",
+    "answer": "：道德规则、伦理准则、自我形象和政治社团的准则",
+    "qa_type": "definition",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第6章 整合组织规范、结构与伦理",
+    "chunk_id": "公共管理名著精华_small_chunk_40"
+  },
+  {
+    "question": "本书共包含哪些内容？",
+    "answer": "12章，第1至3章主要论述传统的公共行政理论和新公 共管理理论的不同概念和特点",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第12章 结论",
+    "chunk_id": "公共管理名著精华_small_chunk_44"
+  },
+  {
+    "question": "内容包含哪些内容？",
+    "answer": "测量与 数据收集、政策研究中的计算机应用、回归分析、成本效益分析以及政策研究与公 共组织等",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第16章 伦理与公共行政的关系：互相冲突的伦理义务的概念",
+    "chunk_id": "公共管理名著精华_small_chunk_50"
+  },
+  {
+    "question": "全书包含哪些内容？",
+    "answer": "宪法 原则、政治过程、政策制定机构、权利和自由四个部分",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第11章 绩效考评在绩效管理中的应用",
+    "chunk_id": "公共管理名著精华_small_chunk_56"
+  },
+  {
+    "question": "本部分包含哪些内容？",
+    "answer": "问题解决 ( problem sol- ving) 、决策 (decision making)、目 标设定 (goal setting)、时间管理 (time man- agement) 、 积极强化 (positive reinforcement) 与激励 ( motivation)",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第三部分是关于领导个体及领导团队的。主要阐述了会议程序，引导会议成功进 行等论题。这些论题包含在第10章到第12章。还介",
+    "chunk_id": "公共管理名著精华_small_chunk_69"
+  },
+  {
+    "question": "本部分的论题包含哪些内容？",
+    "answer": "自我概念 ( self-concept)、 心态、职场道德",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第三部分是关于领导个体及领导团队的。主要阐述了会议程序，引导会议成功进 行等论题。这些论题包含在第10章到第12章。还介",
+    "chunk_id": "公共管理名著精华_small_chunk_69"
+  },
+  {
+    "question": "首先将 现有民族国家区包含哪些内容？",
+    "answer": "发达国家和发展中国家(欠发达国家)两类",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第9章 政党主导型政体",
+    "chunk_id": "公共管理名著精华_small_chunk_71"
+  },
+  {
+    "question": "质量管理的发展过程包含哪些内容？",
+    "answer": "三个阶段：(1)质量 检验阶段",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第3部分 现实生活中的全面质量管理",
+    "chunk_id": "公共管理名著精华_small_chunk_105"
+  },
+  {
+    "question": "并以各种各 样的划包含哪些内容？",
+    "answer": "特征：劳动力的划分、管理层次的划分、专家的划分、生产者和顾客的 划分等",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第11章 结论：没有壁垒的工作",
+    "chunk_id": "公共管理名著精华_small_chunk_116"
+  },
+  {
+    "question": "什么是这三个领域？",
+    "answer": "：政府机构、非营利组织以及私营承包 商",
+    "qa_type": "definition",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第5章 公共服务的未来：新世纪的案例和评论",
+    "chunk_id": "公共管理名著精华_small_chunk_122"
+  },
+  {
+    "question": "将公民参与划包含哪些内容？",
+    "answer": "以获得公民信息为目标的公民参与、以强化公民对政策理解的公 民参与和以促进公民与公共管理者共同生产的伙伴关系建立的公民参与",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第10章 公民参与和高效能的公共管理者",
+    "chunk_id": "公共管理名著精华_small_chunk_161"
+  },
+  {
+    "question": "托马斯将公民参与的具体途径包含哪些内容？",
+    "answer": "四类，即以获取信息为目标的公民参 与，包括关键公众接触、由公民发起的接触、公民调查等方法",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第10章 公民参与和高效能的公共管理者",
+    "chunk_id": "公共管理名著精华_small_chunk_163"
+  },
+  {
+    "question": "从而构建公共行 政官员所的原则是什么？",
+    "answer": "的价值规范与伦理准则，保证建立现代民主政府和政府治理的有效 性",
+    "qa_type": "principle",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第十五章 结语",
+    "chunk_id": "公共管理名著精华_small_chunk_182"
+  },
+  {
+    "question": "作者将官员包含哪些内容？",
+    "answer": "权力攀登者、保守者、狂 热者、倡导者、政治家等五种类型，在此基础上，分析官员的动机、目标和行为对 官僚组织决策的影响，探讨官僚组织所承担的社会职能及其所处的环境对其结构、 行为和决策的影响",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第12章 后现代性：非地域化",
+    "chunk_id": "公共管理名著精华_small_chunk_192"
+  },
+  {
+    "question": "官员的目标由高到低可 以包含哪些内容？",
+    "answer": "：终极目标(包括个人信仰、生命的价值和意义)、履行社会行为准则的目 的(包括行动和决策都必须符合社会的基本价值原则)、履行基本政治行为的目的 (包括应该由政府承担的基础的社会、政治和经济的功能)、基本的个人目标(包括 上述个人动机)、特殊的官僚制导向的目标(包括履行社会职能、组织结构、广泛 的政策特殊的政策等)",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第22章 本书假设概览",
+    "chunk_id": "公共管理名著精华_small_chunk_200"
+  },
+  {
+    "question": "官员可以包含哪些内容？",
+    "answer": "两个大类五种类型，即完全自私的官员(权力攀登者、保守者)和混合动机的官员 (狂热者、倡导者、政治家)",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第22章 本书假设概览",
+    "chunk_id": "公共管理名著精华_small_chunk_200"
+  },
+  {
+    "question": "官僚组织中的控制手段包含哪些内容？",
+    "answer": "发布的命令尽可能 减少模糊性，即实现最大限度的明确和具体",
+    "qa_type": "framework",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第22章 本书假设概览",
+    "chunk_id": "公共管理名著精华_small_chunk_202"
+  },
+  {
+    "question": "什么是“良治”？",
+    "answer": "要求政府在该过程中能合理地把握公平、公正和效率的原则， 以达到社会整体福利的提高",
+    "qa_type": "definition",
+    "source_doc": "公共管理名著精华",
+    "chapter": "第九章 结语",
+    "chunk_id": "公共管理名著精华_small_chunk_239"
+  },
+  {
+    "question": "什么是·团队利益为先？",
+    "answer": "你要为团队和公司着想，把个人利益放在团队之后",
+    "qa_type": "definition",
+    "source_doc": "关键跨越",
+    "chapter": "第4章　信任的基石：承担管理责任",
+    "chunk_id": "关键跨越_small_chunk_17"
+  },
+  {
+    "question": "管理者带领团队进行的复盘可以包含哪些内容？",
+    "answer": "两类：一类是仪式感比较强的专项复盘，例如战略客户的竞标经验总结、重要项目结项后的专题讨论、专项技术成果的回顾分享等",
+    "qa_type": "framework",
+    "source_doc": "关键跨越",
+    "chapter": "第12章　VUCA时代需要敏捷执行",
+    "chunk_id": "关键跨越_small_chunk_38"
+  },
+  {
+    "question": "专项复盘包含哪些内容？",
+    "answer": "还原事实、分析问题根因、制订行动计划“三部曲”",
+    "qa_type": "framework",
+    "source_doc": "关键跨越",
+    "chapter": "第13章　复盘让管理实现闭环",
+    "chunk_id": "关键跨越_small_chunk_40"
+  },
+  {
+    "question": "绩效考核包含哪些内容？",
+    "answer": "A、B、C三个档次，每个档次的绩效奖金差别在5000元左右",
+    "qa_type": "framework",
+    "source_doc": "华为管理法任正非的企业管理心得",
+    "chapter": "第二章",
+    "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_12"
+  },
+  {
+    "question": "每个通道又包含哪些内容？",
+    "answer": "若干等级，只有连续3年绩效达到12分的员工，才有资格申请晋升到更高的一级，从而保证了优秀骨干被挖掘出来，并在公司中脱颖而出",
+    "qa_type": "framework",
+    "source_doc": "华为管理法任正非的企业管理心得",
+    "chapter": "第三章",
+    "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_18"
+  },
+  {
+    "question": "什么是社会责任不？",
+    "answer": "以天下为己任，不是指“先天下之忧而忧，后天下之乐而乐”这种社会责任，我们说的社会责任是在企业内部，优秀的员工对组织目标的强烈责任心和使命感，大于个人成就感",
+    "qa_type": "definition",
+    "source_doc": "华为管理法任正非的企业管理心得",
+    "chapter": "第三章",
+    "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_21"
+  },
+  {
+    "question": "什么是无为而治更多的？",
+    "answer": "管理者可以从日常管理事务中抽身出来，从而把主要的时间和精力投入到“务虚”中，包括研究公司的发展战略等长远性、全局性的问题",
+    "qa_type": "definition",
+    "source_doc": "华为管理法任正非的企业管理心得",
+    "chapter": "第十章",
+    "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_58"
+  },
+  {
+    "question": "他们创建了一部自己和未来所有领袖都的原则是什么？",
+    "answer": "的宪法，他们致力于建立国家，他们抛弃明君的模式，采取了建筑师的方法",
+    "qa_type": "principle",
+    "source_doc": "基业长青",
+    "chapter": "8 自家长成的经理人",
+    "chunk_id": "基业长青_small_chunk_53"
+  },
+  {
+    "question": "什么是我们？",
+    "answer": "真正核心的价值，如果列出的核心价值超过五六个，你列出的很可能不只是核心要项",
+    "qa_type": "definition",
+    "source_doc": "基业长青",
+    "chapter": "8　自家长成的经理人",
+    "chunk_id": "基业长青_small_chunk_107"
+  },
+  {
+    "question": "什么是所谓需要？",
+    "answer": "人们感到缺乏的一种状态",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第一节 营销的含义",
+    "chunk_id": "市场营销原理_small_chunk_6"
+  },
+  {
+    "question": "什么是在此 , 我们把营销？",
+    "answer": ": 营销就 是通过 创造和交 换产品和 价值 , 从而使 个人或群 体满足欲望和需要的社会和管理过程",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第一节 营销的含义",
+    "chunk_id": "市场营销原理_small_chunk_6"
+  },
+  {
+    "question": "营 销活动时可能采 用的哲 学思想可 以包含哪些内容？",
+    "answer": "五 种 , 即生产观 念、产 品观念、销售观念、营销观念和社会营销观念",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第二节 营销管理",
+    "chunk_id": "市场营销原理_small_chunk_8"
+  },
+  {
+    "question": "毕竟 , 市场是包含哪些内容？",
+    "answer": "具有需要又有支付能力的人们",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第四节 下一世纪营销的挑战",
+    "chunk_id": "市场营销原理_small_chunk_17"
+  },
+  {
+    "question": "什么是uestion mark) 问 题业 务？",
+    "answer": "处于 高增 长率市 场中 具有低 市场 份额的业务或产品 , 它们需要大量的资金来保住市场份额和增加市场份额",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第二节 公司资源分配计划",
+    "chunk_id": "市场营销原理_small_chunk_31"
+  },
+  {
+    "question": "公司界定整个市场 , 把它包含哪些内容？",
+    "answer": "更小的子市场 , 选择最有前景的子市场 , 然后重点服务和满足这些子市场",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第三节 营销过程",
+    "chunk_id": "市场营销原理_small_chunk_33"
+  },
+  {
+    "question": "营销战略包含哪些内容？",
+    "answer": "目标市场、定位、营销组合和营销费用水平等特定战略",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第四节 营销活动管理",
+    "chunk_id": "市场营销原理_small_chunk_38"
+  },
+  {
+    "question": "什么是理能力的所有因素构成 , 而营销管理能力？",
+    "answer": "成功地发展和维持同 目标用户关系的能力",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第四节 营销活动管理",
+    "chunk_id": "市场营销原理_small_chunk_45"
+  },
+  {
+    "question": "keting environment)包含哪些内容？",
+    "answer": "在营销之外的影响营销管理能力的所有因素",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第四节 营销活动管理",
+    "chunk_id": "市场营销原理_small_chunk_45"
+  },
+  {
+    "question": "( microenvironment)包含哪些内容？",
+    "answer": "那些影响 公司为用户提供 服务能力的因 素",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第四节 营销活动管理",
+    "chunk_id": "市场营销原理_small_chunk_46"
+  },
+  {
+    "question": "( macroenvironment)包含哪些内容？",
+    "answer": "那些较大的影响整个微观环境的社会因素",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第四节 营销活动管理",
+    "chunk_id": "市场营销原理_small_chunk_46"
+  },
+  {
+    "question": "什么是人口统计？",
+    "answer": "根据人口的规模、密度、地理位置、年龄、性别、种族、职业和其他一些统计量所进行的研究",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第一节 公司的微观环境",
+    "chunk_id": "市场营销原理_small_chunk_48"
+  },
+  {
+    "question": "环境包含哪些内容？",
+    "answer": "所有的影响公司与 目标市场有效达成交换的因素",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第三节 对营销环境的反应",
+    "chunk_id": "市场营销原理_small_chunk_56"
+  },
+  {
+    "question": "宏观环境包含哪些内容？",
+    "answer": "那些对公司形成机遇和风险的因素",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第三节 对营销环境的反应",
+    "chunk_id": "市场营销原理_small_chunk_57"
+  },
+  {
+    "question": "什么是理能 力 的因 素 , 而营销管理能力？",
+    "answer": "发展和保持同 目标市场关系的能力",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第三节 对营销环境的反应",
+    "chunk_id": "市场营销原理_small_chunk_58"
+  },
+  {
+    "question": "nformation Syst em)包含哪些内容？",
+    "answer": "人员、设 备和信息处理过 程",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第三节 对营销环境的反应",
+    "chunk_id": "市场营销原理_small_chunk_61"
+  },
+  {
+    "question": "什么是购买行为 , 所谓最终消费者？",
+    "answer": "以消费为 目 的购买商品或服务的个人或家庭",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第二节 市场营销研究的过程",
+    "chunk_id": "市场营销原理_small_chunk_80"
+  },
+  {
+    "question": "美国的消费者市场包含哪些内容？",
+    "answer": "大约 2 .54 亿人",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第二节 市场营销研究的过程",
+    "chunk_id": "市场营销原理_small_chunk_80"
+  },
+  {
+    "question": "但是 , 集团市场在许多方面和消费者市场有什么区别？",
+    "answer": "表 6-1 列出了 市场营销的结构 和需求、购买产品的性质、决策的类型和决策过程中的主要区别",
+    "qa_type": "comparison",
+    "source_doc": "市场营销原理",
+    "chapter": "第一节 集团市场",
+    "chunk_id": "市场营销原理_small_chunk_105"
+  },
+  {
+    "question": "内部 , 购买活动包括两个主要部分 :包含哪些内容？",
+    "answer": "牵扯购买决策的所有人员",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第一节 集团市场",
+    "chunk_id": "市场营销原理_small_chunk_106"
+  },
+  {
+    "question": ", 告诉人 们政府购 买方法、供应 商的原则是什么？",
+    "answer": "的步骤 , 以及可获得的机 会等",
+    "qa_type": "principle",
+    "source_doc": "市场营销原理",
+    "chapter": "第三节 机构和政府市场",
+    "chunk_id": "市场营销原理_small_chunk_115"
+  },
+  {
+    "question": "tion) 是将 市场按 人 口 因素包含哪些内容？",
+    "answer": "多个 群 体 , 这些 因素有年龄、性别、家庭人口、家庭生活周期、收入、职业、教育、宗教、种族和国籍",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第二节 市场细分",
+    "chunk_id": "市场营销原理_small_chunk_134"
+  },
+  {
+    "question": "例如 , 购买调味用盐的人可以包含哪些内容？",
+    "answer": "金发和棕发的女人 , 但头发的颜色不会影响她们买盐",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第二节 市场细分",
+    "chunk_id": "市场营销原理_small_chunk_137"
+  },
+  {
+    "question": "香水的气味以及香水的品牌名称与包装 ,包含哪些内容？",
+    "answer": "公司制造出来 , 经过商店销售出去 , 才能",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第四节 优势市场定位",
+    "chunk_id": "市场营销原理_small_chunk_156"
+  },
+  {
+    "question": "什么是产品不仅？",
+    "answer": "那些看得见的产品 , 广义的产品包括实物、服务、人员、场所、组织、设计或所有这些的组合",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第一节 什么是产品",
+    "chunk_id": "市场营销原理_small_chunk_157"
+  },
+  {
+    "question": "什么是我们把产品( Product )？",
+    "answer": "能够在市场上得到的 , 并能够满 足人们欲望和需 要的任何东西 , 它们在市场上会引起人们的注意 , 人们要使用和消费它们",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第一节 什么是产品",
+    "chunk_id": "市场营销原理_small_chunk_157"
+  },
+  {
+    "question": "场营销人员根据用户情况 , 将产品和服务包含哪些内容？",
+    "answer": "两类 —— 消费者市场产品和工业市场产品",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第一节 什么是产品",
+    "chunk_id": "市场营销原理_small_chunk_158"
+  },
+  {
+    "question": "什么是产品组合的广度？",
+    "answer": "公司具有的产品系列的数 目",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第六节 国际产品决策",
+    "chunk_id": "市场营销原理_small_chunk_181"
+  },
+  {
+    "question": "什么是产品组合的长度？",
+    "answer": "公司经营的全部产品的种类",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第六节 国际产品决策",
+    "chunk_id": "市场营销原理_small_chunk_181"
+  },
+  {
+    "question": "什么是产品组合的深度？",
+    "answer": "所有产品系列中产品款式的数量 , 如颜色或口味等",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第六节 国际产品决策",
+    "chunk_id": "市场营销原理_small_chunk_181"
+  },
+  {
+    "question": "即 使西 尔斯公 司 20% 的经 营包含哪些内容？",
+    "answer": "固特异 公司的产 品",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第四节 价格变动",
+    "chunk_id": "市场营销原理_small_chunk_234"
+  },
+  {
+    "question": "分销渠道包含哪些内容？",
+    "answer": "经 营相同货物的企 业",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第二节 分销渠道行为和组织",
+    "chunk_id": "市场营销原理_small_chunk_239"
+  },
+  {
+    "question": "什么是垂直冲突经常？",
+    "answer": "执行不同渠道职能的企业之间的冲突",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第二节 分销渠道行为和组织",
+    "chunk_id": "市场营销原理_small_chunk_241"
+  },
+  {
+    "question": "什么是专业知识？",
+    "answer": "沟通者对主张支持的权威程度",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第一节 发展有效沟通的步骤",
+    "chunk_id": "市场营销原理_small_chunk_281"
+  },
+  {
+    "question": "什么是可信性？",
+    "answer": "信息来源被认为客观和诚实的程度 , 例如朋友比陌生的推销员更被信赖",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第一节 发展有效沟通的步骤",
+    "chunk_id": "市场营销原理_small_chunk_281"
+  },
+  {
+    "question": "什么是可爱性？",
+    "answer": "信息来源对接收者有多少的吸引力",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第一节 发展有效沟通的步骤",
+    "chunk_id": "市场营销原理_small_chunk_281"
+  },
+  {
+    "question": "新的宣传运动和麦迪逊大街的广告有什么区别？",
+    "answer": "不同于任何正规的广告",
+    "qa_type": "comparison",
+    "source_doc": "市场营销原理",
+    "chapter": "第四节 在社会上应负责任的市场营销沟通",
+    "chunk_id": "市场营销原理_small_chunk_298"
+  },
+  {
+    "question": "什么是我们将广告？",
+    "answer": "由广告主付费 , 以非人员方式表达和促进经营、商品或服务的一种方式",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第一节 广告",
+    "chunk_id": "市场营销原理_small_chunk_303"
+  },
+  {
+    "question": "施乐公司将它的顾客包含哪些内容？",
+    "answer": "4 种主要的群体 , 每一个群体由不同的销售人员来服务",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第二节 管理销售人员",
+    "chunk_id": "市场营销原理_small_chunk_327"
+  },
+  {
+    "question": "最上层的群体包含哪些内容？",
+    "answer": "分散在各地的全国性大客户所",
+    "qa_type": "framework",
+    "source_doc": "市场营销原理",
+    "chapter": "第二节 管理销售人员",
+    "chunk_id": "市场营销原理_small_chunk_327"
+  },
+  {
+    "question": "什么是一个以竞争者为中心的公司？",
+    "answer": "主要花时间和精力在追踪竞争者的行动和市场份额上 , 并尝试找到策略去反击竞争者的公司",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第三节 平衡消费者和竞争者导向",
+    "chunk_id": "市场营销原理_small_chunk_369"
+  },
+  {
+    "question": "什么是( Person Mark eting)？",
+    "answer": "创造、维持或改变对特定人物的态度及行为的活动",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第三节 人物市场营销",
+    "chunk_id": "市场营销原理_small_chunk_405"
+  },
+  {
+    "question": "什么是销( Place Marketing)？",
+    "answer": "创造、维持或 改变对特 定地方 的态度或 行为的各 项活动",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第三节 人物市场营销",
+    "chunk_id": "市场营销原理_small_chunk_405"
+  },
+  {
+    "question": "什么是所谓服务？",
+    "answer": "一方可以提供给另一方无形的而且不会产生任何主权的活动或利益",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第四节 地方市场营销",
+    "chunk_id": "市场营销原理_small_chunk_409"
+  },
+  {
+    "question": "什么是消费者主义( Consumerism)？",
+    "answer": "一种有组织的行动 , 是一群有心的公民和政府机构所倡办的 , 主要是增进购买者相对于销售者的权利和力量的活动",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第二节 市民与公众行动对市场营销的管制",
+    "chunk_id": "市场营销原理_small_chunk_418"
+  },
+  {
+    "question": "什么是Pleasing Produ ct )？",
+    "answer": "能产 生立即的高 度满 足但长 期可 能伤害 身体 的产品",
+    "qa_type": "definition",
+    "source_doc": "市场营销原理",
+    "chapter": "第三节 企业走向对社会负责任的市场营销",
+    "chunk_id": "市场营销原理_small_chunk_423"
+  },
+  {
+    "question": "什么是制定竞争战略？",
+    "answer": "将企业放在环境里分析",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "第一部分 基本分析技巧",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_7"
+  },
+  {
+    "question": "什么是我们把行业？",
+    "answer": "“由生产彼此可以替代的产品的企业组成的集合”",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "01 行业的结构化分析",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_8"
+  },
+  {
+    "question": "我们把行业定义为“包含哪些内容？",
+    "answer": "生产彼此可以替代的产品的企业",
+    "qa_type": "framework",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "01 行业的结构化分析",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_8"
+  },
+  {
+    "question": "什么是规模经济？",
+    "answer": "当生产周期中的绝对产量提升时，产品单位成本得到下降（或者生产产品的运营成本或职能部门的运营成本下降）",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "01 行业的结构化分析",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_12"
+  },
+  {
+    "question": "什么是转换成本？",
+    "answer": "买方从某个供应商转到另一个供应商处购买产品所需要一次性承担的成本",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "01 行业的结构化分析",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_17"
+  },
+  {
+    "question": "什么是盲点？",
+    "answer": "竞争企业忽略的重要事件（比如战略举措）、错误的认识或者没能及时意识到的情况等",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "03 竞争对手分析框架",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_43"
+  },
+  {
+    "question": "什么是成长中的行业？",
+    "answer": "其总规模在增长的行业",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "03 竞争对手分析框架",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_59"
+  },
+  {
+    "question": "什么是本地监管？",
+    "answer": "强迫企业遵守本地化规定，要求企业屈尊融入当地的政治氛围",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "09 分散型行业的竞争战略",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_83"
+  },
+  {
+    "question": "什么是具体来说？",
+    "answer": "，在分散型行业的特定环境下实现总成本战略、差异化战略和集中战略，详见第2章",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "09 分散型行业的竞争战略",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_93"
+  },
+  {
+    "question": "什么是这些分销商将自己？",
+    "answer": "“金属服务中心”，完成简单的制造操作，为客户提供大量的建议，而这些服务以往不可能被客户享有",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "09 分散型行业的竞争战略",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_94"
+  },
+  {
+    "question": "什么是新兴行业？",
+    "answer": "由技术创新、相对成本关系、新的消费者需求或者其他有可能催生新产品或者服务商机的经济和社会变革推动的新成立或者重生的行业",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "09 分散型行业的竞争战略",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_103"
+  },
+  {
+    "question": "第一类包含哪些内容？",
+    "answer": "协作开展全球化竞争的企业",
+    "qa_type": "framework",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "10 新兴行业的竞争战略",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_111"
+  },
+  {
+    "question": "什么是垂直一体化？",
+    "answer": "将技术要求完全不同的生产、分销、销售或其他经济活动综合起来，在一个企业的控制范围内实现的过程",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "14 垂直一体化的战略分析",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_119"
+  },
+  {
+    "question": "什么是否使用锥形一体化的决策的影响（锥形一体化？",
+    "answer": "某些职能由企业自行完成，某些职能实施外包），即企业是否完全实施一体化",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "14 垂直一体化的战略分析",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_120"
+  },
+  {
+    "question": "什么是准一体化？",
+    "answer": "利用债务或者股权投资等方式在垂直相关的企业之间建立联盟，而无须全权所有",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "14 垂直一体化的战略分析",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_120"
+  },
+  {
+    "question": "什么是在工作或个人生活中取得了非凡成就或生活被？",
+    "answer": "“回报”和“振奋人心”的人非常清楚：对他们来说，什么是重要的事情，以及这些事为什么是重要的，他们通过努力会实现什么价值",
+    "qa_type": "definition",
+    "source_doc": "管理思维：破解管理难题，引爆团队执行力",
+    "chapter": "第一章",
+    "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_5"
+  },
+  {
+    "question": "什么是”本质上的问题也就是你工作？",
+    "answer": "什么，你不愿意放弃什么",
+    "qa_type": "definition",
+    "source_doc": "管理思维：破解管理难题，引爆团队执行力",
+    "chapter": "第二章",
+    "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_18"
+  },
+  {
+    "question": "之前的问题包含哪些内容？",
+    "answer": "两个目的：首先，它们帮助你了解对别人来说重要的事情，以便你能帮助他们",
+    "qa_type": "framework",
+    "source_doc": "管理思维：破解管理难题，引爆团队执行力",
+    "chapter": "第三章",
+    "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_26"
+  },
+  {
+    "question": "什么是梅利亚姆·韦伯斯特将说服某人？",
+    "answer": "：在持续努力后，通过逻辑认证或争论让某人做某事，并让某人相信某事",
+    "qa_type": "definition",
+    "source_doc": "管理思维：破解管理难题，引爆团队执行力",
+    "chapter": "第四章",
+    "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_29"
+  },
+  {
+    "question": "什么是1%的规则？",
+    "answer": "：面对任何事情，每天做好1%，在72天内就可以提高100%",
+    "qa_type": "definition",
+    "source_doc": "管理思维：破解管理难题，引爆团队执行力",
+    "chapter": "第五章",
+    "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_42"
+  },
+  {
+    "question": "什么是“新增长 ”通常？",
+    "answer": "多打广告，把现有产品卖给新用户",
+    "qa_type": "definition",
+    "source_doc": "精益创业2.0",
+    "chapter": "第1章 尊重过去 ， 创造未来 ： 建立现代企业",
+    "chunk_id": "精益创业2.0_small_chunk_8"
+  },
+  {
+    "question": "什么是他们解释：“用户？",
+    "answer": "大量购买我们的产品的大型零售商店的采购工程师",
+    "qa_type": "definition",
+    "source_doc": "精益创业2.0",
+    "chapter": "第5章 规模创新管理体系",
+    "chunk_id": "精益创业2.0_small_chunk_33"
+  },
+  {
+    "question": "什么是二次创业？",
+    "answer": "公司发展的一个阶段，是公司从一个新组建的组织向持续发展的机构的转变",
+    "qa_type": "definition",
+    "source_doc": "精益创业2.0",
+    "chapter": "第8章 第三阶段 ： 深层机制",
+    "chunk_id": "精益创业2.0_small_chunk_62"
+  },
+  {
+    "question": "史密斯组建了一个包含哪些内容？",
+    "answer": "两位设计师、一位工程师、一位产品经理、一位创新领导者",
+    "qa_type": "framework",
+    "source_doc": "精益创业2.0",
+    "chapter": "第8章 第三阶段 ： 深层机制",
+    "chunk_id": "精益创业2.0_small_chunk_78"
+  },
+  {
+    "question": "什么是”①我们将管理？",
+    "answer": "： 管理就是由一个或多个人来协调他人的活动，使不同人的活动朝向共同的目标， 以便收到个人单独活动所不能收到的效果而进行的各种活动",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 组织与组织行为学",
+    "chunk_id": "组织行为学_small_chunk_2"
+  },
+  {
+    "question": "什么是动态的社会关系？",
+    "answer": "社会中人们的互动，如合作与冲突等",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 组织与组织行为学 5",
+    "chunk_id": "组织行为学_small_chunk_4"
+  },
+  {
+    "question": "什么是静态的 社会关系？",
+    "answer": "社会现象的关系模式，如家庭结构、群体、组织和阶级等",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 组织与组织行为学 5",
+    "chunk_id": "组织行为学_small_chunk_4"
+  },
+  {
+    "question": "社会关系可以包含哪些内容？",
+    "answer": "动态的和 静态的两种，动态的社会关系是指社会中人们的互动，如合作与冲突等",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 组织与组织行为学 5",
+    "chunk_id": "组织行为学_small_chunk_4"
+  },
+  {
+    "question": "什么是群体？",
+    "answer": "在共同目标基础上 由两个以上的人所组成的相互依存、相互作用的有机组合体",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 组织与组织行为学 7",
+    "chunk_id": "组织行为学_small_chunk_5"
+  },
+  {
+    "question": "什么是他把非正式组织？",
+    "answer": "：不属于正式组织， 且与正式组织管辖的个人以及有关的人们、团队没有接触和相互作用然而却存在 于正式组织中的一部分",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织行为学的历史沿革 13",
+    "chunk_id": "组织行为学_small_chunk_9"
+  },
+  {
+    "question": "什么是系统学派？",
+    "answer": "将组织作为一个有机整体，把各项管理业务看成相互联系的网 络的一种管理学派",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织行为学的历史沿革 15",
+    "chunk_id": "组织行为学_small_chunk_10"
+  },
+  {
+    "question": "什么是研究术语？",
+    "answer": "研究人员在彼此之间或同外界交流时的专业常用词汇",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 组织行为学常用的研究方法",
+    "chunk_id": "组织行为学_small_chunk_11"
+  },
+  {
+    "question": "什么是享受需要？",
+    "answer": "人的生存需要得到满足后，产生的一种提升生活品质、升华精 神层次的需要",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 组织行为学常用的研究方法",
+    "chunk_id": "组织行为学_small_chunk_13"
+  },
+  {
+    "question": "什么是马克思所指的享受需要并不？",
+    "answer": "一味地通过物质消费来刺 激感官享乐，而是一种文明考究的生活方式，是不断提升的生存需要的生产和再 生产能力",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 组织行为学常用的研究方法",
+    "chunk_id": "组织行为学_small_chunk_14"
+  },
+  {
+    "question": "什么是知觉( perception)？",
+    "answer": "个体为了给观察到的对象赋予一定的意义，而进行的 组织和解释感觉印象的过程",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 组织行为学常用的研究方法",
+    "chunk_id": "组织行为学_small_chunk_16"
+  },
+  {
+    "question": "什么是自我知觉？",
+    "answer": "个体通过对自己行为的观察而对自己的情感、情绪和内在特质 等心理状态的认识",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 认知与决策",
+    "chunk_id": "组织行为学_small_chunk_17"
+  },
+  {
+    "question": "什么是角色？",
+    "answer": "人们对在某个社会单元中占据特定位置的个体所应该做出的行为模 式的期待",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 认知与决策",
+    "chunk_id": "组织行为学_small_chunk_17"
+  },
+  {
+    "question": "什么是国内研究者认为工作价值观？",
+    "answer": "人们在求职过程中用来 衡量各种职业优势、意义和重要性的内在尺度，属于个性倾向性的范畴，同时也 具有很强的社会属性",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 价值观与态度",
+    "chunk_id": "组织行为学_small_chunk_23"
+  },
+  {
+    "question": "什么是伊莱泽则将工作价值观？",
+    "answer": "一种内在的思想体系， 是个体对与工作行为及工作环境有关的活动中所获得的某种结果的价值判断，它 可以直接影响行为方式",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 价值观与态度",
+    "chunk_id": "组织行为学_small_chunk_23"
+  },
+  {
+    "question": "什么是态度 ( attitude)？",
+    "answer": "个体对外界特定事物所持有的较为持久且稳定的内在心 理倾向",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 价值观与态度 41",
+    "chunk_id": "组织行为学_small_chunk_25"
+  },
+  {
+    "question": "什么是ognitive component)？",
+    "answer": "个体对事物带有评价意义的叙述",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 价值观与态度 41",
+    "chunk_id": "组织行为学_small_chunk_25"
+  },
+  {
+    "question": "什么是ffective component)？",
+    "answer": "个体对某事或某人的情感体验，带有感情色彩和情绪特征",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 价值观与态度 41",
+    "chunk_id": "组织行为学_small_chunk_25"
+  },
+  {
+    "question": "什么是vioral com- ponent)？",
+    "answer": "个体对态度对象的行为准备状态和行为反应倾向",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 价值观与态度 41",
+    "chunk_id": "组织行为学_small_chunk_25"
+  },
+  {
+    "question": "什么是( job satisfaction)？",
+    "answer": "员工所表现出来的喜欢其工作的程度",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 价值观与态度 41",
+    "chunk_id": "组织行为学_small_chunk_25"
+  },
+  {
+    "question": "什么是能力 ( ability)？",
+    "answer": "个体能够顺利完成某种活动所需具备的 心理特征",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 价值观与态度",
+    "chunk_id": "组织行为学_small_chunk_26"
+  },
+  {
+    "question": "什么是一般能力？",
+    "answer": "在各种基本活动中表现出来的能力，例如思维能力、想象力、 观察力、记忆力等，即我们通常所说的智力",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 价值观与态度",
+    "chunk_id": "组织行为学_small_chunk_26"
+  },
+  {
+    "question": "什么是特殊能力？",
+    "answer": "完成某种专业活动所必须具备的能力",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 价值观与态度",
+    "chunk_id": "组织行为学_small_chunk_26"
+  },
+  {
+    "question": "什么是控制点？",
+    "answer": "个体对自己命运掌控程度的认知",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第四节 人 格 49",
+    "chunk_id": "组织行为学_small_chunk_29"
+  },
+  {
+    "question": "什么是生理唤醒？",
+    "answer": "情绪所 引起的生理反应，它涉及广泛的神经结构，如中枢神经系统的脑干、中央灰质、 下丘脑、外周神经系统、内外分泌腺等",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第四节 人 格 49",
+    "chunk_id": "组织行为学_small_chunk_30"
+  },
+  {
+    "question": "什么是情绪( emotion)？",
+    "answer": "由特定的人或事物引发的较为强烈的情感体验",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第四节 人 格 49",
+    "chunk_id": "组织行为学_small_chunk_30"
+  },
+  {
+    "question": "这种不确定性包含哪些内容？",
+    "answer": "三种类型：经济的、政治的和技术的",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第五节 情绪与压力",
+    "chunk_id": "组织行为学_small_chunk_31"
+  },
+  {
+    "question": "什么是任务要求？",
+    "answer": "那些与个体工作岗位有关的因素",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一章 个体心理与行为",
+    "chunk_id": "组织行为学_small_chunk_32"
+  },
+  {
+    "question": "什么是角色要求？",
+    "answer": "由于个体在组织中扮演特定的角色而产生的压力",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一章 个体心理与行为",
+    "chunk_id": "组织行为学_small_chunk_32"
+  },
+  {
+    "question": "什么是人际要求？",
+    "answer": "由于个体与他人的关系而带来的压力",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一章 个体心理与行为",
+    "chunk_id": "组织行为学_small_chunk_32"
+  },
+  {
+    "question": "什么是激励？",
+    "answer": "创设满足员工各种需要的 条件，激发员工的工作动机，使之产生实现组织目标的特定行为的过程",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 基本概念",
+    "chunk_id": "组织行为学_small_chunk_34"
+  },
+  {
+    "question": "有人将需要包含哪些内容？",
+    "answer": "存在需要、 关系需要和成长需要",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 基 本 概 念 61",
+    "chunk_id": "组织行为学_small_chunk_35"
+  },
+  {
+    "question": "把人按需要结构划包含哪些内容？",
+    "answer": "五种：生理人、安全人、社交人、尊重人、自我实 现人",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 激励的需要理论",
+    "chunk_id": "组织行为学_small_chunk_36"
+  },
+  {
+    "question": "什么是主要？",
+    "answer": "在形成个体的社会性和思想观念等方面所起的初始 作用",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三章 群体心理与行为",
+    "chunk_id": "组织行为学_small_chunk_49"
+  },
+  {
+    "question": "什么是罗宾斯把正式群体？",
+    "answer": "由组织结构确定的、职责明确的群体",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三章 群体心理与行为",
+    "chunk_id": "组织行为学_small_chunk_49"
+  },
+  {
+    "question": "什么是也就？",
+    "answer": "个体在群体中无法被识别出其身份的状态",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第四节 群体行为特征",
+    "chunk_id": "组织行为学_small_chunk_55"
+  },
+  {
+    "question": "什么是本节的群体冲突？",
+    "answer": "群体和群 体之间发生的冲突",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第五节 群体冲突与管理",
+    "chunk_id": "组织行为学_small_chunk_57"
+  },
+  {
+    "question": "什么是团队？",
+    "answer": "有特定目标和高度组织化的群体",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第四章 团 队",
+    "chunk_id": "组织行为学_small_chunk_59"
+  },
+  {
+    "question": "一般的工作群体通常包含哪些内容？",
+    "answer": "两个或两个以上的个体",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第四章 团 队",
+    "chunk_id": "组织行为学_small_chunk_59"
+  },
+  {
+    "question": "什么是团 队生产？",
+    "answer": "通过团队成员之间的合作来获取收益",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 团队的特征 113",
+    "chunk_id": "组织行为学_small_chunk_61"
+  },
+  {
+    "question": "嵌入职能组织结构的团队包含哪些内容？",
+    "answer": "三个层次：处于战略层的高管团队、处于战术层的 职能管理团队和处于操作层的任务团队",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 团队的类型",
+    "chunk_id": "组织行为学_small_chunk_63"
+  },
+  {
+    "question": "什么是因而团队多样化主要？",
+    "answer": "年龄、 性别、职业背景、专业背景等人口统计特征，团队成员的隐性心理特征可以用一 些显性的特征来近似代替",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 团队的类型 119",
+    "chunk_id": "组织行为学_small_chunk_64"
+  },
+  {
+    "question": "什么是分离型多元化？",
+    "answer": "团队成员在立场和观点上的差异程度，通常是信念、价值 观或态度上的对立或者不一致",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 团队的类型 119",
+    "chunk_id": "组织行为学_small_chunk_64"
+  },
+  {
+    "question": "近年来较具影响力的分 类是将团队多元化包含哪些内容？",
+    "answer": "分离型多元化( diversity as separation)、多样型多元化 ( di- versity as variety) 和不平等型多元化( diversity as disparity)",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 团队的类型 119",
+    "chunk_id": "组织行为学_small_chunk_64"
+  },
+  {
+    "question": "什么是团队内部沟 通？",
+    "answer": "领导和团队成员的沟通，以及内部成员之间的沟通",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 团队过程管理 125",
+    "chunk_id": "组织行为学_small_chunk_67"
+  },
+  {
+    "question": "什么是团队外部沟通？",
+    "answer": "团 队成员与客户和其他团队之间的沟通",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 团队过程管理 125",
+    "chunk_id": "组织行为学_small_chunk_67"
+  },
+  {
+    "question": "什么是沟通风格？",
+    "answer": "团队成员以言语的、非 言语的、副言语的三个方面相互作用的方式，影响字面含义的过滤和理解",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 团队过程管理 125",
+    "chunk_id": "组织行为学_small_chunk_67"
+  },
+  {
+    "question": "什么是冲突 ( task conflict)？",
+    "answer": "团队中有关任务内容方面的争 议，包括在观点、想法和意见上的分歧",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 团队过程管理 125",
+    "chunk_id": "组织行为学_small_chunk_67"
+  },
+  {
+    "question": "什么是ationship conflict)？",
+    "answer": "团 队成员中存在人际关系不和，包括团队成员中存在的关系紧张、生气、厌恶等",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 团队过程管理 125",
+    "chunk_id": "组织行为学_small_chunk_67"
+  },
+  {
+    "question": "什么是冲突被？",
+    "answer": "感知到观点上的分歧或者人与人之间的不相容",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 团队过程管理 125",
+    "chunk_id": "组织行为学_small_chunk_67"
+  },
+  {
+    "question": "什么是团队设计因素？",
+    "answer": "可以实行管理控制的团队特征，如任 务自主性和相依性、团队规模、团队存续时间、团队人口特征、多样性等，还包 括与团队特征相关的组织情境设计变量，包括奖励、监控、培训和可用资源",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第四节 团队效能与评价",
+    "chunk_id": "组织行为学_small_chunk_69"
+  },
+  {
+    "question": "什么是队过程？",
+    "answer": "团队成员的互动过程，如团队成员间或团队与外部的冲突与沟通",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第四节 团队效能与评价",
+    "chunk_id": "组织行为学_small_chunk_69"
+  },
+  {
+    "question": "研究者把团队效能划包含哪些内容？",
+    "answer": "三个 维度：①以团队产出的产品数量和质量、客户满意度等进行度量的团队业绩",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第四节 团队效能与评价",
+    "chunk_id": "组织行为学_small_chunk_69"
+  },
+  {
+    "question": "团队效能和传统的基于个体的绩效有什么区别？",
+    "answer": "也不同于组织整体绩效，考虑的是 团队的协同和构成组织整体绩效的团队价值创造",
+    "qa_type": "comparison",
+    "source_doc": "组织行为学",
+    "chapter": "第四节 团队效能与评价",
+    "chunk_id": "组织行为学_small_chunk_69"
+  },
+  {
+    "question": "什么是领导者？",
+    "answer": "在组织中担任领导职务、履行领导职能、行使领导权力、肩负领 导责任的个人或集体",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 经典领导理论",
+    "chunk_id": "组织行为学_small_chunk_72"
+  },
+  {
+    "question": "把领导者在领导过程中表现出 来的工作作风包含哪些内容？",
+    "answer": "专制、民主、放任自流三种基本类型",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 经典领导理论",
+    "chunk_id": "组织行为学_small_chunk_73"
+  },
+  {
+    "question": "什么是豪斯提出了四种领导类型：一？",
+    "answer": "示型 领导，该类型领导者明确下属任务并给予具体指导，明确每个下属的绩效期望和 所扮演的角色",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 经典领导理论 137",
+    "chunk_id": "组织行为学_small_chunk_75"
+  },
+  {
+    "question": "从研究成果上大体可包含哪些内容？",
+    "answer": "两类：一是中国情境下的 本土领导构念，如家长式领导、差序格局、中国人传统性等",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第五章 领 导",
+    "chunk_id": "组织行为学_small_chunk_79"
+  },
+  {
+    "question": "什么是《韦氏大词典》的？",
+    "answer": "，文字、文句或消息之交流，思想或意见之交换",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 中国情境下的领导实践",
+    "chunk_id": "组织行为学_small_chunk_84"
+  },
+  {
+    "question": "什么是通道？",
+    "answer": "沟通信息所传达的方式",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 沟通的基本原理 159",
+    "chunk_id": "组织行为学_small_chunk_86"
+  },
+  {
+    "question": "什么是反馈？",
+    "answer": "接收者对于发送者传来的信息所做出的反应",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 沟通的基本原理 159",
+    "chunk_id": "组织行为学_small_chunk_86"
+  },
+  {
+    "question": "正式沟通根据信息传递的流向可细包含哪些内容？",
+    "answer": "下行沟通、上行沟通、平行沟通、斜 向沟通等几种形式，如图6-3所示",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织沟通的种类 163",
+    "chunk_id": "组织行为学_small_chunk_88"
+  },
+  {
+    "question": "什么是平行沟通？",
+    "answer": "在组织中具有相对等同职权地位的人之间的沟 通，例如部门之间的工作协调、专题报告、例行培训等",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织沟通的种类 165",
+    "chunk_id": "组织行为学_small_chunk_89"
+  },
+  {
+    "question": "什么是斜向沟通？",
+    "answer": "与其他部门中不同地位即职权等级不同成员之 间的沟通",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织沟通的种类 165",
+    "chunk_id": "组织行为学_small_chunk_89"
+  },
+  {
+    "question": "什么是非正式沟通？",
+    "answer": "通过正式沟通渠道以外的信息交流和传达方式",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织沟通的种类 165",
+    "chunk_id": "组织行为学_small_chunk_89"
+  },
+  {
+    "question": "什么是单向沟通？",
+    "answer": "在沟通过程中，信息发送者与接收者之间的地位不变，一方主 动发送信息，另一方只被动地接收信息，没有反馈发生，如报告、发布指示和命 令等",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织沟通的种类 167",
+    "chunk_id": "组织行为学_small_chunk_90"
+  },
+  {
+    "question": "什么是双向沟通？",
+    "answer": "在沟通过程中，发送者和接收者的地位不断变换，信息在双方 间反复流动，直到双方对信息有了共同理解为止，如讨论、面谈等",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织沟通的种类 167",
+    "chunk_id": "组织行为学_small_chunk_90"
+  },
+  {
+    "question": "什么是本书的定义为：组织文化？",
+    "answer": "组织在长期的生存和发展过程中所形成的，为 组织多数成员所共同遵循的最高目标、基本信念、价值标准和行为规范",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第七章 组织文化",
+    "chunk_id": "组织行为学_small_chunk_96"
+  },
+  {
+    "question": "什么是本书的？",
+    "answer": "：组织文化是指组织在长期的生存和发展过程中所形成的，为 组织多数成员所共同遵循的最高目标、基本信念、价值标准和行为规范",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第七章 组织文化",
+    "chunk_id": "组织行为学_small_chunk_96"
+  },
+  {
+    "question": "组织文化可以区包含哪些内容？",
+    "answer": "企业文化、学校文化、乡镇文化、 社区文化、政府机关文化、军队文化等",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第七章 组织文化",
+    "chunk_id": "组织行为学_small_chunk_96"
+  },
+  {
+    "question": "什么是组织风气？",
+    "answer": "组织在长期活动中逐步形成的一种带有普遍性、重复出现且相 对稳定的行为心理状态",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 组织文化的概述 183",
+    "chunk_id": "组织行为学_small_chunk_97"
+  },
+  {
+    "question": "什么是导向作用？",
+    "answer": "把组织成员的行为动机引导到组织目标上来",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 组织文化的概述 185",
+    "chunk_id": "组织行为学_small_chunk_98"
+  },
+  {
+    "question": "来自国外的文化形态可以包含哪些内容？",
+    "answer": "民族文化、组织文化和个人文化三个层次，它们都 对我国的社会文化和组织文化产生了不同程度的影响",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 组织文化的概述 185",
+    "chunk_id": "组织行为学_small_chunk_98"
+  },
+  {
+    "question": "他们把组织文化划包含哪些内容？",
+    "answer": "硬 汉型、努力工作型、赌注型、过程型四种，如表7-1所示",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织文化的分类与测量 187",
+    "chunk_id": "组织行为学_small_chunk_99"
+  },
+  {
+    "question": "可以把企业文化的内涵进一步包含哪些内容？",
+    "answer": "四个模块：人的 特性模块、基本价值观模块、环境适应性模块和企业使命模块",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织文化的分类与测量 189",
+    "chunk_id": "组织行为学_small_chunk_100"
+  },
+  {
+    "question": "什么是例如：创新？",
+    "answer": "新的 观念、流程、产品、服务的产生、接受和执行",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 组 织 创 新",
+    "chunk_id": "组织行为学_small_chunk_116"
+  },
+  {
+    "question": "但是企业家和一般的组织成员有什么区别？",
+    "answer": "他们 是不断在经济结构内部进行“革命突变”,对旧的生产方式进行“创造性破坏”, 实现生产要素重新组合的人",
+    "qa_type": "comparison",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 组 织 创 新 217",
+    "chunk_id": "组织行为学_small_chunk_117"
+  },
+  {
+    "question": "目前对企业组织 的生命周期大致划包含哪些内容？",
+    "answer": "创业阶段、发展阶段、成熟阶段和升级阶段(又称为二次 创业期),如图9-1所示",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第一节 组织变革与发展概述",
+    "chunk_id": "组织行为学_small_chunk_125"
+  },
+  {
+    "question": "什么是操作性目标？",
+    "answer": "企业为实现其根本目的而 所要完成的主要任务，它们具体且易衡量",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织变革与发展的系统模型 235",
+    "chunk_id": "组织行为学_small_chunk_129"
+  },
+  {
+    "question": "什么是工作胜任障碍？",
+    "answer": "新员工在技能、思维方式、工作规范方面的陌生和缺乏指导所带来的不适应",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织社会化与个体策略 259",
+    "chunk_id": "组织行为学_small_chunk_138"
+  },
+  {
+    "question": "什么是人 际融入障碍？",
+    "answer": "由于沟通、偏见等方面因素带来的人际冲突与社会化困难",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织社会化与个体策略 259",
+    "chunk_id": "组织行为学_small_chunk_138"
+  },
+  {
+    "question": "什么是角色 定位障碍？",
+    "answer": "由于个人期望落差、发挥空间有限等方面带来的自我认知困扰",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织社会化与个体策略 259",
+    "chunk_id": "组织行为学_small_chunk_138"
+  },
+  {
+    "question": "工如何找到有用的信息?员工寻求信息的策略包含哪些内容？",
+    "answer": "七种： ①公开询问：用直接询问的方式来获得想要了解的信息",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第二节 组织社会化与个体策略 259",
+    "chunk_id": "组织行为学_small_chunk_138"
+  },
+  {
+    "question": "什么是可将组织认同？",
+    "answer": "成员出于对组织吸引和预期，进 而保持在情感上的某种自我定义",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 组织认同与组织承诺",
+    "chunk_id": "组织行为学_small_chunk_139"
+  },
+  {
+    "question": "什么是可以将组织认同？",
+    "answer": "个体由于具有组织成员身份 从而产生的一种自我定义，这种成员身份产生了价值观上的一致和情感上的归属",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第三节 组织认同与组织承诺",
+    "chunk_id": "组织行为学_small_chunk_139"
+  },
+  {
+    "question": "影响规范承诺的因素包含哪些内容？",
+    "answer": "对承诺的规范要求、教 育程度、个性等",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第四节 心 理 契 约 263",
+    "chunk_id": "组织行为学_small_chunk_142"
+  },
+  {
+    "question": "什么是心理契约破裂？",
+    "answer": "员工对组织未履行心理契 约中的承诺或责任而产生的主观感知或认知评价",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第四节 心理契约",
+    "chunk_id": "组织行为学_small_chunk_143"
+  },
+  {
+    "question": "什么是而心理契约违背？",
+    "answer": "员工在心 理契约破裂后所产生的情绪反应，其核心是愤怒、失望",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第四节 心理契约",
+    "chunk_id": "组织行为学_small_chunk_143"
+  },
+  {
+    "question": "组织公民行为的产生包含哪些内容？",
+    "answer": "两个影响因素：个体因素和情境因素",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第五节 组织公民行为 269",
+    "chunk_id": "组织行为学_small_chunk_146"
+  },
+  {
+    "question": "什么是内在激励？",
+    "answer": "员工对工作有兴趣和好感，才会付出更多努力，产生组织公民行为， 如果工作过于常规化，缺乏吸引力，会降低员工的组织公民行为",
+    "qa_type": "definition",
+    "source_doc": "组织行为学",
+    "chapter": "第五节 组织公民行为 269",
+    "chunk_id": "组织行为学_small_chunk_147"
+  },
+  {
+    "question": "中国组织公民行为可以包含哪些内容？",
+    "answer": "五个维度，但与西方的结 论略有不同",
+    "qa_type": "framework",
+    "source_doc": "组织行为学",
+    "chapter": "第五节 组织公民行为 269",
+    "chunk_id": "组织行为学_small_chunk_148"
+  },
+  {
+    "question": "什么是具体？",
+    "answer": "美国的企业和公共服务机构",
+    "qa_type": "definition",
+    "source_doc": "认识管理",
+    "chapter": "第39章　管理组织的结论",
+    "chunk_id": "认识管理_small_chunk_14"
+  },
+  {
+    "question": "什么是强调科学管理？",
+    "answer": "一场思想革命，主张以科学取代经验，效率与人性统一，劳资合作共创利润，代表作有《科学管理原理》（The Principles of Scientific Management）",
+    "qa_type": "definition",
+    "source_doc": "认识管理",
+    "chapter": "第1章　导论：管理和管理者",
+    "chunk_id": "认识管理_small_chunk_17"
+  },
+  {
+    "question": "管理工商企业或公共服务机构和管理自己的财产有什么区别？",
+    "answer": "也不同于经营一家小诊所或个人律所",
+    "qa_type": "comparison",
+    "source_doc": "认识管理",
+    "chapter": "第1章　导论：管理和管理者",
+    "chunk_id": "认识管理_small_chunk_17"
+  },
+  {
+    "question": "什么是管理者被？",
+    "answer": "“对他人的工作负有责任”之人",
+    "qa_type": "definition",
+    "source_doc": "认识管理",
+    "chapter": "第1章　导论：管理和管理者",
+    "chunk_id": "认识管理_small_chunk_21"
+  },
+  {
+    "question": "什么是传统上把管理者？",
+    "answer": "对他人的工作负有责任之人，强调的是次要的而不是主要的特征",
+    "qa_type": "definition",
+    "source_doc": "认识管理",
+    "chapter": "第1章　导论：管理和管理者",
+    "chunk_id": "认识管理_small_chunk_24"
+  },
+  {
+    "question": "管理者被包含哪些内容？",
+    "answer": "两个群体，导致做自己的工作之人，相比对他人的工作负有责任之人具有明显的劣势，强调的重点仍是权力和权威，而不是责任和贡献",
+    "qa_type": "framework",
+    "source_doc": "认识管理",
+    "chapter": "第1章　导论：管理和管理者",
+    "chunk_id": "认识管理_small_chunk_24"
+  },
+  {
+    "question": "有人将管理者的工作划包含哪些内容？",
+    "answer": "计划、组织、整合、评估、人员开发",
+    "qa_type": "framework",
+    "source_doc": "认识管理",
+    "chapter": "第1章　导论：管理和管理者",
+    "chunk_id": "认识管理_small_chunk_24"
+  },
+  {
+    "question": "什么是[4] 此处？",
+    "answer": "亨利·福特秉持的“薄利多销”理念，1908年大批量生产销售便宜的福特T型车，快速占领市场",
+    "qa_type": "definition",
+    "source_doc": "认识管理",
+    "chapter": "第5章　企业的宗旨和使命",
+    "chunk_id": "认识管理_small_chunk_39"
+  },
+  {
+    "question": "最终目标是确定企业应该在长期内努力创造的和以往的新业务、新技术和新市场有什么区别？",
+    "answer": "但这项工作始于问题“当前的业务是什么”",
+    "qa_type": "comparison",
+    "source_doc": "认识管理",
+    "chapter": "第8章　战略规划：企业家技能",
+    "chunk_id": "认识管理_small_chunk_55"
+  },
+  {
+    "question": "区别很可能在于工作和娱乐有什么区别？",
+    "answer": "是一种非人格化的客观活动",
+    "qa_type": "comparison",
+    "source_doc": "认识管理",
+    "chapter": "第13章　新现实",
+    "chunk_id": "认识管理_small_chunk_69"
+  },
+  {
+    "question": "什么是智人[1]并不能完全被？",
+    "answer": "工具制造者，但作为一种系统性的、目的明确的、组织化的工作方法，制造工具是独特的人类活动",
+    "qa_type": "definition",
+    "source_doc": "认识管理",
+    "chapter": "第14章　工作、做工与员工",
+    "chunk_id": "认识管理_small_chunk_71"
+  },
+  {
+    "question": "1911年标准石油公司被拆包含哪些内容？",
+    "answer": "34家公司，该公司为其中之一，1999年与美孚石油公司合并为埃克森美孚石油公司",
+    "qa_type": "framework",
+    "source_doc": "认识管理",
+    "chapter": "第37章　创新型组织",
+    "chunk_id": "认识管理_small_chunk_179"
+  },
+  {
+    "question": "要么企业被划包含哪些内容？",
+    "answer": "若干部分，每个部分都为一定的成本负责",
+    "qa_type": "framework",
+    "source_doc": "认识管理",
+    "chapter": "第七部分",
+    "chunk_id": "认识管理_small_chunk_192"
+  },
+  {
+    "question": "什么是80/20法则？",
+    "answer": "少数事件对结果产生了主要影響",
+    "qa_type": "definition",
+    "source_doc": "高效管理的8020法则",
+    "chapter": "第1章　你是否願意簡化你的工作和生活",
+    "chunk_id": "高效管理的8020法则_small_chunk_5"
+  },
+  {
+    "question": "什么是該法则？",
+    "answer": "：只有极少数的事情值得关注，但是那些值得关注的事情都非常重要",
+    "qa_type": "definition",
+    "source_doc": "高效管理的8020法则",
+    "chapter": "第2章　秘密武器",
+    "chunk_id": "高效管理的8020法则_small_chunk_6"
+  },
+  {
+    "question": "我们似乎很容易将公司的客戶从生意的角度包含哪些内容？",
+    "answer": "好的或者壞的：业餘交易者——那些有一些錢，喜歡交易，但是並不以此为生的愛好者——比职业交易者给公司帶来多得多的利潤",
+    "qa_type": "framework",
+    "source_doc": "高效管理的8020法则",
+    "chapter": "第3章　方法一：探究型管理者",
+    "chunk_id": "高效管理的8020法则_small_chunk_15"
+  },
+  {
+    "question": "什么是而此前我们？",
+    "answer": "望依靠这些资源来开始我们自己业务的",
+    "qa_type": "definition",
+    "source_doc": "高效管理的8020法则",
+    "chapter": "第4章　方法二：做一个有超级链接能力的管理者",
+    "chunk_id": "高效管理的8020法则_small_chunk_19"
+  },
+  {
+    "question": "什么是我所謂的「槓桿」？",
+    "answer": "任何能扩大投入效率的簡单工具，从而让你達到事半功倍的效果",
+    "qa_type": "definition",
+    "source_doc": "高效管理的8020法则",
+    "chapter": "第6章　方法四：槓桿管理者",
+    "chunk_id": "高效管理的8020法则_small_chunk_28"
+  },
+  {
+    "question": "那是一个包含哪些内容？",
+    "answer": "農民和有一技之长的工匠",
+    "qa_type": "framework",
+    "source_doc": "高效管理的8020法则",
+    "chapter": "第9章　方法七：时间充裕的管理者",
+    "chunk_id": "高效管理的8020法则_small_chunk_41"
+  }
+]

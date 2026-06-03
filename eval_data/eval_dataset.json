@@ -1,0 +1,1716 @@
+{
+  "version": "1.1",
+  "created": "2026-06-01",
+  "total_questions": 63,
+  "questions": [
+    {
+      "query_id": "Q001",
+      "query": "管理的核心思想是什么",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "组织行为学",
+        "公共管理名著精华",
+        "认识管理"
+      ],
+      "relevant_chunk_ids": [
+        "认识管理_small_chunk_16",
+        "认识管理_small_chunk_82",
+        "组织行为学_large_chunk_49",
+        "基业长青_large_chunk_55",
+        "基业长青_small_chunk_107"
+      ],
+      "answer_snippets": [
+        "管理的核心是决策",
+        "管理是通过他人来完成工作",
+        "管理是计划、组织、领导和控制的过程"
+      ],
+      "reference_answer": "管理的核心思想包括：1)决策是管理的核心；2)管理是通过他人来完成工作的活动；3)管理包含计划、组织、领导和控制四个基本职能。",
+      "robustness_variants": [
+        "管理最核心的思想有哪些",
+        "管理学的核心思想"
+      ]
+    },
+    {
+      "query_id": "Q002",
+      "query": "什么是SWOT分析",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "竞争战略"
+      ],
+      "relevant_chunk_ids": [
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_7",
+        "市场营销原理_small_chunk_126",
+        "10人以下小团队管理手册-堀之内克彦_small_chunk_45",
+        "公共管理名著精华_large_chunk_100",
+        "认识管理_large_chunk_89"
+      ],
+      "answer_snippets": [
+        "SWOT分析是一种战略分析工具",
+        "优势、劣势、机会、威胁"
+      ],
+      "reference_answer": "SWOT分析是一种战略分析工具，通过分析企业的优势(Strengths)、劣势(Weaknesses)、机会(Opportunities)和威胁(Threats)来制定战略。",
+      "robustness_variants": [
+        "SWOT分析方法是什么",
+        "SWOT分析的定义"
+      ]
+    },
+    {
+      "query_id": "Q003",
+      "query": "市场营销的核心概念",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "市场营销原理"
+      ],
+      "relevant_chunk_ids": [
+        "市场营销原理_small_chunk_6",
+        "市场营销原理_small_chunk_386",
+        "基业长青_large_chunk_55",
+        "基业长青_small_chunk_107",
+        "公共管理名著精华_large_chunk_15"
+      ],
+      "answer_snippets": [
+        "市场营销是创造、沟通、传递价值",
+        "满足顾客需求",
+        "交换过程"
+      ],
+      "reference_answer": "市场营销的核心概念是通过创造、沟通和传递价值来满足顾客需求，并实现组织目标的社会和管理过程。",
+      "robustness_variants": [
+        "市场营销概念是什么",
+        "营销的核心概念"
+      ]
+    },
+    {
+      "query_id": "Q004",
+      "query": "产品思维是什么",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "产品思维30讲"
+      ],
+      "relevant_chunk_ids": [
+        "产品思维30讲-梁宁_small_chunk_2",
+        "产品思维30讲-梁宁_small_chunk_27",
+        "市场营销原理_large_chunk_83",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_41",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_0"
+      ],
+      "answer_snippets": [
+        "产品思维是以用户为中心",
+        "同理心",
+        "用户体验"
+      ],
+      "reference_answer": "产品思维是以用户为中心的思考方式，强调同理心、用户体验和价值创造。",
+      "robustness_variants": [
+        "产品思维的定义",
+        "什么是产品思维"
+      ]
+    },
+    {
+      "query_id": "Q005",
+      "query": "波特五力模型的内容",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "竞争战略"
+      ],
+      "relevant_chunk_ids": [
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_4",
+        "10人以下小团队管理手册-堀之内克彦_small_chunk_45",
+        "市场营销原理_small_chunk_94",
+        "基业长青_large_chunk_55",
+        "基业长青_small_chunk_99"
+      ],
+      "answer_snippets": [
+        "供应商议价能力",
+        "买方议价能力",
+        "潜在进入者威胁",
+        "替代品威胁",
+        "同业竞争"
+      ],
+      "reference_answer": "波特五力模型包括：1)供应商议价能力；2)买方议价能力；3)潜在进入者威胁；4)替代品威胁；5)同业竞争程度。",
+      "robustness_variants": [
+        "五力模型包括哪些",
+        "波特五力是什么"
+      ]
+    },
+    {
+      "query_id": "Q006",
+      "query": "组织行为学研究什么",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "组织行为学"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_small_chunk_0",
+        "组织行为学_small_chunk_11",
+        "组织行为学_small_chunk_146",
+        "公共管理名著精华_large_chunk_33",
+        "公共管理名著精华_small_chunk_71"
+      ],
+      "answer_snippets": [
+        "个体行为",
+        "群体行为",
+        "组织系统"
+      ],
+      "reference_answer": "组织行为学研究个体、群体和组织系统三个层面的行为规律，以提高组织效能。",
+      "robustness_variants": [
+        "组织行为学的研究对象",
+        "什么是组织行为学"
+      ]
+    },
+    {
+      "query_id": "Q007",
+      "query": "市场细分有哪些方法",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "市场营销原理"
+      ],
+      "relevant_chunk_ids": [
+        "市场营销原理_small_chunk_130",
+        "市场营销原理_small_chunk_363",
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_97",
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_107",
+        "产品思维30讲-梁宁_large_chunk_11"
+      ],
+      "answer_snippets": [
+        "地理细分",
+        "人口细分",
+        "心理细分",
+        "行为细分"
+      ],
+      "reference_answer": "市场细分的方法包括：地理细分、人口统计细分、心理细分和行为细分。",
+      "robustness_variants": [
+        "市场细分的方法",
+        "如何进行市场细分"
+      ]
+    },
+    {
+      "query_id": "Q008",
+      "query": "竞争战略有哪些基本类型",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "竞争战略"
+      ],
+      "relevant_chunk_ids": [
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_7",
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_27",
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_76",
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_111",
+        "市场营销原理_small_chunk_369"
+      ],
+      "answer_snippets": [
+        "成本领先战略",
+        "差异化战略",
+        "集中化战略"
+      ],
+      "reference_answer": "竞争战略的三种基本类型是：成本领先战略、差异化战略和集中化战略。",
+      "robustness_variants": [
+        "竞争战略的类型",
+        "波特竞争战略"
+      ]
+    },
+    {
+      "query_id": "Q009",
+      "query": "用户体验的核心要素",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "产品思维30讲"
+      ],
+      "relevant_chunk_ids": [
+        "产品思维30讲-梁宁_small_chunk_37",
+        "关键跨越_small_chunk_37",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_41",
+        "基业长青_large_chunk_25",
+        "市场营销原理_small_chunk_188"
+      ],
+      "answer_snippets": [
+        "有用性",
+        "易用性",
+        "情感体验"
+      ],
+      "reference_answer": "用户体验的核心要素包括：有用性(功能满足需求)、易用性(操作简单)和情感体验(愉悦感)。",
+      "robustness_variants": [
+        "UX核心要素",
+        "用户体验要素"
+      ]
+    },
+    {
+      "query_id": "Q010",
+      "query": "什么是领导力",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "组织行为学",
+        "公共管理名著精华",
+        "管理思维"
+      ],
+      "relevant_chunk_ids": [
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_1",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_9",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_21",
+        "公共管理名著精华_small_chunk_53",
+        "组织行为学_large_chunk_33"
+      ],
+      "answer_snippets": [
+        "影响力",
+        "激励他人",
+        "愿景引导"
+      ],
+      "reference_answer": "领导力是影响和激励他人朝着共同目标努力的能力，包括愿景设定、激励沟通和团队建设。",
+      "robustness_variants": [
+        "领导力的定义",
+        "什么是领导力"
+      ]
+    },
+    {
+      "query_id": "Q011",
+      "query": "市场营销4P理论是什么",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "市场营销原理"
+      ],
+      "relevant_chunk_ids": [
+        "市场营销原理_small_chunk_8",
+        "市场营销原理_small_chunk_106",
+        "市场营销原理_small_chunk_386",
+        "10人以下小团队管理手册-堀之内克彦_small_chunk_49",
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_1"
+      ],
+      "answer_snippets": [
+        "产品(Product)",
+        "价格(Price)",
+        "渠道(Place)",
+        "促销(Promotion)"
+      ],
+      "reference_answer": "4P理论包括：产品(Product)、价格(Price)、渠道(Place)和促销(Promotion)，是市场营销的基本框架。",
+      "robustness_variants": [
+        "4P理论内容",
+        "营销4P是什么"
+      ]
+    },
+    {
+      "query_id": "Q012",
+      "query": "产品经理需要具备什么能力",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "产品思维30讲"
+      ],
+      "relevant_chunk_ids": [
+        "产品思维30讲-梁宁_small_chunk_27",
+        "产品思维30讲-梁宁_small_chunk_59",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_41",
+        "关键跨越_small_chunk_12",
+        "卓有成效的管理者_small_chunk_11"
+      ],
+      "answer_snippets": [
+        "用户洞察",
+        "数据分析",
+        "项目管理",
+        "沟通协调"
+      ],
+      "reference_answer": "产品经理需要具备：用户洞察能力、数据分析能力、项目管理能力和跨部门沟通协调能力。",
+      "robustness_variants": [
+        "产品经理能力要求",
+        "PM需要什么能力"
+      ]
+    },
+    {
+      "query_id": "Q013",
+      "query": "组织变革如何管理",
+      "query_type": "framework",
+      "difficulty": "hard",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "组织行为学",
+        "管理思维"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_small_chunk_125",
+        "组织行为学_small_chunk_132",
+        "公共管理名著精华_small_chunk_100",
+        "认识管理_small_chunk_16",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_0"
+      ],
+      "answer_snippets": [
+        "解冻",
+        "变革",
+        "再冻结"
+      ],
+      "reference_answer": "组织变革管理包括：1)解冻阶段(打破现状)；2)变革阶段(实施新方案)；3)再冻结阶段(固化新状态)。",
+      "robustness_variants": [
+        "如何管理组织变革",
+        "变革管理步骤"
+      ]
+    },
+    {
+      "query_id": "Q014",
+      "query": "竞争分析的基本框架是什么",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "竞争战略"
+      ],
+      "relevant_chunk_ids": [
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_7",
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_76",
+        "市场营销原理_small_chunk_359",
+        "产品思维30讲-梁宁_large_chunk_19",
+        "公共管理名著精华_small_chunk_69"
+      ],
+      "answer_snippets": [
+        "行业结构",
+        "竞争对手",
+        "竞争优势"
+      ],
+      "reference_answer": "竞争分析的基本框架包括：行业结构分析(五力模型)、竞争对手分析和竞争优势来源分析。",
+      "robustness_variants": [
+        "竞争分析框架",
+        "如何做竞争分析"
+      ]
+    },
+    {
+      "query_id": "Q015",
+      "query": "公共管理的核心理论有哪些",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "公共管理名著精华"
+      ],
+      "relevant_chunk_ids": [
+        "公共管理名著精华_small_chunk_44",
+        "公共管理名著精华_small_chunk_72",
+        "公共管理名著精华_small_chunk_138",
+        "公共管理名著精华_small_chunk_182",
+        "认识管理_small_chunk_16"
+      ],
+      "answer_snippets": [
+        "官僚制",
+        "新公共管理",
+        "治理理论"
+      ],
+      "reference_answer": "公共管理的核心理论包括：韦伯的官僚制理论、新公共管理理论和治理理论。",
+      "robustness_variants": [
+        "公共管理理论",
+        "公共管理核心"
+      ]
+    },
+    {
+      "query_id": "Q016",
+      "query": "德鲁克的管理思想",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "卓有成效的管理者",
+        "认识管理"
+      ],
+      "relevant_chunk_ids": [
+        "卓有成效的管理者_small_chunk_1",
+        "认识管理_small_chunk_12",
+        "高效管理的8020法则_small_chunk_23",
+        "公共管理名著精华_small_chunk_45",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_0"
+      ],
+      "answer_snippets": [
+        "目标管理",
+        "知识工作者",
+        "时间管理"
+      ],
+      "reference_answer": "德鲁克的管理思想包括：目标管理(MBO)、知识工作者概念、时间管理理念和有效性原则。",
+      "robustness_variants": [
+        "德鲁克管理理论",
+        "Peter Drucker管理思想"
+      ]
+    },
+    {
+      "query_id": "Q017",
+      "query": "OKR工作法如何实施",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "OKR工作法"
+      ],
+      "relevant_chunk_ids": [
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_1",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_25",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_41",
+        "关键跨越_small_chunk_35",
+        "认识管理_small_chunk_48"
+      ],
+      "answer_snippets": [
+        "目标设定",
+        "关键结果",
+        "定期回顾"
+      ],
+      "reference_answer": "OKR实施步骤：1)设定有挑战性的目标；2)定义3-5个可衡量的关键结果；3)定期(通常季度)回顾进度；4)评分并调整。",
+      "robustness_variants": [
+        "OKR实施步骤",
+        "如何实施OKR"
+      ]
+    },
+    {
+      "query_id": "Q018",
+      "query": "华为的管理方法有哪些特点",
+      "query_type": "comparison",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "华为管理法"
+      ],
+      "relevant_chunk_ids": [
+        "华为管理法任正非的企业管理心得_small_chunk_13",
+        "华为管理法任正非的企业管理心得_small_chunk_51",
+        "高效管理的8020法则_small_chunk_10",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+        "关键跨越_small_chunk_12"
+      ],
+      "answer_snippets": [
+        "狼性文化",
+        "以奋斗者为本",
+        "轮值CEO"
+      ],
+      "reference_answer": "华为管理方法的特点：狼性文化(敏锐嗅觉、团队协作)、以奋斗者为本的分配机制和轮值CEO制度。",
+      "robustness_variants": [
+        "华为管理特点",
+        "华为管理法"
+      ]
+    },
+    {
+      "query_id": "Q019",
+      "query": "小团队如何有效管理",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "10人以下小团队管理手册"
+      ],
+      "relevant_chunk_ids": [
+        "10人以下小团队管理手册-堀之内克彦_small_chunk_3",
+        "组织行为学_small_chunk_64",
+        "关键跨越_large_chunk_16",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_53"
+      ],
+      "answer_snippets": [
+        "明确目标",
+        "充分授权",
+        "及时反馈"
+      ],
+      "reference_answer": "小团队有效管理要点：明确共同目标、充分授权、建立及时反馈机制和保持高频沟通。",
+      "robustness_variants": [
+        "小团队管理方法",
+        "10人团队管理"
+      ]
+    },
+    {
+      "query_id": "Q020",
+      "query": "如何成为卓有成效的管理者",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "卓有成效的管理者"
+      ],
+      "relevant_chunk_ids": [
+        "卓有成效的管理者_small_chunk_4",
+        "卓有成效的管理者_small_chunk_7",
+        "卓有成效的管理者_small_chunk_61",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_0",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_3"
+      ],
+      "answer_snippets": [
+        "时间管理",
+        "贡献意识",
+        "发挥长处"
+      ],
+      "reference_answer": "成为卓有成效管理者的要点：掌握时间管理、培养贡献意识、发挥自己和他人长处、优先做重要的事。",
+      "robustness_variants": [
+        "卓有成效管理者",
+        "如何成为有效管理者"
+      ]
+    },
+    {
+      "query_id": "Q021",
+      "query": "8020法则在管理中的应用",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "高效管理的8020法则"
+      ],
+      "relevant_chunk_ids": [
+        "高效管理的8020法则_small_chunk_1",
+        "公共管理名著精华_large_chunk_30",
+        "公共管理名著精华_large_chunk_43",
+        "基业长青_small_chunk_2",
+        "基业长青_small_chunk_99"
+      ],
+      "answer_snippets": [
+        "关键少数",
+        "帕累托法则",
+        "聚焦重点"
+      ],
+      "reference_answer": "8020法则(帕累托法则)在管理中的应用：识别20%的关键客户/产品/任务，投入80%的精力，实现效率最大化。",
+      "robustness_variants": [
+        "帕累托法则应用",
+        "二八法则管理"
+      ]
+    },
+    {
+      "query_id": "Q022",
+      "query": "管理思维的核心要素",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "管理思维"
+      ],
+      "relevant_chunk_ids": [
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_0",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+        "关键跨越_small_chunk_12",
+        "关键跨越_small_chunk_39",
+        "认识管理_small_chunk_29"
+      ],
+      "answer_snippets": [
+        "系统思维",
+        "战略思维",
+        "执行思维"
+      ],
+      "reference_answer": "管理思维的核心要素：系统思维(整体观)、战略思维(长远规划)和执行思维(落地能力)。",
+      "robustness_variants": [
+        "管理思维要素",
+        "管理思维是什么"
+      ]
+    },
+    {
+      "query_id": "Q023",
+      "query": "精益创业的核心方法",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "精益创业"
+      ],
+      "relevant_chunk_ids": [
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+        "基业长青_large_chunk_0",
+        "基业长青_small_chunk_107",
+        "认识管理_small_chunk_82",
+        "产品思维30讲-梁宁_small_chunk_2"
+      ],
+      "answer_snippets": [
+        "MVP",
+        "构建-测量-学习",
+        "转型或坚持"
+      ],
+      "reference_answer": "精益创业核心方法：MVP(最小可行产品)、构建-测量-学习循环、基于数据决定转型或坚持。",
+      "robustness_variants": [
+        "精益创业方法",
+        "精益创业核心"
+      ]
+    },
+    {
+      "query_id": "Q024",
+      "query": "管理思想史的发展脉络",
+      "query_type": "framework",
+      "difficulty": "hard",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "管理思想史"
+      ],
+      "relevant_chunk_ids": [
+        "公共管理名著精华_small_chunk_45",
+        "组织行为学_small_chunk_8",
+        "组织行为学_small_chunk_125",
+        "认识管理_small_chunk_16",
+        "基业长青_small_chunk_2"
+      ],
+      "answer_snippets": [
+        "科学管理",
+        "行为科学",
+        "现代管理"
+      ],
+      "reference_answer": "管理思想史发展脉络：科学管理时代(泰勒、法约尔)→行为科学时代(梅奥、马斯洛)→现代管理时代(德鲁克、波特)。",
+      "robustness_variants": [
+        "管理思想发展史",
+        "管理学发展脉络"
+      ]
+    },
+    {
+      "query_id": "Q025",
+      "query": "科学管理理论的主要内容",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "管理思想史",
+        "认识管理"
+      ],
+      "relevant_chunk_ids": [
+        "认识管理_large_chunk_8",
+        "认识管理_large_chunk_34",
+        "组织行为学_small_chunk_12",
+        "公共管理名著精华_small_chunk_215",
+        "基业长青_small_chunk_2"
+      ],
+      "answer_snippets": [
+        "标准化",
+        "时间研究",
+        "差别计件工资"
+      ],
+      "reference_answer": "科学管理理论主要内容：工作标准化、时间动作研究、差别计件工资制和科学选拔培训工人。",
+      "robustness_variants": [
+        "泰勒科学管理",
+        "科学管理内容"
+      ]
+    },
+    {
+      "query_id": "Q026",
+      "query": "关键跨越如何从业务高手转变为优秀主管",
+      "query_type": "framework",
+      "difficulty": "hard",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "关键跨越"
+      ],
+      "relevant_chunk_ids": [
+        "关键跨越_small_chunk_3",
+        "关键跨越_small_chunk_12",
+        "关键跨越_small_chunk_56",
+        "10人以下小团队管理手册-堀之内克彦_small_chunk_28",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_large_chunk_22"
+      ],
+      "answer_snippets": [
+        "角色转变",
+        "委派任务",
+        "团队建设"
+      ],
+      "reference_answer": "从业务高手到优秀主管的关键跨越：角色认知转变(从个人贡献到团队贡献)、学会委派任务、建立团队信任和培养下属。",
+      "robustness_variants": [
+        "新手主管转型",
+        "业务高手转管理"
+      ]
+    },
+    {
+      "query_id": "Q027",
+      "query": "基业长青的企业有什么特征",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "基业长青"
+      ],
+      "relevant_chunk_ids": [
+        "基业长青_large_chunk_0",
+        "基业长青_small_chunk_90",
+        "认识管理_small_chunk_30",
+        "华为管理法任正非的企业管理心得_small_chunk_51",
+        "关键跨越_small_chunk_12"
+      ],
+      "answer_snippets": [
+        "核心价值观",
+        "愿景",
+        "造钟而非报时"
+      ],
+      "reference_answer": "基业长青企业的特征：拥有清晰的核心价值观和愿景、注重'造钟'(建立制度)而非'报时'(依赖个人)、持续自我革新。",
+      "robustness_variants": [
+        "基业长青特征",
+        "持久企业特点"
+      ]
+    },
+    {
+      "query_id": "Q028",
+      "query": "管理类核心思想是什么",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "认识管理",
+        "组织行为学",
+        "公共管理名著精华"
+      ],
+      "relevant_chunk_ids": [
+        "认识管理_small_chunk_16",
+        "认识管理_small_chunk_29",
+        "基业长青_large_chunk_55",
+        "基业长青_small_chunk_107",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_0"
+      ],
+      "answer_snippets": [
+        "效率",
+        "效果",
+        "以人为本"
+      ],
+      "reference_answer": "管理类核心思想：追求效率和效果的统一、以人为本的管理理念、系统思考和持续改进。",
+      "robustness_variants": [
+        "管理学核心思想",
+        "管理核心"
+      ]
+    },
+    {
+      "query_id": "Q029",
+      "query": "人力资源管理包括哪些模块",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "组织行为学"
+      ],
+      "relevant_chunk_ids": [
+        "公共管理名著精华_small_chunk_84",
+        "组织行为学_large_chunk_55",
+        "组织行为学_small_chunk_63",
+        "关键跨越_large_chunk_26",
+        "10人以下小团队管理手册-堀之内克彦_small_chunk_45"
+      ],
+      "answer_snippets": [
+        "招聘",
+        "培训",
+        "绩效",
+        "薪酬"
+      ],
+      "reference_answer": "人力资源管理六大模块：人力资源规划、招聘与配置、培训与开发、绩效管理、薪酬福利管理、劳动关系管理。",
+      "robustness_variants": [
+        "HR模块",
+        "人力资源管理内容"
+      ]
+    },
+    {
+      "query_id": "Q030",
+      "query": "组织文化的层次和作用",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "组织行为学"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_small_chunk_97",
+        "组织行为学_small_chunk_125",
+        "认识管理_small_chunk_12",
+        "认识管理_small_chunk_28",
+        "认识管理_small_chunk_164"
+      ],
+      "answer_snippets": [
+        "物质层",
+        "制度层",
+        "精神层"
+      ],
+      "reference_answer": "组织文化三层次：物质层(可见标识)、制度层(行为规范)和精神层(核心价值观)。作用：导向、凝聚、激励和约束。",
+      "robustness_variants": [
+        "组织文化层次",
+        "企业文化作用"
+      ]
+    },
+    {
+      "query_id": "Q031",
+      "query": "泰勒和法约尔的管理思想有何异同",
+      "query_type": "comparison",
+      "difficulty": "hard",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "管理思想史",
+        "认识管理"
+      ],
+      "relevant_chunk_ids": [
+        "认识管理_small_chunk_71",
+        "高效管理的8020法则_small_chunk_23",
+        "高效管理的8020法则_small_chunk_36",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_0",
+        "10人以下小团队管理手册-堀之内克彦_small_chunk_24"
+      ],
+      "answer_snippets": [
+        "科学管理",
+        "一般管理",
+        "效率"
+      ],
+      "reference_answer": "泰勒(科学管理)关注作业层效率，法约尔(一般管理)关注组织整体管理。相同点：都追求效率提升；不同点：层面不同，泰勒侧重操作，法约尔侧重管理职能。",
+      "robustness_variants": [
+        "泰勒vs法约尔",
+        "科学管理对比"
+      ]
+    },
+    {
+      "query_id": "Q032",
+      "query": "SWOT分析如何应用于企业战略",
+      "query_type": "framework",
+      "difficulty": "hard",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "竞争战略"
+      ],
+      "relevant_chunk_ids": [
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_7",
+        "市场营销原理_small_chunk_30",
+        "公共管理名著精华_large_chunk_43",
+        "认识管理_large_chunk_26",
+        "认识管理_small_chunk_144"
+      ],
+      "answer_snippets": [
+        "SO战略",
+        "WO战略",
+        "ST战略",
+        "WT战略"
+      ],
+      "reference_answer": "SWOT战略应用：SO(优势+机会)增长战略、WO(劣势+机会)扭转战略、ST(优势+威胁)多元化战略、WT(劣势+威胁)防御战略。",
+      "robustness_variants": [
+        "SWOT战略应用",
+        "SWOT分析企业"
+      ]
+    },
+    {
+      "query_id": "Q033",
+      "query": "什么是蓝海战略",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "竞争战略"
+      ],
+      "relevant_chunk_ids": [
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_1",
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_21",
+        "市场营销原理_small_chunk_30",
+        "公共管理名著精华_small_chunk_6",
+        "认识管理_small_chunk_48"
+      ],
+      "answer_snippets": [
+        "蓝海战略",
+        "价值创新",
+        "差异化",
+        "低成本"
+      ],
+      "reference_answer": "蓝海战略是通过价值创新同时实现差异化和低成本，开创无人争抢的市场空间，摆脱红海竞争。",
+      "robustness_variants": [
+        "蓝海战略是什么",
+        "蓝海战略定义"
+      ]
+    },
+    {
+      "query_id": "Q034",
+      "query": "马斯洛需求层次理论的内容",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "组织行为学"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_small_chunk_36",
+        "认识管理_small_chunk_29",
+        "认识管理_large_chunk_41",
+        "认识管理_small_chunk_46",
+        "产品思维30讲-梁宁_large_chunk_3"
+      ],
+      "answer_snippets": [
+        "生理需求",
+        "安全需求",
+        "社交需求",
+        "尊重需求",
+        "自我实现"
+      ],
+      "reference_answer": "马斯洛需求层次理论将人的需求分为五个层次：生理需求、安全需求、社交需求、尊重需求和自我实现需求，从低到高逐级满足。",
+      "robustness_variants": [
+        "需求层次理论",
+        "马斯洛理论"
+      ]
+    },
+    {
+      "query_id": "Q035",
+      "query": "什么是敏捷管理",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "精益创业"
+      ],
+      "relevant_chunk_ids": [
+        "关键跨越_small_chunk_35",
+        "认识管理_large_chunk_71",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+        "基业长青_small_chunk_2",
+        "基业长青_small_chunk_99"
+      ],
+      "answer_snippets": [
+        "敏捷",
+        "迭代",
+        "快速响应",
+        "Scrum"
+      ],
+      "reference_answer": "敏捷管理是一种以迭代、增量方式交付价值的管理方法，强调快速响应变化、持续改进和团队协作。",
+      "robustness_variants": [
+        "敏捷管理是什么",
+        "敏捷方法"
+      ]
+    },
+    {
+      "query_id": "Q036",
+      "query": "企业文化如何建设",
+      "query_type": "framework",
+      "difficulty": "hard",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "组织行为学",
+        "基业长青"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_small_chunk_105",
+        "基业长青_large_chunk_55",
+        "基业长青_small_chunk_99",
+        "市场营销原理_large_chunk_36",
+        "华为管理法任正非的企业管理心得_large_chunk_27"
+      ],
+      "answer_snippets": [
+        "核心价值观",
+        "领导示范",
+        "制度建设",
+        "故事传播"
+      ],
+      "reference_answer": "企业文化建设步骤：1)明确核心价值观和愿景；2)领导者以身作则示范；3)建立匹配的制度体系；4)通过故事和仪式传播文化。",
+      "robustness_variants": [
+        "如何建设企业文化",
+        "企业文化塑造"
+      ]
+    },
+    {
+      "query_id": "Q037",
+      "query": "什么是知识管理",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "认识管理"
+      ],
+      "relevant_chunk_ids": [
+        "卓有成效的管理者_small_chunk_11",
+        "认识管理_small_chunk_16",
+        "组织行为学_small_chunk_111",
+        "公共管理名著精华_small_chunk_215",
+        "基业长青_small_chunk_2"
+      ],
+      "answer_snippets": [
+        "知识共享",
+        "知识创造",
+        "SECI模型",
+        "组织学习"
+      ],
+      "reference_answer": "知识管理是组织系统地获取、创造、分享和应用知识的过程，旨在提升组织智力资本和创新能力。",
+      "robustness_variants": [
+        "知识管理是什么",
+        "KM知识管理"
+      ]
+    },
+    {
+      "query_id": "Q038",
+      "query": "目标管理的实施步骤",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "卓有成效的管理者"
+      ],
+      "relevant_chunk_ids": [
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_1",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_53",
+        "10人以下小团队管理手册-堀之内克彦_small_chunk_35",
+        "关键跨越_small_chunk_30",
+        "关键跨越_small_chunk_47"
+      ],
+      "answer_snippets": [
+        "目标设定",
+        "分解目标",
+        "执行跟踪",
+        "评估反馈"
+      ],
+      "reference_answer": "目标管理(MBO)实施步骤：1)组织目标设定；2)分解为个人目标；3)执行过程中的跟踪与支持；4)定期评估与反馈。",
+      "robustness_variants": [
+        "MBO实施",
+        "目标管理步骤"
+      ]
+    },
+    {
+      "query_id": "Q039",
+      "query": "什么是学习型组织",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "组织行为学"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_small_chunk_63",
+        "组织行为学_small_chunk_97",
+        "组织行为学_small_chunk_122",
+        "认识管理_small_chunk_12",
+        "认识管理_small_chunk_159"
+      ],
+      "answer_snippets": [
+        "五项修炼",
+        "系统思考",
+        "心智模式",
+        "团队学习"
+      ],
+      "reference_answer": "学习型组织是能够通过持续学习适应环境变化的组织，具备五项修炼：系统思考、自我超越、心智模式、共同愿景和团队学习。",
+      "robustness_variants": [
+        "学习型组织定义",
+        "五项修炼"
+      ]
+    },
+    {
+      "query_id": "Q040",
+      "query": "如何进行有效的绩效反馈",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "组织行为学"
+      ],
+      "relevant_chunk_ids": [
+        "关键跨越_small_chunk_47",
+        "卓有成效的管理者_small_chunk_58",
+        "卓有成效的管理者_small_chunk_61",
+        "认识管理_small_chunk_66",
+        "组织行为学_small_chunk_70"
+      ],
+      "answer_snippets": [
+        "及时性",
+        "具体性",
+        "双向沟通",
+        "建设性"
+      ],
+      "reference_answer": "有效绩效反馈要点：及时反馈(不拖延)、具体描述(用事实说话)、双向沟通(倾听员工)、建设性建议(聚焦改进)。",
+      "robustness_variants": [
+        "绩效反馈技巧",
+        "如何做绩效面谈"
+      ]
+    },
+    {
+      "query_id": "Q041",
+      "query": "什么是商业模式画布",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "产品思维30讲"
+      ],
+      "relevant_chunk_ids": [
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_12",
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_52",
+        "认识管理_small_chunk_30",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+        "产品思维30讲-梁宁_small_chunk_22"
+      ],
+      "answer_snippets": [
+        "九个模块",
+        "价值主张",
+        "客户细分",
+        "收入来源"
+      ],
+      "reference_answer": "商业模式画布是一个战略管理工具，包含九个模块：客户细分、价值主张、渠道通路、客户关系、收入来源、核心资源、关键业务、重要合作和成本结构。",
+      "robustness_variants": [
+        "商业模式画布是什么",
+        "Business Model Canvas"
+      ]
+    },
+    {
+      "query_id": "Q042",
+      "query": "团队冲突如何管理",
+      "query_type": "framework",
+      "difficulty": "hard",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "组织行为学"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_small_chunk_57",
+        "组织行为学_small_chunk_67",
+        "10人以下小团队管理手册-堀之内克彦_small_chunk_24",
+        "公共管理名著精华_small_chunk_64",
+        "公共管理名著精华_small_chunk_113"
+      ],
+      "answer_snippets": [
+        "冲突类型",
+        "合作解决",
+        "妥协",
+        "强制"
+      ],
+      "reference_answer": "团队冲突管理策略：1)识别冲突类型(任务/关系/过程)；2)选择适当策略(合作、妥协、强制、回避、迁就)；3)建立冲突解决机制。",
+      "robustness_variants": [
+        "冲突管理方法",
+        "如何解决团队冲突"
+      ]
+    },
+    {
+      "query_id": "Q043",
+      "query": "什么是赋能型领导",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "管理思维"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_large_chunk_35",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_1",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_33",
+        "关键跨越_small_chunk_8",
+        "关键跨越_small_chunk_41"
+      ],
+      "answer_snippets": [
+        "授权",
+        "资源支持",
+        "成长机会",
+        "信任"
+      ],
+      "reference_answer": "赋能型领导是通过授权、提供资源支持、创造成长机会和建立信任来激发团队成员潜能的领导方式。",
+      "robustness_variants": [
+        "赋能领导",
+        "赋能型管理"
+      ]
+    },
+    {
+      "query_id": "Q044",
+      "query": "如何进行市场定位",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "市场营销原理"
+      ],
+      "relevant_chunk_ids": [
+        "市场营销原理_small_chunk_141",
+        "认识管理_small_chunk_22",
+        "认识管理_small_chunk_48",
+        "认识管理_small_chunk_51",
+        "产品思维30讲-梁宁_small_chunk_22"
+      ],
+      "answer_snippets": [
+        "STP",
+        "差异化",
+        "定位声明",
+        "心智占位"
+      ],
+      "reference_answer": "市场定位步骤：1)市场细分(Segmentation)；2)目标市场选择(Targeting)；3)差异化定位(Positioning)；4)制定定位声明。",
+      "robustness_variants": [
+        "市场定位步骤",
+        "STP营销"
+      ]
+    },
+    {
+      "query_id": "Q045",
+      "query": "什么是双环学习",
+      "query_type": "definition",
+      "difficulty": "hard",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "组织行为学"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_small_chunk_111",
+        "产品思维30讲-梁宁_small_chunk_15",
+        "市场营销原理_small_chunk_344",
+        "卓有成效的管理者_small_chunk_42",
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_76"
+      ],
+      "answer_snippets": [
+        "单环学习",
+        "双环学习",
+        "反思假设",
+        "范式转变"
+      ],
+      "reference_answer": "双环学习是在发现问题时不仅修正错误(单环)，还反思和改变背后的假设、价值观和政策，实现根本性的范式转变。",
+      "robustness_variants": [
+        "双环学习定义",
+        "组织学习理论"
+      ]
+    },
+    {
+      "query_id": "Q046",
+      "query": "如何进行有效的会议管理",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "10人以下小团队管理手册"
+      ],
+      "relevant_chunk_ids": [
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_45",
+        "关键跨越_large_chunk_16",
+        "公共管理名著精华_small_chunk_95",
+        "认识管理_small_chunk_140"
+      ],
+      "answer_snippets": [
+        "明确议程",
+        "时间控制",
+        "会议纪要",
+        "跟进执行"
+      ],
+      "reference_answer": "有效会议管理：会前明确议程和目标、会中控制时间和节奏、会后及时输出纪要和分配任务、定期跟进执行情况。",
+      "robustness_variants": [
+        "会议管理技巧",
+        "高效会议"
+      ]
+    },
+    {
+      "query_id": "Q047",
+      "query": "什么是平台战略",
+      "query_type": "definition",
+      "difficulty": "hard",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "竞争战略"
+      ],
+      "relevant_chunk_ids": [
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_27",
+        "公共管理名著精华_small_chunk_6",
+        "公共管理名著精华_large_chunk_15",
+        "市场营销原理_large_chunk_12",
+        "认识管理_small_chunk_48"
+      ],
+      "answer_snippets": [
+        "网络效应",
+        "多边市场",
+        "平台经济",
+        "生态构建"
+      ],
+      "reference_answer": "平台战略是通过构建连接多方参与者的平台，利用网络效应创造价值，核心在于促进参与者之间的交互和交易。",
+      "robustness_variants": [
+        "平台战略是什么",
+        "平台经济"
+      ]
+    },
+    {
+      "query_id": "Q048",
+      "query": "如何进行人才梯队建设",
+      "query_type": "framework",
+      "difficulty": "hard",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "组织行为学"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_small_chunk_69",
+        "10人以下小团队管理手册-堀之内克彦_small_chunk_49",
+        "关键跨越_large_chunk_26",
+        "认识管理_small_chunk_60",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_41"
+      ],
+      "answer_snippets": [
+        "继任计划",
+        "能力模型",
+        "培养路径",
+        "评估选拔"
+      ],
+      "reference_answer": "人才梯队建设：1)建立能力模型和胜任力标准；2)识别高潜人才；3)制定个性化培养路径；4)建立继任计划和评估机制。",
+      "robustness_variants": [
+        "人才梯队",
+        "继任计划"
+      ]
+    },
+    {
+      "query_id": "Q049",
+      "query": "什么是客户旅程地图",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "产品思维30讲"
+      ],
+      "relevant_chunk_ids": [
+        "市场营销原理_small_chunk_188",
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_52",
+        "认识管理_small_chunk_35",
+        "认识管理_small_chunk_62",
+        "认识管理_small_chunk_82"
+      ],
+      "answer_snippets": [
+        "触点",
+        "情感曲线",
+        "痛点",
+        "机会点"
+      ],
+      "reference_answer": "客户旅程地图是可视化工具，描述客户与产品/服务交互的全过程，包括触点、情感变化、痛点和机会点，用于优化用户体验。",
+      "robustness_variants": [
+        "客户旅程",
+        "用户体验地图"
+      ]
+    },
+    {
+      "query_id": "Q050",
+      "query": "如何进行变革阻力管理",
+      "query_type": "framework",
+      "difficulty": "hard",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "组织行为学"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_small_chunk_132",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_0",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_29",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_33",
+        "公共管理名著精华_large_chunk_47"
+      ],
+      "answer_snippets": [
+        "沟通",
+        "参与",
+        "支持",
+        "谈判"
+      ],
+      "reference_answer": "变革阻力管理策略：教育和沟通、参与和卷入、提供支持和资源、谈判和协商、必要时强制推行。",
+      "robustness_variants": [
+        "变革阻力",
+        "管理变革阻力"
+      ]
+    },
+    {
+      "query_id": "Q051",
+      "query": "什么是精益管理",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "精益创业"
+      ],
+      "relevant_chunk_ids": [
+        "认识管理_small_chunk_82",
+        "基业长青_small_chunk_2",
+        "基业长青_large_chunk_25",
+        "关键跨越_small_chunk_37",
+        "公共管理名著精华_small_chunk_104"
+      ],
+      "answer_snippets": [
+        "消除浪费",
+        "持续改进",
+        "价值流",
+        "拉动生产"
+      ],
+      "reference_answer": "精益管理源于丰田生产方式，核心思想是消除一切浪费(过量生产、等待、运输、加工、库存、动作、不良品)，持续改进价值流。",
+      "robustness_variants": [
+        "精益生产",
+        "精益思想"
+      ]
+    },
+    {
+      "query_id": "Q052",
+      "query": "如何进行有效的跨部门协作",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "管理思维"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_small_chunk_67",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+        "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_41",
+        "公共管理名著精华_small_chunk_71",
+        "卓有成效的管理者_small_chunk_42"
+      ],
+      "answer_snippets": [
+        "共同目标",
+        "流程整合",
+        "信息共享",
+        "激励机制"
+      ],
+      "reference_answer": "有效跨部门协作：建立共同目标、整合跨部门流程、建立信息共享机制、设计跨部门协作的激励体系。",
+      "robustness_variants": [
+        "跨部门协作",
+        "部门协同"
+      ]
+    },
+    {
+      "query_id": "Q053",
+      "query": "什么是设计思维",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "产品思维30讲"
+      ],
+      "relevant_chunk_ids": [
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_0",
+        "产品思维30讲-梁宁_small_chunk_27",
+        "市场营销原理_small_chunk_10",
+        "卓有成效的管理者_small_chunk_11",
+        "公共管理名著精华_small_chunk_37"
+      ],
+      "answer_snippets": [
+        "同理心",
+        "定义问题",
+        "创意",
+        "原型",
+        "测试"
+      ],
+      "reference_answer": "设计思维是以人为本的创新方法论，包含五个阶段：同理心(理解用户)、定义问题、创意构思、制作原型、测试验证。",
+      "robustness_variants": [
+        "设计思维是什么",
+        "Design Thinking"
+      ]
+    },
+    {
+      "query_id": "Q054",
+      "query": "如何进行战略解码",
+      "query_type": "framework",
+      "difficulty": "hard",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "竞争战略"
+      ],
+      "relevant_chunk_ids": [
+        "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_27",
+        "公共管理名著精华_small_chunk_6",
+        "公共管理名著精华_large_chunk_61",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_21",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_25"
+      ],
+      "answer_snippets": [
+        "战略地图",
+        "平衡计分卡",
+        "关键举措",
+        "责任分解"
+      ],
+      "reference_answer": "战略解码步骤：1)绘制战略地图(因果逻辑)；2)设定平衡计分卡四维度指标；3)识别关键战略举措；4)分解到部门和个人责任。",
+      "robustness_variants": [
+        "战略落地",
+        "战略执行"
+      ]
+    },
+    {
+      "query_id": "Q055",
+      "query": "什么是情境领导理论",
+      "query_type": "definition",
+      "difficulty": "hard",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "组织行为学"
+      ],
+      "relevant_chunk_ids": [
+        "组织行为学_small_chunk_67",
+        "组织行为学_small_chunk_76",
+        "组织行为学_small_chunk_79",
+        "公共管理名著精华_small_chunk_54",
+        "管理思维：破解管理难题，引爆团队执行力_small_chunk_21"
+      ],
+      "answer_snippets": [
+        "领导风格",
+        "员工成熟度",
+        "指令型",
+        "授权型"
+      ],
+      "reference_answer": "情境领导理论认为没有最佳领导风格，应根据员工成熟度(能力和意愿)灵活调整：指令型(低能力低意愿)、教练型(低能力高意愿)、支持型(高能力低意愿)、授权型(高能力高意愿)。",
+      "robustness_variants": [
+        "情境领导",
+        "权变领导理论"
+      ]
+    },
+    {
+      "query_id": "Q056",
+      "query": "对比OKR和KPI两种绩效管理工具的异同",
+      "query_type": "comparison",
+      "difficulty": "medium",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "OKR工作法",
+        "高效管理的8020法则"
+      ],
+      "relevant_chunk_ids": [],
+      "answer_snippets": [
+        "OKR强调目标对齐和关键结果",
+        "KPI强调量化指标考核",
+        "OKR更灵活",
+        "KPI更刚性"
+      ],
+      "reference_answer": "OKR和KPI的异同：OKR强调目标对齐和关键结果，更灵活适合创新业务；KPI强调量化指标考核，更刚性适合成熟业务。相同点：都是绩效管理工具。不同点：OKR重过程和创新，KPI重结果和考核。",
+      "robustness_variants": [
+        "OKR与KPI区别",
+        "OKR和KPI对比"
+      ]
+    },
+    {
+      "query_id": "Q057",
+      "query": "科学管理理论和人际关系学派的主要区别是什么",
+      "query_type": "comparison",
+      "difficulty": "hard",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "管理思想史",
+        "组织行为学"
+      ],
+      "relevant_chunk_ids": [],
+      "answer_snippets": [
+        "泰勒关注效率",
+        "梅奥关注人的因素",
+        "经济人假设",
+        "社会人假设"
+      ],
+      "reference_answer": "科学管理理论(泰勒)关注作业效率和经济激励，假设人是'经济人'；人际关系学派(梅奥)关注社会因素和员工满意度，假设人是'社会人'。主要区别：对人性的假设不同，管理侧重点不同。",
+      "robustness_variants": [
+        "泰勒和梅奥的区别",
+        "科学管理与人际关系学派对比"
+      ]
+    },
+    {
+      "query_id": "Q058",
+      "query": "领导特质理论和情境领导理论的主要差异",
+      "query_type": "comparison",
+      "difficulty": "medium",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "组织行为学",
+        "认识管理"
+      ],
+      "relevant_chunk_ids": [],
+      "answer_snippets": [
+        "特质理论认为领导者天生",
+        "情境理论认为领导应灵活调整",
+        "领导风格固定",
+        "领导风格可变"
+      ],
+      "reference_answer": "领导特质理论认为领导者具有天生的特质，领导风格相对固定；情境领导理论认为没有最佳领导风格，应根据员工成熟度灵活调整。主要差异：对领导风格可变性的认识不同。",
+      "robustness_variants": [
+        "特质理论和情境理论区别",
+        "领导理论对比"
+      ]
+    },
+    {
+      "query_id": "Q059",
+      "query": "成本领先战略和差异化战略的适用条件有何不同",
+      "query_type": "comparison",
+      "difficulty": "hard",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "竞争战略"
+      ],
+      "relevant_chunk_ids": [],
+      "answer_snippets": [
+        "成本领先适合价格敏感市场",
+        "差异化适合品牌忠诚市场",
+        "规模经济",
+        "独特价值"
+      ],
+      "reference_answer": "成本领先战略适合价格敏感、标准化产品市场，依赖规模经济和成本控制；差异化战略适合品牌忠诚度高、个性化需求市场，依赖独特价值和创新能力。适用条件：市场特征、资源能力和竞争环境不同。",
+      "robustness_variants": [
+        "成本领先vs差异化",
+        "波特竞争战略对比"
+      ]
+    },
+    {
+      "query_id": "Q060",
+      "query": "德鲁克的目标管理和平衡计分卡有什么联系和区别",
+      "query_type": "comparison",
+      "difficulty": "hard",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "认识管理",
+        "竞争战略"
+      ],
+      "relevant_chunk_ids": [],
+      "answer_snippets": [
+        "目标管理强调自我控制",
+        "平衡计分卡强调多维度",
+        "财务指标",
+        "非财务指标"
+      ],
+      "reference_answer": "德鲁克的目标管理(MBO)强调通过目标设定和自我控制实现管理；平衡计分卡(BSC)从财务、客户、内部流程、学习成长四维度评估战略。联系：都强调目标导向。区别：MBO侧重个人目标，BSC侧重战略体系；MBO指标单一，BSC多维度平衡。",
+      "robustness_variants": [
+        "MBO和BSC对比",
+        "目标管理和平衡计分卡区别"
+      ]
+    },
+    {
+      "query_id": "Q061",
+      "query": "传统营销和数字营销在策略上有什么不同",
+      "query_type": "comparison",
+      "difficulty": "medium",
+      "expected_doc_count": 1,
+      "relevant_docs": [
+        "市场营销原理"
+      ],
+      "relevant_chunk_ids": [],
+      "answer_snippets": [
+        "传统营销单向传播",
+        "数字营销互动精准",
+        "4P理论",
+        "数据驱动"
+      ],
+      "reference_answer": "传统营销依赖单向传播(电视、报纸)，强调4P理论，覆盖广但精准度低；数字营销依赖互联网互动，强调数据驱动和精准投放，可实时优化。策略不同：传播方式、目标定位、效果评估均有差异。",
+      "robustness_variants": [
+        "传统营销vs数字营销",
+        "营销策略对比"
+      ]
+    },
+    {
+      "query_id": "Q062",
+      "query": "华为和谷歌的管理文化有何异同",
+      "query_type": "comparison",
+      "difficulty": "hard",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "华为管理法",
+        "OKR工作法"
+      ],
+      "relevant_chunk_ids": [],
+      "answer_snippets": [
+        "华为强调奋斗者文化",
+        "谷歌强调创新自由",
+        "狼性文化",
+        "20%自由时间"
+      ],
+      "reference_answer": "华为管理文化强调奋斗者为本、狼性文化和军事化管理，追求执行力；谷歌管理文化强调创新自由、20%自由时间和扁平化组织，追求创造力。相同点：都追求高绩效。不同点：华为重纪律，谷歌重自由。",
+      "robustness_variants": [
+        "华为和谷歌管理对比",
+        "企业文化对比"
+      ]
+    },
+    {
+      "query_id": "Q063",
+      "query": "精益生产和六西格玛在质量管理上的侧重点有何不同",
+      "query_type": "comparison",
+      "difficulty": "hard",
+      "expected_doc_count": 2,
+      "relevant_docs": [
+        "认识管理",
+        "市场营销原理"
+      ],
+      "relevant_chunk_ids": [],
+      "answer_snippets": [
+        "精益生产强调消除浪费",
+        "六西格玛强调减少变异",
+        "流程优化",
+        "统计方法"
+      ],
+      "reference_answer": "精益生产侧重消除浪费、持续改进流程，追求流动性和效率；六西格玛侧重减少过程变异、降低缺陷率，追求统计质量。质量管理侧重点：精益重流程速度，六西格玛重质量精度。",
+      "robustness_variants": [
+        "精益vs六西格玛",
+        "质量管理方法对比"
+      ]
+    }
+  ]
+}
