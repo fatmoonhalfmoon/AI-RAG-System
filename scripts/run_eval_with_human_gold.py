@@ -9,7 +9,7 @@
 
 用法：
   python scripts/run_eval_with_human_gold.py
-  python scripts/run_eval_with_human_gold.py --dataset eval_data/eval_dataset_human.json
+  python scripts/run_eval_with_human_gold.py --dataset data/eval/eval_dataset_human.json
   python scripts/run_eval_with_human_gold.py --mode strict
 """
 
@@ -25,8 +25,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stderr.reconfigure(encoding='utf-8')
 
-from src.main import RAGPipeline
-from src.eval.metrics import Layer1Metrics, Layer2Metrics, Layer3Metrics, Layer4Metrics
+from src.core.pipeline import RAGPipeline
+from src.evaluation.metrics import Layer1Metrics, Layer2Metrics, Layer3Metrics, Layer4Metrics
 
 
 def load_dataset(dataset_path: str, mode: str = "strict") -> List[Dict]:
@@ -291,7 +291,7 @@ def print_console_report(report: Dict):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="基于人工金标的评估")
-    parser.add_argument("--dataset", type=str, default="eval_data/eval_dataset_human.json",
+    parser.add_argument("--dataset", type=str, default="data/eval/eval_dataset_human.json",
                         help="人工标注后的评估数据集路径")
     parser.add_argument("--mode", type=str, default="strict",
                         choices=["strict", "semi", "loose"],

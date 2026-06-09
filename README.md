@@ -32,7 +32,6 @@
   │  · 正则提取五类问答对：定义/框架/原则/对比/方法步骤
   │  · AI审查修复：多轮质量检查，过滤低质量/残缺/乱码问题
   │  · AI补充生成：基于知识库核心概念补充高质量问答对
-  │  · 输出：62 对高质量 Q&A（覆盖17本管理学著作）
   │
   ▼ Stage 4: 四路混合检索 + 精排
      · 查询扩展：问题类型感知扩展（定义/对比/方法/原因/案例）
@@ -89,23 +88,27 @@ pip install torch --index-url https://download.pytorch.org/whl/cpu
 
 ```
 项目根目录/
-├── vector_store/              ← FAISS 向量缓存（主路径，存储在项目文件夹内）
-│   ├── small/
-│   │   ├── faiss.index        ← 细粒度 FAISS 索引文件
-│   │   ├── metadata.json      ← 细粒度 chunk 元数据
-│   │   └── embeddings_raw.npy ← 细粒度原始向量矩阵
-│   └── large/
-│       ├── faiss.index        ← 粗粒度 FAISS 索引文件
-│       ├── metadata.json      ← 粗粒度 chunk 元数据
-│       └── embeddings_raw.npy ← 粗粒度原始向量矩阵
-├── qa_store/
-│   └── qa_pairs.json          ← Q&A 知识点缓存
+├── data/
+│   ├── vector_store/          ← FAISS 向量缓存（主路径，存储在项目文件夹内）
+│   │   ├── small/
+│   │   │   ├── faiss.index        ← 细粒度 FAISS 索引文件
+│   │   │   ├── metadata.json      ← 细粒度 chunk 元数据
+│   │   │   └── embeddings_raw.npy ← 细粒度原始向量矩阵
+│   │   └── large/
+│   │       ├── faiss.index        ← 粗粒度 FAISS 索引文件
+│   │       ├── metadata.json      ← 粗粒度 chunk 元数据
+│   │       └── embeddings_raw.npy ← 粗粒度原始向量矩阵
+│   ├── qa_store/
+│   │   └── qa_pairs.json          ← Q&A 知识点缓存
+│   ├── eval/
+│   │   └── eval_dataset.json      # 63 题评估集
+│   └── output/                    # 评估结果输出
 └── models/
     ├── BAAI/bge-large-zh-v1___5/  ← BGE 向量模型本地缓存
     └── BAAI/bge-reranker-large/   ← Cross-Encoder 精排模型本地缓存
 ```
 
-- **主路径**：`项目根目录/vector_store/`（推荐，默认使用）
+- **主路径**：`项目根目录/data/vector_store/`（推荐，默认使用）
 - **备用路径**：`系统临时目录/rag_faiss/`（仅在主路径写入失败时回退）
 - **缓存内容**：FAISS 索引 + chunk 元数据 + 原始向量矩阵，均为当前方案（BGE-large-zh-v1.5 + FAISS + 双粒度切分 + 向量清洗筛选）的产物
 - **缓存与方案对应**：当前缓存即为最终方案缓存，包含向量去重和质量筛选后的结果，可直接复用
@@ -113,7 +116,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cpu
 ### 缓存加载逻辑
 
 ```
-启动 → 检测 vector_store/small/ 和 vector_store/large/ 是否存在
+启动 → 检测 data/vector_store/small/ 和 data/vector_store/large/ 是否存在
   ├─ 存在 → 直接加载缓存（~30秒），跳过向量化
   └─ 不存在 → 执行完整七阶段管道（~50分钟），构建后自动保存缓存
 ```
@@ -122,58 +125,71 @@ pip install torch --index-url https://download.pytorch.org/whl/cpu
 
 ```bash
 # 首次运行：构建知识库（CPU 约 40-50 分钟，完成后自动保存缓存）
-python312\python.exe -m src.main
+python312\python.exe -m src.core.pipeline
 
 # 后续运行：自动加载缓存（约 30 秒，不会重复向量化）
-python312\python.exe -m src.main
+python312\python.exe -m src.core.pipeline
 
 # Quick 模式评估（同样自动复用缓存）
-python312\python.exe src\eval_quick.py
+python312\python.exe src\evaluation\eval_quick.py
 
 # Full 模式评估（含鲁棒性测试）
-python312\python.exe src\eval_full.py
+python312\python.exe src\evaluation\eval_full.py
 
 # 强制重建缓存（仅在需要重新向量化时使用）
-python312\python.exe src\eval_quick.py --force-rebuild
+python312\python.exe src\evaluation\eval_quick.py --force-rebuild
 ```
 
 ## 项目结构
 
 ```
-├── knowledge_base/       # 原始知识库文档（16 份管理学著作）
-├── models/               # 模型本地缓存
+├── data/
+│   ├── knowledge_base/       # 原始知识库文档（16 份管理学著作）
+│   ├── vector_store/         # FAISS 向量缓存（自动生成）
+│   │   ├── small/            # 细粒度向量索引
+│   │   └── large/            # 粗粒度向量索引
+│   ├── qa_store/             # Q&A 知识点存储
+│   │   └── qa_pairs.json     # 62 对高质量问答对（AI审查+补充生成）
+│   ├── eval/                 # 评估数据集
+│   │   └── eval_dataset.json # 63 题评估集
+│   └── output/               # 评估结果输出
+├── models/                   # 模型本地缓存
 │   ├── BAAI/bge-large-zh-v1___5/    # BGE 向量模型
 │   └── BAAI/bge-reranker-large/     # Cross-Encoder 精排模型
-├── vector_store/         # FAISS 向量缓存（自动生成）
-│   ├── small/            # 细粒度向量索引
-│   └── large/            # 粗粒度向量索引
-├── qa_store/             # Q&A 知识点存储
-│   └── qa_pairs.json     # 62 对高质量问答对（AI审查+补充生成）
-├── eval_data/            # 评估数据集
-│   └── eval_dataset.json # 63 题评估集
-├── output/               # 评估结果输出
 ├── src/
-│   ├── config.py         # 全局参数配置
-│   ├── text_splitter.py  # 数据清洗 + 文本切分 + chunk 质量过滤
-│   ├── embedding.py      # BGE-large-zh-v1.5 向量化
-│   ├── vector_store.py   # FAISS 向量存储 + 向量去重 + 质量筛选
-│   ├── retriever.py      # 四路混合检索 + RRF + MMR + Cross-Encoder精排
-│   ├── qa_extractor.py   # Q&A 知识点提取
-│   ├── formatter.py      # 结果格式化 + 来源标注
-│   ├── main.py           # 七阶段管道主入口
-│   ├── eval_quick.py     # Quick 模式评估入口
-│   ├── eval_full.py      # Full 模式评估入口
-│   ├── utils/
-│   │   ├── constants.py  # 统一常量（STOP_WORDS, QUESTION_TYPE_PATTERNS）
-│   │   └── logger.py     # 统一日志系统
-│   └── eval/
-│       ├── dataset.py    # 评估数据集加载
-│       ├── metrics.py    # 四层指标计算
-│       ├── built_in_ai_judge.py  # 内置 AI 评估
-│       └── reporter.py   # 报告生成
-├── 作业要求/             # 作业原始要求
-├── 错误日志.md           # 错误记录与优化记录
-├── 评估方案.md           # 评估方案文档
+│   ├── core/
+│   │   ├── config.py         # 全局参数配置
+│   │   └── pipeline.py       # 七阶段管道主入口
+│   ├── indexing/
+│   │   ├── text_splitter.py  # 数据清洗 + 文本切分 + chunk 质量过滤
+│   │   ├── embedding.py      # BGE-large-zh-v1.5 向量化
+│   │   ├── vector_store.py   # FAISS 向量存储 + 向量去重 + 质量筛选
+│   │   └── qa_extractor.py   # Q&A 知识点提取
+│   ├── retrieval/
+│   │   ├── retriever.py      # 四路混合检索 + RRF + MMR + Cross-Encoder精排
+│   │   └── formatter.py      # 结果格式化 + 来源标注
+│   ├── evaluation/
+│   │   ├── eval_quick.py     # Quick 模式评估入口
+│   │   ├── eval_full.py      # Full 模式评估入口
+│   │   ├── dataset.py        # 评估数据集加载
+│   │   ├── metrics.py        # 四层指标计算
+│   │   ├── built_in_ai_judge.py  # 内置 AI 评估
+│   │   └── reporter.py       # 报告生成
+│   └── utils/
+│       ├── constants.py      # 统一常量（STOP_WORDS, QUESTION_TYPE_PATTERNS）
+│       ├── logger.py         # 统一日志系统
+│       └── text_processing.py # 文本处理工具
+├── scripts/
+│   ├── generate_qa_from_kb.py          # 从知识库生成 QA 对
+│   ├── generate_pool_for_annotation.py # Pooling 候选池生成
+│   ├── import_annotations.py           # 人工标注导入
+│   ├── run_eval_with_human_gold.py     # 基于人工金标的评估
+│   └── check_dataset_consistency.py    # 数据一致性校验
+├── docs/                     # 文档
+├── 作业要求/                 # 作业原始要求
+├── 错误日志.md               # 错误记录与优化记录
+├── 评估方案.md               # 评估方案文档
+├── requirements.txt
 └── README.md
 ```
 
@@ -200,7 +216,7 @@ python312\python.exe src\eval_quick.py --force-rebuild
 | 多文档横向对比 | 跨文档问题检索 | ✅ | 四路检索天然跨文档，10 道 comparison 题评估 |
 | 控制变量分析 | 对比不同参数影响 | ✅ | 评估框架支持，具体实验由下游完成 |
 
-## 关键参数（config.py）
+## 关键参数（src/core/config.py）
 
 | 参数 | 值 | 说明 |
 |------|------|------|
@@ -229,7 +245,7 @@ python312\python.exe src\eval_quick.py --force-rebuild
 
 在 RRF 融合 + MMR 重排之后，可选使用 `BAAI/bge-reranker-large` 对候选结果进行二次精排。Cross-Encoder 将查询和文档拼接输入模型，计算精确相关性分数，比单纯向量相似度更准确。
 
-> **注意**：Cross-Encoder 在 CPU 上运行极慢（63题评估约需1-2小时），因此默认关闭。如有 GPU 环境可在 `config.py` 中设置 `USE_CROSS_ENCODER = True` 开启。
+> **注意**：Cross-Encoder 在 CPU 上运行极慢（63题评估约需1-2小时），因此默认关闭。如有 GPU 环境可在 `src/core/config.py` 中设置 `USE_CROSS_ENCODER = True` 开启。
 
 ```
 检索管道：查询 → 四路检索 → RRF融合 → MMR重排 → [Cross-Encoder精排] → 最终结果

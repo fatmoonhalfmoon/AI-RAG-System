@@ -12,17 +12,17 @@ import shutil
 import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.text_splitter import ChineseTextSplitter, load_knowledge_base
-from src.config import KNOWLEDGE_BASE_DIR
-from src.qa_extractor import QAExtractor
-from src.config import QA_STORE_DIR
+from src.indexing.text_splitter import ChineseTextSplitter, load_knowledge_base
+from src.core.config import KNOWLEDGE_BASE_DIR
+from src.indexing.qa_extractor import QAExtractor
+from src.core.config import QA_STORE_DIR
 
 
 def main():
     print("加载知识库并生成 QA 对...")
     documents = load_knowledge_base(KNOWLEDGE_BASE_DIR)
     if not documents:
-        print("未找到知识库文档。请检查 knowledge_base/ 目录。")
+        print("未找到知识库文档。请检查 data/knowledge_base/ 目录。")
         return
 
     splitter = ChineseTextSplitter.create_small_splitter()

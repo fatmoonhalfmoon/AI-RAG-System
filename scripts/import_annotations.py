@@ -11,8 +11,8 @@
   - 同时生成一份标注质量报告
 
 用法：
-  python scripts/import_annotations.py --csv eval_data/annotation_pool.csv
-  python scripts/import_annotations.py --csv eval_data/annotation_pool.csv --output eval_data/eval_dataset_human.json
+  python scripts/import_annotations.py --csv data/eval/annotation_pool.csv
+  python scripts/import_annotations.py --csv data/eval/annotation_pool.csv --output data/eval/eval_dataset_human.json
 """
 
 import sys
@@ -208,7 +208,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="人工标注导入 — 更新评估数据集金标")
     parser.add_argument("--csv", type=str, default="eval_data/annotation_pool.csv",
                         help="人工标注完成的 CSV 文件路径")
-    parser.add_argument("--dataset", type=str, default="eval_data/eval_dataset.json",
+    parser.add_argument("--dataset", type=str, default="data/eval/eval_dataset.json",
                         help="原始评估数据集路径")
     parser.add_argument("--output", type=str, default=None,
                         help="输出数据集路径（默认: eval_data/eval_dataset_human.json）")

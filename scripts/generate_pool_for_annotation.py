@@ -27,9 +27,9 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stderr.reconfigure(encoding='utf-8')
 
-from src.main import RAGPipeline
-from src.retriever import BM25Retriever
-from src.config import DENSE_TOP_K, BM25_TOP_K, QA_TOP_K
+from src.core.pipeline import RAGPipeline
+from src.retrieval.retriever import BM25Retriever
+from src.core.config import DENSE_TOP_K, BM25_TOP_K, QA_TOP_K
 
 
 def build_chunk_lookup(pipeline: RAGPipeline) -> dict:
@@ -265,7 +265,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Pooling 候选池生成 — 多系统检索 + 导出人工标注")
     parser.add_argument("--dataset", type=str, default="eval_data/eval_dataset.json",
                         help="评估数据集路径")
-    parser.add_argument("--output", type=str, default="eval_data/annotation_pool.csv",
+    parser.add_argument("--output", type=str, default="data/eval/annotation_pool.csv",
                         help="输出 CSV 路径")
     parser.add_argument("--top-k", type=int, default=20,
                         help="每路检索返回的 top-K 数量（默认20）")

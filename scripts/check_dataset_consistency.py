@@ -44,7 +44,7 @@ def check_consistency(dataset_path: str):
     known_chunk_ids = set()
     known_doc_names = set()
 
-    vector_store_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "vector_store")
+    vector_store_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "vector_store")
     for size in ["small", "large"]:
         meta_path = os.path.join(vector_store_dir, size, "metadata.json")
         if os.path.exists(meta_path):
@@ -153,7 +153,7 @@ def check_consistency(dataset_path: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="评估数据集一致性校验")
-    parser.add_argument("--dataset", type=str, default="eval_data/eval_dataset.json",
+    parser.add_argument("--dataset", type=str, default="data/eval/eval_dataset.json",
                         help="评估数据集路径")
     args = parser.parse_args()
 
