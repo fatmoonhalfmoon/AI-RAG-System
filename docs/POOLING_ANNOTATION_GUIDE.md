@@ -22,8 +22,8 @@ python scripts/generate_pool_for_annotation.py
 
 | 参数 | 默认值 | 说明 |
 |------|--------|------|
-| `--dataset` | `eval_data/eval_dataset.json` | 评估数据集路径 |
-| `--output` | `eval_data/annotation_pool.csv` | 输出 CSV 路径 |
+| `--dataset` | `data/eval/eval_dataset.json` | 评估数据集路径 |
+| `--output` | `data/eval/annotation_pool.csv` | 输出 CSV 路径 |
 | `--top-k` | `20` | 每路检索返回 top-K 数量 |
 
 ### 它做了什么
@@ -39,8 +39,8 @@ python scripts/generate_pool_for_annotation.py
 
 ### 输出文件
 
-- `eval_data/annotation_pool.csv` — 候选池，**你需要标注这个文件**
-- `eval_data/annotation_pool_stats.json` — 统计信息
+- `eval/eval/annotation_pool.csv` — 候选池，**你需要标注这个文件**
+- `eval/eval/annotation_pool_stats.json` — 统计信息
 
 ### 预计耗时
 
@@ -52,7 +52,7 @@ python scripts/generate_pool_for_annotation.py
 
 ### 打开文件
 
-用 Excel 或 WPS 打开 `eval_data/annotation_pool.csv`
+用 Excel 或 WPS 打开 `eval_evat/annotation_pool.csv`
 
 ### CSV 列说明
 
@@ -132,10 +132,10 @@ content_preview: "高瞻远瞩公司能够持续成功的根本原因..."
 ### 3a. 导入人工标注
 
 ```bash
-python scripts/import_annotations.py --csv eval_data/annotation_pool.csv
+python scripts/import_annotations.py --csv data/eval/annotation_pool.csv
 ```
 
-这会生成 `eval_data/eval_dataset_human.json`，其中：
+这会生成 `data/eval/eval_dataset_human.json`，其中：
 - `is_relevant=1` 的 chunk 成为新的金标
 - `gold_source` 被设为 `"human"`
 - 原始数据集不变
@@ -144,15 +144,15 @@ python scripts/import_annotations.py --csv eval_data/annotation_pool.csv
 
 ```bash
 # 严格模式：只用人工金标的题评估
-python scripts/run_eval_with_human_gold.py --dataset eval_data/eval_dataset_human.json --mode strict
+python scripts/run_eval_with_human_gold.py --dataset data/eval/eval_dataset_human.json --mode strict
 
 # 半严格模式：全部题都评估，但标记非人工金标的可信度
-python scripts/run_eval_with_human_gold.py --dataset eval_data/eval_dataset_human.json --mode semi
+python scripts/run_eval_with_human_gold.py --dataset data/eval/eval_dataset_human.json --mode semi
 ```
 
 ### 3c. 查看报告
 
-评估报告保存在 `output/eval_human_gold_strict_report.json`
+评估报告保存在 `data/output/eval_human_gold_strict_report.json`
 
 ---
 
@@ -161,7 +161,7 @@ python scripts/run_eval_with_human_gold.py --dataset eval_data/eval_dataset_huma
 ### 数据一致性校验
 
 ```bash
-python scripts/check_dataset_consistency.py --dataset eval_data/eval_dataset.json
+python scripts/check_dataset_consistency.py --dataset data/eval/eval_dataset.json
 ```
 
 检查金标来源分布、chunk_id 是否存在、文档名是否匹配等。
@@ -184,9 +184,9 @@ python src/eval_full.py
 | `scripts/import_annotations.py` | 导入人工标注结果 |
 | `scripts/run_eval_with_human_gold.py` | 基于人工金标的评估 |
 | `scripts/check_dataset_consistency.py` | 数据一致性校验 |
-| `eval_data/annotation_pool.csv` | 候选池（你标注这个） |
-| `eval_data/eval_dataset_human.json` | 人工标注后的数据集 |
-| `output/eval_human_gold_strict_report.json` | 评估报告 |
+| `data/eval/annotation_pool.csv` | 候选池（你标注这个） |
+| `data/eval/eval_dataset_human.json` | 人工标注后的数据集 |
+| `data/output/eval_human_gold_strict_report.json` | 评估报告 |
 
 ---
 

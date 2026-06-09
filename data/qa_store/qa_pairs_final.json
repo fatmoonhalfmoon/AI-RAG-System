@@ -1,0 +1,303 @@
+[
+  {
+    "question": "公司里的问题大致可以包含哪些内容？",
+    "answer": "两种：一种是以结果的形式出现的，另一种是以原因的形式出现的",
+    "qa_type": "framework",
+    "source_doc": "10人以下小团队管理手册-堀之内克彦",
+    "chapter": "10 人以下小团队管理手册",
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_12",
+    "refine_flag": false
+  },
+  {
+    "question": "主管的工作大体包含哪些内容？",
+    "answer": "“业务管理”和“员工管理”（即对工作本身的管理和对人的管理）两大部分，具体还可以细分为“制定方针”“ 推进业务”“ 掌控下属”和“协助领导”等四项内容",
+    "qa_type": "framework",
+    "source_doc": "10人以下小团队管理手册-堀之内克彦",
+    "chapter": "10 人以下小团队管理手册",
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_15",
+    "refine_flag": false
+  },
+  {
+    "question": "什么是判断？",
+    "answer": "在能够分析信息、充分掌握情况的来龙去脉的基础上做出决定",
+    "qa_type": "definition",
+    "source_doc": "10人以下小团队管理手册-堀之内克彦",
+    "chapter": "10 人以下小团队管理手册",
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_39",
+    "refine_flag": false
+  },
+  {
+    "question": "什么是·团队利益为先？",
+    "answer": "你要为团队和公司着想，把个人利益放在团队之后",
+    "qa_type": "definition",
+    "source_doc": "关键跨越",
+    "chapter": "第4章　信任的基石：承担管理责任",
+    "chunk_id": "关键跨越_small_chunk_17",
+    "refine_flag": false
+  },
+  {
+    "question": "管理者带领团队进行的复盘可以包含哪些内容？",
+    "answer": "两类：一类是仪式感比较强的专项复盘，例如战略客户的竞标经验总结、重要项目结项后的专题讨论、专项技术成果的回顾分享等",
+    "qa_type": "framework",
+    "source_doc": "关键跨越",
+    "chapter": "第12章　VUCA时代需要敏捷执行",
+    "chunk_id": "关键跨越_small_chunk_38",
+    "refine_flag": false
+  },
+  {
+    "question": "专项复盘包含哪些内容？",
+    "answer": "还原事实、分析问题根因、制订行动计划“三部曲”",
+    "qa_type": "framework",
+    "source_doc": "关键跨越",
+    "chapter": "第13章　复盘让管理实现闭环",
+    "chunk_id": "关键跨越_small_chunk_40",
+    "refine_flag": false
+  },
+  {
+    "question": "什么是社会责任不？",
+    "answer": "以天下为己任，不是指“先天下之忧而忧，后天下之乐而乐”这种社会责任，我们说的社会责任是在企业内部，优秀的员工对组织目标的强烈责任心和使命感，大于个人成就感",
+    "qa_type": "definition",
+    "source_doc": "华为管理法任正非的企业管理心得",
+    "chapter": "第三章",
+    "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_21",
+    "refine_flag": false
+  },
+  {
+    "question": "什么是果3M把其？",
+    "answer": "矿业或砂纸，那么3M就不会有今天，我们也不会有方便之至的如意贴",
+    "qa_type": "definition",
+    "source_doc": "基业长青",
+    "chapter": "8 自家长成的经理人",
+    "chunk_id": "基业长青_small_chunk_81",
+    "refine_flag": false
+  },
+  {
+    "question": "什么是制定竞争战略？",
+    "answer": "将企业放在环境里分析",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "第一部分 基本分析技巧",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_7",
+    "refine_flag": false,
+    "note": "source_doc_not_found"
+  },
+  {
+    "question": "什么是规模经济？",
+    "answer": "当生产周期中的绝对产量提升时，产品单位成本得到下降（或者生产产品的运营成本或职能部门的运营成本下降）",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "01 行业的结构化分析",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_12",
+    "refine_flag": false,
+    "note": "source_doc_not_found"
+  },
+  {
+    "question": "什么是转换成本？",
+    "answer": "买方从某个供应商转到另一个供应商处购买产品所需要一次性承担的成本",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "01 行业的结构化分析",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_17",
+    "refine_flag": false,
+    "note": "source_doc_not_found"
+  },
+  {
+    "question": "竞争对手分析的过程包含包含哪些要点/部分？",
+    "answer": "1. 四大分析要素（详见图3–；2. ：未来目标、当前战略、假设和能力",
+    "qa_type": "enumeration",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "03 竞争对手分析框架",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_29",
+    "refine_flag": false,
+    "note": "source_doc_not_found"
+  },
+  {
+    "question": "什么是盲点？",
+    "answer": "竞争企业忽略的重要事件（比如战略举措）、错误的认识或者没能及时意识到的情况等",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "03 竞争对手分析框架",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_43",
+    "refine_flag": false,
+    "note": "source_doc_not_found"
+  },
+  {
+    "question": "什么是成长中的行业？",
+    "answer": "其总规模在增长的行业",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "03 竞争对手分析框架",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_59",
+    "refine_flag": false,
+    "note": "source_doc_not_found"
+  },
+  {
+    "question": "什么是地监管？",
+    "answer": "强迫企业遵守本地化规定，要求企业屈尊融入当地的政治氛围",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "09 分散型行业的竞争战略",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_83",
+    "refine_flag": false,
+    "note": "source_doc_not_found"
+  },
+  {
+    "question": "什么是些分销商将自己？",
+    "answer": "“金属服务中心”，完成简单的制造操作，为客户提供大量的建议，而这些服务以往不可能被客户享有",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "09 分散型行业的竞争战略",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_94",
+    "refine_flag": false,
+    "note": "source_doc_not_found"
+  },
+  {
+    "question": "什么是新兴行业？",
+    "answer": "由技术创新、相对成本关系、新的消费者需求或者其他有可能催生新产品或者服务商机的经济和社会变革推动的新成立或者重生的行业",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "09 分散型行业的竞争战略",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_103",
+    "refine_flag": false,
+    "note": "source_doc_not_found"
+  },
+  {
+    "question": "什么是垂直一体化？",
+    "answer": "将技术要求完全不同的生产、分销、销售或其他经济活动综合起来，在一个企业的控制范围内实现的过程",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "14 垂直一体化的战略分析",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_119",
+    "refine_flag": false,
+    "note": "source_doc_not_found"
+  },
+  {
+    "question": "什么是准一体化？",
+    "answer": "利用债务或者股权投资等方式在垂直相关的企业之间建立联盟，而无须全权所有",
+    "qa_type": "definition",
+    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
+    "chapter": "14 垂直一体化的战略分析",
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_120",
+    "refine_flag": false,
+    "note": "source_doc_not_found"
+  },
+  {
+    "question": "什么是工作或个人生活中取得了非凡成就或生活？",
+    "answer": "“回报”和“振奋人心”的人非常清楚：对他们来说，什么是重要的事情，以及这些事为什么是重要的，他们通过努力会实现什么价值",
+    "qa_type": "definition",
+    "source_doc": "管理思维：破解管理难题，引爆团队执行力",
+    "chapter": "第一章",
+    "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_5",
+    "refine_flag": false
+  },
+  {
+    "question": "什么是具体？",
+    "answer": "美国的企业和公共服务机构",
+    "qa_type": "definition",
+    "source_doc": "认识管理",
+    "chapter": "第39章　管理组织的结论",
+    "chunk_id": "认识管理_small_chunk_14",
+    "refine_flag": false
+  },
+  {
+    "question": "什么是强调科学管理？",
+    "answer": "一场思想革命，主张以科学取代经验，效率与人性统一，劳资合作共创利润，代表作有《科学管理原理》（The Principles of Scientific Management）",
+    "qa_type": "definition",
+    "source_doc": "认识管理",
+    "chapter": "第1章　导论：管理和管理者",
+    "chunk_id": "认识管理_small_chunk_17",
+    "refine_flag": false
+  },
+  {
+    "question": "管理工商企业或公共服务机构和管理自己的财产有什么区别？",
+    "answer": "也不同于经营一家小诊所或个人律所",
+    "qa_type": "comparison",
+    "source_doc": "认识管理",
+    "chapter": "第1章　导论：管理和管理者",
+    "chunk_id": "认识管理_small_chunk_17",
+    "refine_flag": false
+  },
+  {
+    "question": "什么是管理者被？",
+    "answer": "“对他人的工作负有责任”之人",
+    "qa_type": "definition",
+    "source_doc": "认识管理",
+    "chapter": "第1章　导论：管理和管理者",
+    "chunk_id": "认识管理_small_chunk_21",
+    "refine_flag": false
+  },
+  {
+    "question": "什么是传统上把管理者？",
+    "answer": "对他人的工作负有责任之人，强调的是次要的而不是主要的特征",
+    "qa_type": "definition",
+    "source_doc": "认识管理",
+    "chapter": "第1章　导论：管理和管理者",
+    "chunk_id": "认识管理_small_chunk_24",
+    "refine_flag": false
+  },
+  {
+    "question": "管理者被包含哪些内容？",
+    "answer": "两个群体，导致做自己的工作之人，相比对他人的工作负有责任之人具有明显的劣势，强调的重点仍是权力和权威，而不是责任和贡献",
+    "qa_type": "framework",
+    "source_doc": "认识管理",
+    "chapter": "第1章　导论：管理和管理者",
+    "chunk_id": "认识管理_small_chunk_24",
+    "refine_flag": false
+  },
+  {
+    "question": "区别很可能在于工作和娱乐有什么区别？",
+    "answer": "是一种非人格化的客观活动",
+    "qa_type": "comparison",
+    "source_doc": "认识管理",
+    "chapter": "第13章　新现实",
+    "chunk_id": "认识管理_small_chunk_69",
+    "refine_flag": false
+  },
+  {
+    "question": "什么是智人[1]并不能完全被？",
+    "answer": "工具制造者，但作为一种系统性的、目的明确的、组织化的工作方法，制造工具是独特的人类活动",
+    "qa_type": "definition",
+    "source_doc": "认识管理",
+    "chapter": "第14章　工作、做工与员工",
+    "chunk_id": "认识管理_small_chunk_71",
+    "refine_flag": false
+  },
+  {
+    "question": "6.三种不同类型的工作包括包含哪些要点/部分？",
+    "answer": "8.大规模生产系统中，生产过程的哪些部分实现了标准化？",
+    "qa_type": "enumeration",
+    "source_doc": "认识管理",
+    "chapter": "第34章　结构与战略",
+    "chunk_id": "认识管理_small_chunk_162",
+    "refine_flag": false,
+    "note": "answer_replaced_from_kb"
+  },
+  {
+    "question": "18.组织的病症包括包含哪些要点/部分？",
+    "answer": "8.大规模生产系统中，生产过程的哪些部分实现了标准化？",
+    "qa_type": "enumeration",
+    "source_doc": "认识管理",
+    "chapter": "第34章　结构与战略",
+    "chunk_id": "认识管理_small_chunk_163",
+    "refine_flag": false,
+    "note": "answer_replaced_from_kb"
+  },
+  {
+    "question": "1911年标准石油公司被拆包含哪些内容？",
+    "answer": "34家公司，该公司为其中之一，1999年与美孚石油公司合并为埃克森美孚石油公司",
+    "qa_type": "framework",
+    "source_doc": "认识管理",
+    "chapter": "第37章　创新型组织",
+    "chunk_id": "认识管理_small_chunk_179",
+    "refine_flag": false
+  },
+  {
+    "question": "企业被划包含哪些内容？",
+    "answer": "若干部分，每个部分都为一定的成本负责",
+    "qa_type": "framework",
+    "source_doc": "认识管理",
+    "chapter": "第七部分",
+    "chunk_id": "认识管理_small_chunk_192",
+    "refine_flag": false
+  }
+]

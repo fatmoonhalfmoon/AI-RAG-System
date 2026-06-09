@@ -1,7 +1,7 @@
 """
 人工标注导入脚本
 ================
-读取人工标注完成的 CSV，更新 eval_dataset.json 中的金标。
+读取人工标注完成的 CSV，更新 data/eval/eval_dataset.json 中的金标。
 
 核心逻辑：
   - 读取 CSV 中 is_relevant 列的人工标注结果
@@ -211,7 +211,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset", type=str, default="data/eval/eval_dataset.json",
                         help="原始评估数据集路径")
     parser.add_argument("--output", type=str, default=None,
-                        help="输出数据集路径（默认: eval_data/eval_dataset_human.json）")
+                        help="输出数据集路径（默认: data/eval/eval_dataset_human.json）")
     args = parser.parse_args()
 
     if args.output is None:
