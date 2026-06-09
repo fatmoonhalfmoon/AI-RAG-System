@@ -1,8 +1,7 @@
-import jieba
 import numpy as np
 from typing import List, Dict
 
-from src.utils.constants import STOP_WORDS
+from src.utils.text_processing import tokenize, normalize_text, token_set
 
 
 def _normalize_doc_name(name: str) -> str:
@@ -60,6 +59,10 @@ class Layer1Metrics:
         return hits / len(results) if results else 0.0
 
 
+def _extract_core_terms(text: str) -> List[str]:
+    return tokenize(text)
+
+
 class Layer2Metrics:
     @staticmethod
     def snippet_coverage(retrieved_text: str, answer_snippets: List[str]) -> float:
@@ -67,23 +70,22 @@ class Layer2Metrics:
             return 1.0
         hits = 0
         for snippet in answer_snippets:
-            core_terms = [
-                w for w in jieba.cut(snippet)
-                if len(w) >= 2 and w not in STOP_WORDS
-            ]
+            core_terms = _extract_core_terms(snippet)
             if not core_terms:
                 continue
             matched = sum(1 for t in core_terms if t in retrieved_text)
             n = len(core_terms)
-            # 混合匹配策略：根据core_terms数量动态调整阈值
-            # 避免1-2个core_terms时全有全无的极端情况
+            if matched == 0:
+                continue
             if n == 1:
-                threshold = 1.0  # 1个词必须完全匹配
+                threshold = 1.0
             elif n == 2:
-                threshold = 0.5  # 2个词匹配1个即算命中
+                threshold = 1.0
+            elif n == 3:
+                threshold = 2 / 3
             else:
-                threshold = 0.6  # 3个及以上词保持60%阈值
-            if matched / n >= threshold:
+                threshold = 0.6
+            if matched >= 2 and matched / n >= threshold:
                 hits += 1
         return hits / len(answer_snippets)
 
@@ -156,13 +158,11 @@ class Layer3Metrics:
 class Layer4Metrics:
     @staticmethod
     def keyword_completeness(merged_context: str, reference_answer: str) -> float:
-        ref_keywords = set(
-            w for w in jieba.cut(reference_answer)
-            if len(w) >= 2 and w not in STOP_WORDS
-        )
+        ref_keywords = set(tokenize(reference_answer))
         if not ref_keywords:
             return 0.0
-        hits = sum(1 for kw in ref_keywords if kw in merged_context)
+        ctx_tokens = token_set(merged_context)
+        hits = sum(1 for kw in ref_keywords if kw in ctx_tokens)
         return hits / len(ref_keywords)
 
     @staticmethod

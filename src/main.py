@@ -1,7 +1,6 @@
 import os
 import sys
 import time
-import tempfile
 from typing import List, Dict
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -169,15 +168,9 @@ class RAGPipeline:
         small_meta = os.path.join(VECTOR_STORE_DIR, "small", "metadata.json")
         large_index = os.path.join(VECTOR_STORE_DIR, "large", "faiss.index")
         large_meta = os.path.join(VECTOR_STORE_DIR, "large", "metadata.json")
-        alt_small_index = os.path.join(tempfile.gettempdir(), "rag_faiss", "small", "faiss.index")
-        alt_small_meta = os.path.join(tempfile.gettempdir(), "rag_faiss", "small", "metadata.json")
-        alt_large_index = os.path.join(tempfile.gettempdir(), "rag_faiss", "large", "faiss.index")
-        alt_large_meta = os.path.join(tempfile.gettempdir(), "rag_faiss", "large", "metadata.json")
 
-        small_ok = (os.path.exists(small_index) and os.path.exists(small_meta)) or \
-                   (os.path.exists(alt_small_index) and os.path.exists(alt_small_meta))
-        large_ok = (os.path.exists(large_index) and os.path.exists(large_meta)) or \
-                   (os.path.exists(alt_large_index) and os.path.exists(alt_large_meta))
+        small_ok = os.path.exists(small_index) and os.path.exists(small_meta)
+        large_ok = os.path.exists(large_index) and os.path.exists(large_meta)
         return small_ok and large_ok
 
     def _load_from_cache(self):

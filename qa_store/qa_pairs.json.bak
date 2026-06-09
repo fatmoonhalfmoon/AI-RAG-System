@@ -5,10 +5,7 @@
     "qa_type": "definition",
     "source_doc": "10人以下小团队管理手册-堀之内克彦",
     "chapter": "10 人以下小团队管理手册",
-    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_6",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161833Z"
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_6"
   },
   {
     "question": "公司里的问题大致可以包含哪些内容？",
@@ -16,10 +13,7 @@
     "qa_type": "framework",
     "source_doc": "10人以下小团队管理手册-堀之内克彦",
     "chapter": "10 人以下小团队管理手册",
-    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_12",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161868Z"
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_12"
   },
   {
     "question": "主管的工作大体包含哪些内容？",
@@ -27,10 +21,7 @@
     "qa_type": "framework",
     "source_doc": "10人以下小团队管理手册-堀之内克彦",
     "chapter": "10 人以下小团队管理手册",
-    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_15",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161880Z"
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_15"
   },
   {
     "question": "什么是判断？",
@@ -38,21 +29,7 @@
     "qa_type": "definition",
     "source_doc": "10人以下小团队管理手册-堀之内克彦",
     "chapter": "10 人以下小团队管理手册",
-    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_39",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161888Z"
-  },
-  {
-    "question": "◆人的性格可以分包含哪些要点/部分？",
-    "answer": "1. 四类；2. 根据 FFS 理论，可以把人的性格进一步分成四种类型，接下来介绍每种类型的特点",
-    "qa_type": "enumeration",
-    "source_doc": "10人以下小团队管理手册-堀之内克彦",
-    "chapter": "10 人以下小团队管理手册",
-    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_47",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161896Z"
+    "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_39"
   },
   {
     "question": "什么是继续解释：“OKR的O？",
@@ -60,10 +37,7 @@
     "qa_type": "definition",
     "source_doc": "OKR工作法谷歌、领英等公司的高绩效秘籍",
     "chapter": "第一章",
-    "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_12",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161904Z"
+    "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_12"
   },
   {
     "question": "什么是生物性情绪？",
@@ -71,10 +45,7 @@
     "qa_type": "definition",
     "source_doc": "产品思维30讲-梁宁",
     "chapter": "03 同理心训练：怎样理解愉悦与不爽",
-    "chunk_id": "产品思维30讲-梁宁_small_chunk_8",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161912Z"
+    "chunk_id": "产品思维30讲-梁宁_small_chunk_8"
   },
   {
     "question": "什么是场景？",
@@ -82,10 +53,7 @@
     "qa_type": "definition",
     "source_doc": "产品思维30讲-梁宁",
     "chapter": "09 机会判断：怎样找到有势能的趋势",
-    "chunk_id": "产品思维30讲-梁宁_small_chunk_25",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161920Z"
+    "chunk_id": "产品思维30讲-梁宁_small_chunk_25"
   },
   {
     "question": "什么是谓教学的？",
@@ -93,10 +61,7 @@
     "qa_type": "definition",
     "source_doc": "公共管理名著精华",
     "chapter": "第16章 书写案例草稿",
-    "chunk_id": "公共管理名著精华_small_chunk_23",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161928Z"
+    "chunk_id": "公共管理名著精华_small_chunk_18"
   },
   {
     "question": "书共包含哪些内容？",
@@ -104,21 +69,15 @@
     "qa_type": "framework",
     "source_doc": "公共管理名著精华",
     "chapter": "第12章 结论",
-    "chunk_id": "公共管理名著精华_small_chunk_52",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161935Z"
+    "chunk_id": "公共管理名著精华_small_chunk_44"
   },
   {
     "question": "内容包含哪些内容？",
     "answer": "测量与 数据收集、政策研究中的计算机应用、回归分析、成本效益分析以及政策研究与公 共组织等",
     "qa_type": "framework",
     "source_doc": "公共管理名著精华",
-    "chapter": "第1章",
-    "chunk_id": "公共管理名著精华_small_chunk_61",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161943Z"
+    "chapter": "第16章 伦理与公共行政的关系：互相冲突的伦理义务的概念",
+    "chunk_id": "公共管理名著精华_small_chunk_50"
   },
   {
     "question": "全书包含哪些内容？",
@@ -126,21 +85,15 @@
     "qa_type": "framework",
     "source_doc": "公共管理名著精华",
     "chapter": "第11章 绩效考评在绩效管理中的应用",
-    "chunk_id": "公共管理名著精华_small_chunk_68",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161950Z"
+    "chunk_id": "公共管理名著精华_small_chunk_56"
   },
   {
     "question": "部分的论题包含哪些内容？",
     "answer": "自我概念 ( self-concept)、 心态、职场道德",
     "qa_type": "framework",
     "source_doc": "公共管理名著精华",
-    "chapter": "第五部分是关于个人发展的。本部分的论题主要包括自我概念 ( self-concept)、 心态、职场道德。这些论题包含在",
-    "chunk_id": "公共管理名著精华_small_chunk_81",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161958Z"
+    "chapter": "第三部分是关于领导个体及领导团队的。主要阐述了会议程序，引导会议成功进 行等论题。这些论题包含在第10章到第12章。还介",
+    "chunk_id": "公共管理名著精华_small_chunk_69"
   },
   {
     "question": "质量管理的发展过程包含哪些内容？",
@@ -148,10 +101,7 @@
     "qa_type": "framework",
     "source_doc": "公共管理名著精华",
     "chapter": "第3部分 现实生活中的全面质量管理",
-    "chunk_id": "公共管理名著精华_small_chunk_119",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161965Z"
+    "chunk_id": "公共管理名著精华_small_chunk_105"
   },
   {
     "question": "托马斯将公民参与的具体途径包含哪些内容？",
@@ -159,43 +109,23 @@
     "qa_type": "framework",
     "source_doc": "公共管理名著精华",
     "chapter": "第10章 公民参与和高效能的公共管理者",
-    "chunk_id": "公共管理名著精华_small_chunk_177",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161972Z"
+    "chunk_id": "公共管理名著精华_small_chunk_163"
   },
   {
-    "question": "公共能量场是包含哪些内容？",
-    "answer": "各种灵活的、民 主的、话语性的社会形态",
+    "question": "官员可以包含哪些内容？",
+    "answer": "两个大类五种类型，即完全自私的官员(权力攀登者、保守者)和混合动机的官员 (狂热者、倡导者、政治家)",
     "qa_type": "framework",
     "source_doc": "公共管理名著精华",
-    "chapter": "第11章 公共行政的首要原理",
-    "chunk_id": "公共管理名著精华_small_chunk_204",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161979Z"
+    "chapter": "第22章 本书假设概览",
+    "chunk_id": "公共管理名著精华_small_chunk_200"
   },
   {
-    "question": "知道,对于公共政策过程的研究通常可包含哪些内容？",
-    "answer": "两大块,其 一是对公共政策制定过程的研究;其二是对公共政策执行过程的研究",
+    "question": "官僚组织中的控制手段包含哪些内容？",
+    "answer": "发布的命令尽可能 减少模糊性，即实现最大限度的明确和具体",
     "qa_type": "framework",
     "source_doc": "公共管理名著精华",
-    "chapter": "第10章 进一步的反思 附录 论方法",
-    "chunk_id": "公共管理名著精华_small_chunk_225",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161987Z"
-  },
-  {
-    "question": "什么是价值/政策关系？",
-    "answer": "什么?每一个价值/政策关系都是“主观的”",
-    "qa_type": "definition",
-    "source_doc": "公共管理名著精华",
-    "chapter": "第九章 结语",
-    "chunk_id": "公共管理名著精华_small_chunk_263",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.161994Z"
+    "chapter": "第22章 本书假设概览",
+    "chunk_id": "公共管理名著精华_small_chunk_202"
   },
   {
     "question": "什么是·团队利益为先？",
@@ -203,10 +133,7 @@
     "qa_type": "definition",
     "source_doc": "关键跨越",
     "chapter": "第4章　信任的基石：承担管理责任",
-    "chunk_id": "关键跨越_small_chunk_17",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162002Z"
+    "chunk_id": "关键跨越_small_chunk_17"
   },
   {
     "question": "管理者带领团队进行的复盘可以包含哪些内容？",
@@ -214,10 +141,7 @@
     "qa_type": "framework",
     "source_doc": "关键跨越",
     "chapter": "第12章　VUCA时代需要敏捷执行",
-    "chunk_id": "关键跨越_small_chunk_38",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162009Z"
+    "chunk_id": "关键跨越_small_chunk_38"
   },
   {
     "question": "专项复盘包含哪些内容？",
@@ -225,21 +149,7 @@
     "qa_type": "framework",
     "source_doc": "关键跨越",
     "chapter": "第13章　复盘让管理实现闭环",
-    "chunk_id": "关键跨越_small_chunk_40",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162016Z"
-  },
-  {
-    "question": "什么是八制”？",
-    "answer": "我国当时的通信市场共有8种制式的机型，前述“七国”中的8家通信设备商各为一种制式",
-    "qa_type": "definition",
-    "source_doc": "华为管理法任正非的企业管理心得",
-    "chapter": "第一章",
-    "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_8",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162023Z"
+    "chunk_id": "关键跨越_small_chunk_40"
   },
   {
     "question": "什么是社会责任不？",
@@ -247,32 +157,7 @@
     "qa_type": "definition",
     "source_doc": "华为管理法任正非的企业管理心得",
     "chapter": "第三章",
-    "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_21",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162030Z"
-  },
-  {
-    "question": "什么是果3M把其？",
-    "answer": "矿业或砂纸，那么3M就不会有今天，我们也不会有方便之至的如意贴",
-    "qa_type": "definition",
-    "source_doc": "基业长青",
-    "chapter": "8 自家长成的经理人",
-    "chunk_id": "基业长青_small_chunk_81",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162038Z"
-  },
-  {
-    "question": "什么是果你把“本业”？",
-    "answer": "核心理念，那就没错，高瞻远瞩公司的确固守本业，但是，只要他们不违反核心，做任何事情都是天公地道，而且这样可以让摩托罗拉和3M这样的公司脱离创业时的领域",
-    "qa_type": "definition",
-    "source_doc": "基业长青",
-    "chapter": "8　自家长成的经理人",
-    "chunk_id": "基业长青_small_chunk_119",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162045Z"
+    "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_21"
   },
   {
     "question": "什么是谓需要？",
@@ -280,10 +165,7 @@
     "qa_type": "definition",
     "source_doc": "市场营销原理",
     "chapter": "第一节 营销的含义",
-    "chunk_id": "市场营销原理_small_chunk_10",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162052Z"
+    "chunk_id": "市场营销原理_small_chunk_6"
   },
   {
     "question": "什么是人口统计？",
@@ -291,32 +173,7 @@
     "qa_type": "definition",
     "source_doc": "市场营销原理",
     "chapter": "第一节 公司的微观环境",
-    "chunk_id": "市场营销原理_small_chunk_56",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162060Z"
-  },
-  {
-    "question": "定位工作包括包含哪些要点/部分？",
-    "answer": "1. 三个步骤 : 确定定位可能形 成的竞争优势；2. 选择正确的 竞争优势；3. 有效地交流和向市场传递确定的定位",
-    "qa_type": "enumeration",
-    "source_doc": "市场营销原理",
-    "chapter": "第四节 优势市场定位",
-    "chunk_id": "市场营销原理_small_chunk_161",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162067Z"
-  },
-  {
-    "question": "一些分销渠道只包括包含哪些要点/部分？",
-    "answer": "1. 关系不怎么密切的组织的非正式接触；2. 另一些包括有很强组织结构的单位的正式交往",
-    "qa_type": "enumeration",
-    "source_doc": "市场营销原理",
-    "chapter": "第二节 分销渠道行为和组织",
-    "chunk_id": "市场营销原理_small_chunk_258",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162074Z"
+    "chunk_id": "市场营销原理_small_chunk_48"
   },
   {
     "question": "什么是垂直冲突经常？",
@@ -324,10 +181,7 @@
     "qa_type": "definition",
     "source_doc": "市场营销原理",
     "chapter": "第二节 分销渠道行为和组织",
-    "chunk_id": "市场营销原理_small_chunk_260",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162081Z"
+    "chunk_id": "市场营销原理_small_chunk_241"
   },
   {
     "question": "什么是专业知识？",
@@ -335,10 +189,7 @@
     "qa_type": "definition",
     "source_doc": "市场营销原理",
     "chapter": "第一节 发展有效沟通的步骤",
-    "chunk_id": "市场营销原理_small_chunk_302",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162088Z"
+    "chunk_id": "市场营销原理_small_chunk_281"
   },
   {
     "question": "什么是信性？",
@@ -346,10 +197,7 @@
     "qa_type": "definition",
     "source_doc": "市场营销原理",
     "chapter": "第一节 发展有效沟通的步骤",
-    "chunk_id": "市场营销原理_small_chunk_302",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162095Z"
+    "chunk_id": "市场营销原理_small_chunk_281"
   },
   {
     "question": "施乐公司将它的顾客包含哪些内容？",
@@ -357,10 +205,7 @@
     "qa_type": "framework",
     "source_doc": "市场营销原理",
     "chapter": "第二节 管理销售人员",
-    "chunk_id": "市场营销原理_small_chunk_350",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162103Z"
+    "chunk_id": "市场营销原理_small_chunk_327"
   },
   {
     "question": "上层的群体包含哪些内容？",
@@ -368,10 +213,7 @@
     "qa_type": "framework",
     "source_doc": "市场营销原理",
     "chapter": "第二节 管理销售人员",
-    "chunk_id": "市场营销原理_small_chunk_350",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162110Z"
+    "chunk_id": "市场营销原理_small_chunk_327"
   },
   {
     "question": "什么是一个以竞争者为中心的公司？",
@@ -379,21 +221,15 @@
     "qa_type": "definition",
     "source_doc": "市场营销原理",
     "chapter": "第三节 平衡消费者和竞争者导向",
-    "chunk_id": "市场营销原理_small_chunk_394",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162117Z"
+    "chunk_id": "市场营销原理_small_chunk_369"
   },
   {
     "question": "什么是谓服务？",
     "answer": "一方可以提供给另一方无形的而且不会产生任何主权的活动或利益",
     "qa_type": "definition",
     "source_doc": "市场营销原理",
-    "chapter": "第五节 概念营销",
-    "chunk_id": "市场营销原理_small_chunk_433",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162124Z"
+    "chapter": "第四节 地方市场营销",
+    "chunk_id": "市场营销原理_small_chunk_409"
   },
   {
     "question": "什么是制定竞争战略？",
@@ -401,10 +237,7 @@
     "qa_type": "definition",
     "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
     "chapter": "第一部分 基本分析技巧",
-    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_7",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162132Z"
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_7"
   },
   {
     "question": "什么是规模经济？",
@@ -412,10 +245,7 @@
     "qa_type": "definition",
     "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
     "chapter": "01 行业的结构化分析",
-    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_12",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162139Z"
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_12"
   },
   {
     "question": "什么是转换成本？",
@@ -423,21 +253,7 @@
     "qa_type": "definition",
     "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
     "chapter": "01 行业的结构化分析",
-    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_17",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162146Z"
-  },
-  {
-    "question": "竞争对手分析的过程包含包含哪些要点/部分？",
-    "answer": "1. 四大分析要素（详见图3–；2. ：未来目标、当前战略、假设和能力",
-    "qa_type": "enumeration",
-    "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
-    "chapter": "03 竞争对手分析框架",
-    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_29",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162154Z"
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_17"
   },
   {
     "question": "什么是盲点？",
@@ -445,10 +261,7 @@
     "qa_type": "definition",
     "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
     "chapter": "03 竞争对手分析框架",
-    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_43",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162161Z"
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_43"
   },
   {
     "question": "什么是成长中的行业？",
@@ -456,10 +269,7 @@
     "qa_type": "definition",
     "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
     "chapter": "03 竞争对手分析框架",
-    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_59",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162168Z"
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_59"
   },
   {
     "question": "什么是地监管？",
@@ -467,10 +277,7 @@
     "qa_type": "definition",
     "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
     "chapter": "09 分散型行业的竞争战略",
-    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_83",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162175Z"
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_83"
   },
   {
     "question": "什么是些分销商将自己？",
@@ -478,10 +285,7 @@
     "qa_type": "definition",
     "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
     "chapter": "09 分散型行业的竞争战略",
-    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_94",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162182Z"
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_94"
   },
   {
     "question": "什么是新兴行业？",
@@ -489,10 +293,7 @@
     "qa_type": "definition",
     "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
     "chapter": "09 分散型行业的竞争战略",
-    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_103",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162190Z"
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_103"
   },
   {
     "question": "什么是垂直一体化？",
@@ -500,10 +301,7 @@
     "qa_type": "definition",
     "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
     "chapter": "14 垂直一体化的战略分析",
-    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_119",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162197Z"
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_119"
   },
   {
     "question": "什么是准一体化？",
@@ -511,10 +309,7 @@
     "qa_type": "definition",
     "source_doc": "竞争战略-Michael-E.Porter-陈丽芳",
     "chapter": "14 垂直一体化的战略分析",
-    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_120",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162204Z"
+    "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_120"
   },
   {
     "question": "什么是工作或个人生活中取得了非凡成就或生活？",
@@ -522,10 +317,7 @@
     "qa_type": "definition",
     "source_doc": "管理思维：破解管理难题，引爆团队执行力",
     "chapter": "第一章",
-    "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_5",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162211Z"
+    "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_5"
   },
   {
     "question": "什么是”本质上的问题也就是你工作？",
@@ -533,10 +325,7 @@
     "qa_type": "definition",
     "source_doc": "管理思维：破解管理难题，引爆团队执行力",
     "chapter": "第二章",
-    "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_18",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162223Z"
+    "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_18"
   },
   {
     "question": "什么是二次创业？",
@@ -544,10 +333,7 @@
     "qa_type": "definition",
     "source_doc": "精益创业2.0",
     "chapter": "第8章 第三阶段 ： 深层机制",
-    "chunk_id": "精益创业2.0_small_chunk_62",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162230Z"
+    "chunk_id": "精益创业2.0_small_chunk_62"
   },
   {
     "question": "史密斯组建了一个包含哪些内容？",
@@ -555,10 +341,7 @@
     "qa_type": "framework",
     "source_doc": "精益创业2.0",
     "chapter": "第8章 第三阶段 ： 深层机制",
-    "chunk_id": "精益创业2.0_small_chunk_78",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162236Z"
+    "chunk_id": "精益创业2.0_small_chunk_78"
   },
   {
     "question": "什么是动态的社会关系？",
@@ -566,10 +349,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第一节 组织与组织行为学 5",
-    "chunk_id": "组织行为学_small_chunk_10",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162243Z"
+    "chunk_id": "组织行为学_small_chunk_4"
   },
   {
     "question": "社会关系可以包含哪些内容？",
@@ -577,10 +357,7 @@
     "qa_type": "framework",
     "source_doc": "组织行为学",
     "chapter": "第一节 组织与组织行为学 5",
-    "chunk_id": "组织行为学_small_chunk_10",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162250Z"
+    "chunk_id": "组织行为学_small_chunk_4"
   },
   {
     "question": "什么是群体？",
@@ -588,10 +365,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第一节 组织与组织行为学 7",
-    "chunk_id": "组织行为学_small_chunk_11",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162257Z"
+    "chunk_id": "组织行为学_small_chunk_5"
   },
   {
     "question": "什么是系统学派？",
@@ -599,10 +373,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 组织行为学的历史沿革 15",
-    "chunk_id": "组织行为学_small_chunk_16",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162264Z"
+    "chunk_id": "组织行为学_small_chunk_10"
   },
   {
     "question": "什么是研究术语？",
@@ -610,10 +381,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第三节 组织行为学常用的研究方法",
-    "chunk_id": "组织行为学_small_chunk_17",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162270Z"
+    "chunk_id": "组织行为学_small_chunk_11"
   },
   {
     "question": "什么是享受需要？",
@@ -621,10 +389,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第三节 组织行为学常用的研究方法",
-    "chunk_id": "组织行为学_small_chunk_19",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162277Z"
+    "chunk_id": "组织行为学_small_chunk_13"
   },
   {
     "question": "什么是马克思所指的享受需要并不？",
@@ -632,10 +397,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第三节 组织行为学常用的研究方法",
-    "chunk_id": "组织行为学_small_chunk_20",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162284Z"
+    "chunk_id": "组织行为学_small_chunk_14"
   },
   {
     "question": "什么是自我知觉？",
@@ -643,10 +405,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第一节 认知与决策",
-    "chunk_id": "组织行为学_small_chunk_23",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162291Z"
+    "chunk_id": "组织行为学_small_chunk_17"
   },
   {
     "question": "什么是角色？",
@@ -654,10 +413,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第一节 认知与决策",
-    "chunk_id": "组织行为学_small_chunk_23",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162297Z"
+    "chunk_id": "组织行为学_small_chunk_17"
   },
   {
     "question": "什么是国内研究者认为工作价值观？",
@@ -665,10 +421,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 价值观与态度",
-    "chunk_id": "组织行为学_small_chunk_31",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162304Z"
+    "chunk_id": "组织行为学_small_chunk_23"
   },
   {
     "question": "什么是伊莱泽则将工作价值观？",
@@ -676,10 +429,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 价值观与态度",
-    "chunk_id": "组织行为学_small_chunk_31",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162311Z"
+    "chunk_id": "组织行为学_small_chunk_23"
   },
   {
     "question": "什么是一般能力？",
@@ -687,10 +437,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 价值观与态度",
-    "chunk_id": "组织行为学_small_chunk_34",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162317Z"
+    "chunk_id": "组织行为学_small_chunk_26"
   },
   {
     "question": "什么是特殊能力？",
@@ -698,10 +445,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 价值观与态度",
-    "chunk_id": "组织行为学_small_chunk_34",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162324Z"
+    "chunk_id": "组织行为学_small_chunk_26"
   },
   {
     "question": "什么是控制点？",
@@ -709,54 +453,39 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第四节 人 格 49",
-    "chunk_id": "组织行为学_small_chunk_37",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162331Z"
+    "chunk_id": "组织行为学_small_chunk_29"
   },
   {
     "question": "什么是生理唤醒？",
     "answer": "情绪所 引起的生理反应，它涉及广泛的神经结构，如中枢神经系统的脑干、中央灰质、 下丘脑、外周神经系统、内外分泌腺等",
     "qa_type": "definition",
     "source_doc": "组织行为学",
-    "chapter": "第五节 情绪与压力",
-    "chunk_id": "组织行为学_small_chunk_39",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162339Z"
+    "chapter": "第四节 人 格 49",
+    "chunk_id": "组织行为学_small_chunk_30"
   },
   {
     "question": "什么是任务要求？",
     "answer": "那些与个体工作岗位有关的因素",
     "qa_type": "definition",
     "source_doc": "组织行为学",
-    "chapter": "第五节 情绪与压力",
-    "chunk_id": "组织行为学_small_chunk_41",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162346Z"
+    "chapter": "第一章 个体心理与行为",
+    "chunk_id": "组织行为学_small_chunk_32"
   },
   {
     "question": "什么是角色要求？",
     "answer": "由于个体在组织中扮演特定的角色而产生的压力",
     "qa_type": "definition",
     "source_doc": "组织行为学",
-    "chapter": "第五节 情绪与压力",
-    "chunk_id": "组织行为学_small_chunk_41",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162353Z"
+    "chapter": "第一章 个体心理与行为",
+    "chunk_id": "组织行为学_small_chunk_32"
   },
   {
     "question": "什么是人际要求？",
     "answer": "由于个体与他人的关系而带来的压力",
     "qa_type": "definition",
     "source_doc": "组织行为学",
-    "chapter": "第五节 情绪与压力",
-    "chunk_id": "组织行为学_small_chunk_41",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162359Z"
+    "chapter": "第一章 个体心理与行为",
+    "chunk_id": "组织行为学_small_chunk_32"
   },
   {
     "question": "什么是罗宾斯把正式群体？",
@@ -764,10 +493,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第三章 群体心理与行为",
-    "chunk_id": "组织行为学_small_chunk_59",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162366Z"
+    "chunk_id": "组织行为学_small_chunk_49"
   },
   {
     "question": "什么是团队？",
@@ -775,10 +501,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第四章 团 队",
-    "chunk_id": "组织行为学_small_chunk_71",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162372Z"
+    "chunk_id": "组织行为学_small_chunk_59"
   },
   {
     "question": "一般的工作群体通常包含哪些内容？",
@@ -786,21 +509,7 @@
     "qa_type": "framework",
     "source_doc": "组织行为学",
     "chapter": "第四章 团 队",
-    "chunk_id": "组织行为学_small_chunk_71",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162379Z"
-  },
-  {
-    "question": "高管团队包含哪些内容？",
-    "answer": "负责组织战略和管理决策的高层管理者",
-    "qa_type": "framework",
-    "source_doc": "组织行为学",
-    "chapter": "第二节 团队的类型",
-    "chunk_id": "组织行为学_small_chunk_75",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162385Z"
+    "chunk_id": "组织行为学_small_chunk_59"
   },
   {
     "question": "什么是团队多样化？",
@@ -808,10 +517,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 团队的类型 119",
-    "chunk_id": "组织行为学_small_chunk_76",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162392Z"
+    "chunk_id": "组织行为学_small_chunk_64"
   },
   {
     "question": "什么是分离型多元化？",
@@ -819,10 +525,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 团队的类型 119",
-    "chunk_id": "组织行为学_small_chunk_76",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162399Z"
+    "chunk_id": "组织行为学_small_chunk_64"
   },
   {
     "question": "什么是团队外部沟通？",
@@ -830,10 +533,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第三节 团队过程管理 125",
-    "chunk_id": "组织行为学_small_chunk_79",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162405Z"
+    "chunk_id": "组织行为学_small_chunk_67"
   },
   {
     "question": "什么是沟通风格？",
@@ -841,21 +541,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第三节 团队过程管理 125",
-    "chunk_id": "组织行为学_small_chunk_79",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162412Z"
-  },
-  {
-    "question": "研究者把团队效能划分包含哪些要点/部分？",
-    "answer": "1. 三个 维度：；2. 以团队产出的产品数量和质量、客户满意度等进行度量的团队业绩",
-    "qa_type": "enumeration",
-    "source_doc": "组织行为学",
-    "chapter": "第四节 团队效能与评价",
-    "chunk_id": "组织行为学_small_chunk_81",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162422Z"
+    "chunk_id": "组织行为学_small_chunk_67"
   },
   {
     "question": "什么是团队设计因素？",
@@ -863,10 +549,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第四节 团队效能与评价",
-    "chunk_id": "组织行为学_small_chunk_81",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162429Z"
+    "chunk_id": "组织行为学_small_chunk_69"
   },
   {
     "question": "研究者把团队效能划包含哪些内容？",
@@ -874,10 +557,7 @@
     "qa_type": "framework",
     "source_doc": "组织行为学",
     "chapter": "第四节 团队效能与评价",
-    "chunk_id": "组织行为学_small_chunk_81",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162435Z"
+    "chunk_id": "组织行为学_small_chunk_69"
   },
   {
     "question": "团队效能和传统的基于个体的绩效有什么区别？",
@@ -885,10 +565,7 @@
     "qa_type": "comparison",
     "source_doc": "组织行为学",
     "chapter": "第四节 团队效能与评价",
-    "chunk_id": "组织行为学_small_chunk_81",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162442Z"
+    "chunk_id": "组织行为学_small_chunk_69"
   },
   {
     "question": "什么是豪斯提出了四种领导类型：一？",
@@ -896,10 +573,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第一节 经典领导理论 137",
-    "chunk_id": "组织行为学_small_chunk_87",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162448Z"
+    "chunk_id": "组织行为学_small_chunk_75"
   },
   {
     "question": "研究成果上大体可包含哪些内容？",
@@ -907,10 +581,7 @@
     "qa_type": "framework",
     "source_doc": "组织行为学",
     "chapter": "第五章 领 导",
-    "chunk_id": "组织行为学_small_chunk_91",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162455Z"
+    "chunk_id": "组织行为学_small_chunk_79"
   },
   {
     "question": "什么是通道？",
@@ -918,21 +589,15 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第一节 沟通的基本原理 159",
-    "chunk_id": "组织行为学_small_chunk_98",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162462Z"
+    "chunk_id": "组织行为学_small_chunk_86"
   },
   {
     "question": "什么是反馈？",
     "answer": "接收者对于发送者传来的信息所做出的反应",
     "qa_type": "definition",
     "source_doc": "组织行为学",
-    "chapter": "第一节 沟通的基本原理 161",
-    "chunk_id": "组织行为学_small_chunk_99",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162468Z"
+    "chapter": "第一节 沟通的基本原理 159",
+    "chunk_id": "组织行为学_small_chunk_86"
   },
   {
     "question": "正式沟通根据信息传递的流向可细包含哪些内容？",
@@ -940,10 +605,7 @@
     "qa_type": "framework",
     "source_doc": "组织行为学",
     "chapter": "第二节 组织沟通的种类 163",
-    "chunk_id": "组织行为学_small_chunk_100",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162475Z"
+    "chunk_id": "组织行为学_small_chunk_88"
   },
   {
     "question": "什么是平行沟通？",
@@ -951,10 +613,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 组织沟通的种类 165",
-    "chunk_id": "组织行为学_small_chunk_101",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162481Z"
+    "chunk_id": "组织行为学_small_chunk_89"
   },
   {
     "question": "什么是斜向沟通？",
@@ -962,10 +621,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 组织沟通的种类 165",
-    "chunk_id": "组织行为学_small_chunk_101",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162488Z"
+    "chunk_id": "组织行为学_small_chunk_89"
   },
   {
     "question": "什么是正式沟通？",
@@ -973,10 +629,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 组织沟通的种类 165",
-    "chunk_id": "组织行为学_small_chunk_101",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162495Z"
+    "chunk_id": "组织行为学_small_chunk_89"
   },
   {
     "question": "什么是单向沟通？",
@@ -984,10 +637,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 组织沟通的种类 167",
-    "chunk_id": "组织行为学_small_chunk_102",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162502Z"
+    "chunk_id": "组织行为学_small_chunk_90"
   },
   {
     "question": "什么是双向沟通？",
@@ -995,10 +645,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 组织沟通的种类 167",
-    "chunk_id": "组织行为学_small_chunk_102",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162508Z"
+    "chunk_id": "组织行为学_small_chunk_90"
   },
   {
     "question": "组织文化可以区包含哪些内容？",
@@ -1006,21 +653,7 @@
     "qa_type": "framework",
     "source_doc": "组织行为学",
     "chapter": "第七章 组织文化",
-    "chunk_id": "组织行为学_small_chunk_108",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162515Z"
-  },
-  {
-    "question": "符号层还包括包含哪些要点/部分？",
-    "answer": "1. 组；2. 第一节 组织文化的概述 185",
-    "qa_type": "enumeration",
-    "source_doc": "组织行为学",
-    "chapter": "第一节 组织文化的概述 183",
-    "chunk_id": "组织行为学_small_chunk_109",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162522Z"
+    "chunk_id": "组织行为学_small_chunk_96"
   },
   {
     "question": "什么是组织风气？",
@@ -1028,10 +661,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第一节 组织文化的概述 183",
-    "chunk_id": "组织行为学_small_chunk_109",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162531Z"
+    "chunk_id": "组织行为学_small_chunk_97"
   },
   {
     "question": "来自国外的文化形态可以包含哪些内容？",
@@ -1039,21 +669,7 @@
     "qa_type": "framework",
     "source_doc": "组织行为学",
     "chapter": "第一节 组织文化的概述 185",
-    "chunk_id": "组织行为学_small_chunk_110",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162537Z"
-  },
-  {
-    "question": "组织对自身危机的应对包含哪些内容？",
-    "answer": "三种方式：消极抵制、象征性的政策和积极 接触",
-    "qa_type": "framework",
-    "source_doc": "组织行为学",
-    "chapter": "第八章 组织学习与创新",
-    "chunk_id": "组织行为学_small_chunk_124",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162544Z"
+    "chunk_id": "组织行为学_small_chunk_98"
   },
   {
     "question": "什么是操作性目标？",
@@ -1061,32 +677,15 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第二节 组织变革与发展的系统模型 235",
-    "chunk_id": "组织行为学_small_chunk_143",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162551Z"
-  },
-  {
-    "question": "组织变革的内部动因包含哪些内容？",
-    "answer": "两点：其一，组织战略目标的改变",
-    "qa_type": "framework",
-    "source_doc": "组织行为学",
-    "chapter": "第二节 组织变革与发展的系统模型 235",
-    "chunk_id": "组织行为学_small_chunk_143",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162558Z"
+    "chunk_id": "组织行为学_small_chunk_129"
   },
   {
     "question": "什么是工作胜任障碍？",
     "answer": "新员工在技能、思维方式、工作规范方面的陌生和缺乏指导所带来的不适应",
     "qa_type": "definition",
     "source_doc": "组织行为学",
-    "chapter": "第二节 组织社会化与个体策略 257",
-    "chunk_id": "组织行为学_small_chunk_152",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162564Z"
+    "chapter": "第二节 组织社会化与个体策略 259",
+    "chunk_id": "组织行为学_small_chunk_138"
   },
   {
     "question": "影响规范承诺的因素包含哪些内容？",
@@ -1094,10 +693,7 @@
     "qa_type": "framework",
     "source_doc": "组织行为学",
     "chapter": "第四节 心 理 契 约 263",
-    "chunk_id": "组织行为学_small_chunk_156",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162571Z"
+    "chunk_id": "组织行为学_small_chunk_142"
   },
   {
     "question": "什么是心理契约破裂？",
@@ -1105,10 +701,7 @@
     "qa_type": "definition",
     "source_doc": "组织行为学",
     "chapter": "第四节 心理契约",
-    "chunk_id": "组织行为学_small_chunk_157",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162578Z"
+    "chunk_id": "组织行为学_small_chunk_143"
   },
   {
     "question": "组织公民行为的产生包含哪些内容？",
@@ -1116,10 +709,7 @@
     "qa_type": "framework",
     "source_doc": "组织行为学",
     "chapter": "第五节 组织公民行为 269",
-    "chunk_id": "组织行为学_small_chunk_160",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162584Z"
+    "chunk_id": "组织行为学_small_chunk_146"
   },
   {
     "question": "中国组织公民行为可以包含哪些内容？",
@@ -1127,10 +717,7 @@
     "qa_type": "framework",
     "source_doc": "组织行为学",
     "chapter": "第五节 组织公民行为 269",
-    "chunk_id": "组织行为学_small_chunk_162",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162591Z"
+    "chunk_id": "组织行为学_small_chunk_148"
   },
   {
     "question": "什么是具体？",
@@ -1138,10 +725,7 @@
     "qa_type": "definition",
     "source_doc": "认识管理",
     "chapter": "第39章　管理组织的结论",
-    "chunk_id": "认识管理_small_chunk_14",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162598Z"
+    "chunk_id": "认识管理_small_chunk_14"
   },
   {
     "question": "什么是强调科学管理？",
@@ -1149,10 +733,7 @@
     "qa_type": "definition",
     "source_doc": "认识管理",
     "chapter": "第1章　导论：管理和管理者",
-    "chunk_id": "认识管理_small_chunk_17",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162605Z"
+    "chunk_id": "认识管理_small_chunk_17"
   },
   {
     "question": "管理工商企业或公共服务机构和管理自己的财产有什么区别？",
@@ -1160,10 +741,7 @@
     "qa_type": "comparison",
     "source_doc": "认识管理",
     "chapter": "第1章　导论：管理和管理者",
-    "chunk_id": "认识管理_small_chunk_17",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162612Z"
+    "chunk_id": "认识管理_small_chunk_17"
   },
   {
     "question": "什么是管理者被？",
@@ -1171,10 +749,7 @@
     "qa_type": "definition",
     "source_doc": "认识管理",
     "chapter": "第1章　导论：管理和管理者",
-    "chunk_id": "认识管理_small_chunk_21",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162618Z"
+    "chunk_id": "认识管理_small_chunk_21"
   },
   {
     "question": "什么是传统上把管理者？",
@@ -1182,10 +757,7 @@
     "qa_type": "definition",
     "source_doc": "认识管理",
     "chapter": "第1章　导论：管理和管理者",
-    "chunk_id": "认识管理_small_chunk_24",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162625Z"
+    "chunk_id": "认识管理_small_chunk_24"
   },
   {
     "question": "管理者被包含哪些内容？",
@@ -1193,10 +765,7 @@
     "qa_type": "framework",
     "source_doc": "认识管理",
     "chapter": "第1章　导论：管理和管理者",
-    "chunk_id": "认识管理_small_chunk_24",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162631Z"
+    "chunk_id": "认识管理_small_chunk_24"
   },
   {
     "question": "区别很可能在于工作和娱乐有什么区别？",
@@ -1204,10 +773,7 @@
     "qa_type": "comparison",
     "source_doc": "认识管理",
     "chapter": "第13章　新现实",
-    "chunk_id": "认识管理_small_chunk_69",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162641Z"
+    "chunk_id": "认识管理_small_chunk_69"
   },
   {
     "question": "什么是智人[1]并不能完全被？",
@@ -1215,32 +781,7 @@
     "qa_type": "definition",
     "source_doc": "认识管理",
     "chapter": "第14章　工作、做工与员工",
-    "chunk_id": "认识管理_small_chunk_71",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162649Z"
-  },
-  {
-    "question": "6.三种不同类型的工作包括包含哪些要点/部分？",
-    "answer": "1. 哪些？；2. 7.组织理论家提出的三个无谓争论是什么？为什么这些观点不应被认为是“非此即彼”的选择？",
-    "qa_type": "enumeration",
-    "source_doc": "认识管理",
-    "chapter": "第34章　结构与战略",
-    "chunk_id": "认识管理_small_chunk_162",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162656Z"
-  },
-  {
-    "question": "18.组织的病症包括包含哪些要点/部分？",
-    "answer": "1. 哪些？；2. 第35章　以任务和工作为中心的设计",
-    "qa_type": "enumeration",
-    "source_doc": "认识管理",
-    "chapter": "第34章　结构与战略",
-    "chunk_id": "认识管理_small_chunk_163",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162663Z"
+    "chunk_id": "认识管理_small_chunk_71"
   },
   {
     "question": "1911年标准石油公司被拆包含哪些内容？",
@@ -1248,10 +789,7 @@
     "qa_type": "framework",
     "source_doc": "认识管理",
     "chapter": "第37章　创新型组织",
-    "chunk_id": "认识管理_small_chunk_179",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162670Z"
+    "chunk_id": "认识管理_small_chunk_179"
   },
   {
     "question": "企业被划包含哪些内容？",
@@ -1259,10 +797,7 @@
     "qa_type": "framework",
     "source_doc": "认识管理",
     "chapter": "第七部分",
-    "chunk_id": "认识管理_small_chunk_192",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162677Z"
+    "chunk_id": "认识管理_small_chunk_192"
   },
   {
     "question": "什么是80/20法则？",
@@ -1270,9 +805,6 @@
     "qa_type": "definition",
     "source_doc": "高效管理的8020法则",
     "chapter": "第1章　你是否願意簡化你的工作和生活",
-    "chunk_id": "高效管理的8020法则_small_chunk_5",
-    "gold_source": "pipeline_generated",
-    "generated_by": "qa_extractor_v2",
-    "generated_at": "2026-06-08T15:01:35.162684Z"
+    "chunk_id": "高效管理的8020法则_small_chunk_5"
   }
 ]

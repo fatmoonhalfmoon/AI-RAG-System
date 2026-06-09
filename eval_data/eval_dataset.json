@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "created": "2026-06-01",
   "total_questions": 63,
   "questions": [
@@ -30,7 +30,8 @@
       "robustness_variants": [
         "管理最核心的思想有哪些",
         "管理学的核心思想"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q002",
@@ -56,7 +57,8 @@
       "robustness_variants": [
         "SWOT分析方法是什么",
         "SWOT分析的定义"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q003",
@@ -83,7 +85,8 @@
       "robustness_variants": [
         "市场营销概念是什么",
         "营销的核心概念"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q004",
@@ -110,7 +113,8 @@
       "robustness_variants": [
         "产品思维的定义",
         "什么是产品思维"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q005",
@@ -139,7 +143,8 @@
       "robustness_variants": [
         "五力模型包括哪些",
         "波特五力是什么"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q006",
@@ -166,7 +171,8 @@
       "robustness_variants": [
         "组织行为学的研究对象",
         "什么是组织行为学"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q007",
@@ -194,7 +200,8 @@
       "robustness_variants": [
         "市场细分的方法",
         "如何进行市场细分"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q008",
@@ -221,7 +228,8 @@
       "robustness_variants": [
         "竞争战略的类型",
         "波特竞争战略"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q009",
@@ -248,7 +256,8 @@
       "robustness_variants": [
         "UX核心要素",
         "用户体验要素"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q010",
@@ -277,7 +286,8 @@
       "robustness_variants": [
         "领导力的定义",
         "什么是领导力"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q011",
@@ -305,7 +315,8 @@
       "robustness_variants": [
         "4P理论内容",
         "营销4P是什么"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q012",
@@ -333,7 +344,8 @@
       "robustness_variants": [
         "产品经理能力要求",
         "PM需要什么能力"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q013",
@@ -361,7 +373,8 @@
       "robustness_variants": [
         "如何管理组织变革",
         "变革管理步骤"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q014",
@@ -388,7 +401,8 @@
       "robustness_variants": [
         "竞争分析框架",
         "如何做竞争分析"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q015",
@@ -415,7 +429,8 @@
       "robustness_variants": [
         "公共管理理论",
         "公共管理核心"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q016",
@@ -443,7 +458,8 @@
       "robustness_variants": [
         "德鲁克管理理论",
         "Peter Drucker管理思想"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q017",
@@ -470,7 +486,8 @@
       "robustness_variants": [
         "OKR实施步骤",
         "如何实施OKR"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q018",
@@ -497,7 +514,8 @@
       "robustness_variants": [
         "华为管理特点",
         "华为管理法"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q019",
@@ -524,7 +542,8 @@
       "robustness_variants": [
         "小团队管理方法",
         "10人团队管理"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q020",
@@ -551,7 +570,8 @@
       "robustness_variants": [
         "卓有成效管理者",
         "如何成为有效管理者"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q021",
@@ -578,7 +598,8 @@
       "robustness_variants": [
         "帕累托法则应用",
         "二八法则管理"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q022",
@@ -605,7 +626,8 @@
       "robustness_variants": [
         "管理思维要素",
         "管理思维是什么"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q023",
@@ -632,7 +654,8 @@
       "robustness_variants": [
         "精益创业方法",
         "精益创业核心"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q024",
@@ -659,7 +682,8 @@
       "robustness_variants": [
         "管理思想发展史",
         "管理学发展脉络"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q025",
@@ -687,7 +711,8 @@
       "robustness_variants": [
         "泰勒科学管理",
         "科学管理内容"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q026",
@@ -714,7 +739,8 @@
       "robustness_variants": [
         "新手主管转型",
         "业务高手转管理"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q027",
@@ -741,7 +767,8 @@
       "robustness_variants": [
         "基业长青特征",
         "持久企业特点"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q028",
@@ -770,7 +797,8 @@
       "robustness_variants": [
         "管理学核心思想",
         "管理核心"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q029",
@@ -798,7 +826,8 @@
       "robustness_variants": [
         "HR模块",
         "人力资源管理内容"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q030",
@@ -825,7 +854,8 @@
       "robustness_variants": [
         "组织文化层次",
         "企业文化作用"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q031",
@@ -853,7 +883,8 @@
       "robustness_variants": [
         "泰勒vs法约尔",
         "科学管理对比"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q032",
@@ -881,7 +912,8 @@
       "robustness_variants": [
         "SWOT战略应用",
         "SWOT分析企业"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q033",
@@ -909,7 +941,8 @@
       "robustness_variants": [
         "蓝海战略是什么",
         "蓝海战略定义"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q034",
@@ -938,7 +971,8 @@
       "robustness_variants": [
         "需求层次理论",
         "马斯洛理论"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q035",
@@ -966,7 +1000,8 @@
       "robustness_variants": [
         "敏捷管理是什么",
         "敏捷方法"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q036",
@@ -995,7 +1030,8 @@
       "robustness_variants": [
         "如何建设企业文化",
         "企业文化塑造"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q037",
@@ -1023,7 +1059,8 @@
       "robustness_variants": [
         "知识管理是什么",
         "KM知识管理"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q038",
@@ -1051,7 +1088,8 @@
       "robustness_variants": [
         "MBO实施",
         "目标管理步骤"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q039",
@@ -1079,7 +1117,8 @@
       "robustness_variants": [
         "学习型组织定义",
         "五项修炼"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q040",
@@ -1107,7 +1146,8 @@
       "robustness_variants": [
         "绩效反馈技巧",
         "如何做绩效面谈"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q041",
@@ -1135,7 +1175,8 @@
       "robustness_variants": [
         "商业模式画布是什么",
         "Business Model Canvas"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q042",
@@ -1163,7 +1204,8 @@
       "robustness_variants": [
         "冲突管理方法",
         "如何解决团队冲突"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q043",
@@ -1191,7 +1233,8 @@
       "robustness_variants": [
         "赋能领导",
         "赋能型管理"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q044",
@@ -1219,7 +1262,8 @@
       "robustness_variants": [
         "市场定位步骤",
         "STP营销"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q045",
@@ -1247,7 +1291,8 @@
       "robustness_variants": [
         "双环学习定义",
         "组织学习理论"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q046",
@@ -1275,7 +1320,8 @@
       "robustness_variants": [
         "会议管理技巧",
         "高效会议"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q047",
@@ -1303,7 +1349,8 @@
       "robustness_variants": [
         "平台战略是什么",
         "平台经济"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q048",
@@ -1331,7 +1378,8 @@
       "robustness_variants": [
         "人才梯队",
         "继任计划"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q049",
@@ -1359,7 +1407,8 @@
       "robustness_variants": [
         "客户旅程",
         "用户体验地图"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q050",
@@ -1387,7 +1436,8 @@
       "robustness_variants": [
         "变革阻力",
         "管理变革阻力"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q051",
@@ -1415,7 +1465,8 @@
       "robustness_variants": [
         "精益生产",
         "精益思想"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q052",
@@ -1443,7 +1494,8 @@
       "robustness_variants": [
         "跨部门协作",
         "部门协同"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q053",
@@ -1472,7 +1524,8 @@
       "robustness_variants": [
         "设计思维是什么",
         "Design Thinking"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q054",
@@ -1500,7 +1553,8 @@
       "robustness_variants": [
         "战略落地",
         "战略执行"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q055",
@@ -1528,7 +1582,8 @@
       "robustness_variants": [
         "情境领导",
         "权变领导理论"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q056",
@@ -1551,7 +1606,8 @@
       "robustness_variants": [
         "OKR与KPI区别",
         "OKR和KPI对比"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q057",
@@ -1574,7 +1630,8 @@
       "robustness_variants": [
         "泰勒和梅奥的区别",
         "科学管理与人际关系学派对比"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q058",
@@ -1597,7 +1654,8 @@
       "robustness_variants": [
         "特质理论和情境理论区别",
         "领导理论对比"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q059",
@@ -1619,7 +1677,8 @@
       "robustness_variants": [
         "成本领先vs差异化",
         "波特竞争战略对比"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q060",
@@ -1642,7 +1701,8 @@
       "robustness_variants": [
         "MBO和BSC对比",
         "目标管理和平衡计分卡区别"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q061",
@@ -1664,7 +1724,8 @@
       "robustness_variants": [
         "传统营销vs数字营销",
         "营销策略对比"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q062",
@@ -1687,7 +1748,8 @@
       "robustness_variants": [
         "华为和谷歌管理对比",
         "企业文化对比"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     },
     {
       "query_id": "Q063",
@@ -1710,7 +1772,8 @@
       "robustness_variants": [
         "精益vs六西格玛",
         "质量管理方法对比"
-      ]
+      ],
+      "gold_source": "pipeline_generated"
     }
   ]
 }

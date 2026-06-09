@@ -27,11 +27,36 @@ class EvalDataset:
     def _validate(self):
         required_fields = ["query_id", "query", "query_type", "difficulty",
                            "relevant_docs", "answer_snippets", "reference_answer"]
+        pipeline_count = 0
+        human_count = 0
+        other_count = 0
         for q in self.questions:
             for field in required_fields:
                 if field not in q:
                     raise ValueError(f"题目 {q.get('query_id', '?')} 缺少必填字段: {field}")
-        print(f"[数据集] 加载完成: {len(self.questions)} 题, 版本 {self.version}")
+            source = q.get("gold_source", "unknown")
+            if source == "pipeline_generated":
+                pipeline_count += 1
+            elif source == "human":
+                human_count += 1
+            else:
+                other_count += 1
+
+        total = len(self.questions)
+        print(f"[数据集] 加载完成: {total} 题, 版本 {self.version}")
+        print(f"[数据集] 金标来源分布: 人工标注={human_count}, 流水线生成={pipeline_count}, 其他={other_count}")
+
+        if pipeline_count > 0:
+            print(f"[数据集] [警告] {pipeline_count}/{total} 题的金标为 pipeline_generated，评估结果可能被高估！")
+            print(f"[数据集] [警告] 建议运行: python scripts/generate_pool_for_annotation.py")
+
+        self.gold_source_stats = {
+            "human": human_count,
+            "pipeline_generated": pipeline_count,
+            "other": other_count,
+            "total": total,
+            "trust_level": "high" if pipeline_count == 0 else "low",
+        }
 
     def get_by_type(self, query_type: str) -> List[Dict]:
         return [q for q in self.questions if q["query_type"] == query_type]

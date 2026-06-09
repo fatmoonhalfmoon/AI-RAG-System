@@ -26,6 +26,18 @@ def run_eval_full(dataset_path: str = None, top_k_values: List[int] = None, forc
     print("\n[1/6] 加载评估数据集...")
     dataset = EvalDataset(dataset_path)
 
+    # 检查金标来源
+    if hasattr(dataset, 'gold_source_stats'):
+        stats = dataset.gold_source_stats
+        pipeline_qs = stats.get("pipeline_generated", 0)
+        if pipeline_qs > 0:
+            print(f"\n{'='*60}")
+            print(f"  [重要警告] {pipeline_qs}/{stats['total']} 题的金标非人工标注")
+            print(f"  评估指标可能被高估（信息泄漏问题）")
+            print(f"  请运行 Pooling 标注流程修正:")
+            print(f"    python scripts/generate_pool_for_annotation.py")
+            print(f"{'='*60}")
+
     print("\n[2/6] 初始化 RAG 系统...")
     pipeline = RAGPipeline()
     pipeline.build_knowledge_base(force_rebuild=force_rebuild)

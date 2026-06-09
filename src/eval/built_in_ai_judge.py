@@ -1,6 +1,8 @@
 import json
 from typing import Dict
 
+from src.utils.text_processing import tokenize
+
 
 def built_in_ai_judge(query: str, merged_context: str, reference_answer: str) -> dict:
     """
@@ -30,15 +32,15 @@ def built_in_ai_judge(query: str, merged_context: str, reference_answer: str) ->
         # 当前为占位实现，返回基于启发式规则的评估
         # 实际部署时可通过环境变量或配置文件切换不同AI模型
         
-        # 启发式评估：基于关键词匹配度给出粗略估计
-        query_keywords = set(query.split())
-        context_keywords = set(merged_context.split())
-        overlap = len(query_keywords & context_keywords)
-        relevance = min(5, max(1, int(overlap / max(1, len(query_keywords)) * 5)))
-        
-        ref_keywords = set(reference_answer.split())
-        ref_overlap = len(ref_keywords & context_keywords)
-        completeness = min(5, max(1, int(ref_overlap / max(1, len(ref_keywords)) * 5)))
+        # 启发式评估：基于统一分词后的关键词匹配度给出粗略估计
+        query_tokens = set(tokenize(query))
+        context_tokens = set(tokenize(merged_context))
+        overlap = len(query_tokens & context_tokens)
+        relevance = min(5, max(1, int(overlap / max(1, len(query_tokens)) * 5)))
+
+        ref_tokens = set(tokenize(reference_answer))
+        ref_overlap = len(ref_tokens & context_tokens)
+        completeness = min(5, max(1, int(ref_overlap / max(1, len(ref_tokens)) * 5)))
         
         return {
             "relevance": relevance,

@@ -196,22 +196,23 @@ class FAISSVectorStore:
         return embeddings, metadata_list
 
     def save(self, name="default"):
+        import tempfile
+        import shutil
         save_dir = os.path.join(VECTOR_STORE_DIR, name)
         os.makedirs(save_dir, exist_ok=True)
         index_path = os.path.join(save_dir, "faiss.index")
         meta_path = os.path.join(save_dir, "metadata.json")
-        try:
-            faiss.write_index(self.index, index_path)
-            with open(meta_path, "w", encoding="utf-8") as f:
-                json.dump(self.id_to_metadata, f, ensure_ascii=False, indent=2)
-        except RuntimeError:
-            import tempfile
-            alt_dir = os.path.join(tempfile.gettempdir(), "rag_faiss", name)
-            os.makedirs(alt_dir, exist_ok=True)
-            faiss.write_index(self.index, os.path.join(alt_dir, "faiss.index"))
-            with open(os.path.join(alt_dir, "metadata.json"), "w", encoding="utf-8") as f:
-                json.dump(self.id_to_metadata, f, ensure_ascii=False, indent=2)
-            print(f"[INFO] 向量存储已保存至备用路径: {alt_dir}")
+
+        # FAISS C++底层不支持中文路径，先写到临时英文路径再复制
+        tmp_dir = os.path.join(tempfile.gettempdir(), "rag_faiss_tmp", name)
+        os.makedirs(tmp_dir, exist_ok=True)
+        tmp_index = os.path.join(tmp_dir, "faiss.index")
+        faiss.write_index(self.index, tmp_index)
+        shutil.copy2(tmp_index, index_path)
+
+        with open(meta_path, "w", encoding="utf-8") as f:
+            json.dump(self.id_to_metadata, f, ensure_ascii=False, indent=2)
+        print(f"[INFO] 向量存储已保存至: {save_dir}")
 
     def save_embeddings(self, embeddings: np.ndarray, name="default"):
         save_dir = self._get_save_dir(name)
@@ -226,38 +227,27 @@ class FAISSVectorStore:
         raise FileNotFoundError(f"向量缓存不存在: {emb_path}")
 
     def _get_save_dir(self, name="default") -> str:
-        primary = os.path.join(VECTOR_STORE_DIR, name)
-        if os.path.exists(os.path.join(primary, "faiss.index")):
-            return primary
-        import tempfile
-        alt = os.path.join(tempfile.gettempdir(), "rag_faiss", name)
-        if os.path.exists(alt) or os.path.exists(os.path.join(alt, "faiss.index")):
-            return alt
-        return primary
+        return os.path.join(VECTOR_STORE_DIR, name)
 
     def load(self, name="default"):
+        import tempfile
+        import shutil
         save_dir = os.path.join(VECTOR_STORE_DIR, name)
         index_path = os.path.join(save_dir, "faiss.index")
         meta_path = os.path.join(save_dir, "metadata.json")
-        import tempfile
-        alt_dir = os.path.join(tempfile.gettempdir(), "rag_faiss", name)
-        alt_index = os.path.join(alt_dir, "faiss.index")
-        alt_meta = os.path.join(alt_dir, "metadata.json")
-
-        if os.path.exists(alt_index) and os.path.exists(alt_meta):
-            self.index = faiss.read_index(alt_index)
-            with open(alt_meta, "r", encoding="utf-8") as f:
-                self.id_to_metadata = json.load(f)
-            self.id_to_metadata = {int(k): v for k, v in self.id_to_metadata.items()}
-            self.current_id = max(self.id_to_metadata.keys()) + 1 if self.id_to_metadata else 0
-            print(f"[INFO] 从备用路径加载: {alt_dir}")
-            return
 
         if not os.path.exists(index_path) or not os.path.exists(meta_path):
             raise FileNotFoundError(f"向量存储缓存不存在: {save_dir}")
 
-        self.index = faiss.read_index(index_path)
+        # FAISS C++底层不支持中文路径，先复制到临时英文路径再读取
+        tmp_dir = os.path.join(tempfile.gettempdir(), "rag_faiss_tmp", name)
+        os.makedirs(tmp_dir, exist_ok=True)
+        tmp_index = os.path.join(tmp_dir, "faiss.index")
+        shutil.copy2(index_path, tmp_index)
+        self.index = faiss.read_index(tmp_index)
+
         with open(meta_path, "r", encoding="utf-8") as f:
             self.id_to_metadata = json.load(f)
         self.id_to_metadata = {int(k): v for k, v in self.id_to_metadata.items()}
         self.current_id = max(self.id_to_metadata.keys()) + 1 if self.id_to_metadata else 0
+        print(f"[INFO] 从项目目录加载向量存储: {save_dir}")
