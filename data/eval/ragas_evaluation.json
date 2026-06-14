@@ -1,0 +1,5645 @@
+{
+  "method": "ragas_style",
+  "evaluator": "AI-Semantic-Judge-v1",
+  "total_evaluated": 50,
+  "evaluations": [
+    {
+      "query_id": "Q001",
+      "query": "什么是FFS理论",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "context_relevance_score": 3,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_large_chunk_22",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释FFS理论"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "认识管理_small_chunk_33",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释FFS理论"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "认识管理_small_chunk_86",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释FFS理论"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "精益创业2.0_small_chunk_37",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "市场营销原理_small_chunk_30",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "组织行为学_small_chunk_8",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释FFS理论"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "组织行为学_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释FFS理论"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "公共管理名著精华_large_chunk_58",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释FFS理论"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "公共管理名著精华_large_chunk_100",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释FFS理论"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释FFS理论"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_21",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "高效管理的8020法则_small_chunk_23",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释FFS理论"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "关键跨越_small_chunk_35",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_129",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        }
+      ]
+    },
+    {
+      "query_id": "Q002",
+      "query": "什么是OKR工作法",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释OKR工作法"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释OKR工作法"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释OKR工作法"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "精益创业2.0_large_chunk_48",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释OKR工作法"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "提及并部分论述OKR工作法"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "认识管理_small_chunk_77",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释OKR工作法"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "认识管理_small_chunk_86",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释OKR工作法"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "高效管理的8020法则_large_chunk_5",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "高效管理的8020法则_small_chunk_23",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释OKR工作法"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "关键跨越_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "提及并部分论述OKR工作法"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "提及并部分论述OKR工作法"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "组织行为学_large_chunk_17",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释OKR工作法"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "公共管理名著精华_small_chunk_69",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释OKR工作法"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "市场营销原理_small_chunk_214",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释OKR工作法"
+        }
+      ]
+    },
+    {
+      "query_id": "Q003",
+      "query": "什么是产品思维",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释产品思维"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_27",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释产品思维"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "卓有成效的管理者_small_chunk_11",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释产品思维"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "市场营销原理_small_chunk_159",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释产品思维"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_95",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释产品思维"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "关键跨越_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释产品思维"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "基业长青_small_chunk_65",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述产品思维相关内容"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "高效管理的8020法则_small_chunk_12",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释产品思维"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释产品思维"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_large_chunk_39",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释产品思维"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "精益创业2.0_large_chunk_5",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述产品思维相关内容"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "公共管理名著精华_large_chunk_15",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释产品思维"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "公共管理名著精华_small_chunk_115",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述产品思维相关内容"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释产品思维"
+        }
+      ]
+    },
+    {
+      "query_id": "Q004",
+      "query": "什么是公共管理",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "公共管理名著精华_small_chunk_0",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述公共管理相关内容"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "公共管理名著精华_small_chunk_6",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释公共管理"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "公共管理名著精华_small_chunk_44",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释公共管理"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "公共管理名著精华_small_chunk_52",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述公共管理相关内容"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "公共管理名著精华_small_chunk_138",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释公共管理"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "认识管理_large_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述公共管理相关内容"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "认识管理_small_chunk_16",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释公共管理"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "认识管理_small_chunk_28",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释公共管理"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "市场营销原理_large_chunk_12",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释公共管理"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "市场营销原理_large_chunk_140",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释公共管理"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "关键跨越_large_chunk_26",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释公共管理"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "基业长青_small_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释公共管理"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_large_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释公共管理"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "组织行为学_small_chunk_4",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "高效管理的8020法则_large_chunk_5",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释公共管理"
+        }
+      ]
+    },
+    {
+      "query_id": "Q005",
+      "query": "什么是赋能型领导",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释赋能型领导"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "组织行为学_large_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释赋能型领导"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_30",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "提及并部分论述赋能型领导"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_33",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释赋能型领导"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "公共管理名著精华_small_chunk_54",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释赋能型领导"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "公共管理名著精华_small_chunk_68",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释赋能型领导"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "高效管理的8020法则_large_chunk_9",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "高效管理的8020法则_large_chunk_23",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "关键跨越_small_chunk_8",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "提及并部分论述赋能型领导"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "认识管理_large_chunk_52",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "提及并部分论述赋能型领导"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "认识管理_small_chunk_124",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "认识管理_small_chunk_167",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_4",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "精益创业2.0_small_chunk_56",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        }
+      ]
+    },
+    {
+      "query_id": "Q006",
+      "query": "什么是华为灰度管理",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "context_relevance_score": 3,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "华为管理法任正非的企业管理心得_large_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释华为灰度管理"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "产品思维30讲-梁宁_large_chunk_14",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "提及并部分论述华为灰度管理"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "关键跨越_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "提及并部分论述华为灰度管理"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_1",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "认识管理_small_chunk_86",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释华为灰度管理"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "高效管理的8020法则_large_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释华为灰度管理"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "高效管理的8020法则_small_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释华为灰度管理"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释华为灰度管理"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释华为灰度管理"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "组织行为学_small_chunk_57",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释华为灰度管理"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释华为灰度管理"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "公共管理名著精华_large_chunk_17",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释华为灰度管理"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "公共管理名著精华_large_chunk_81",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释华为灰度管理"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "市场营销原理_large_chunk_155",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        }
+      ]
+    },
+    {
+      "query_id": "Q007",
+      "query": "什么是组织文化",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "组织行为学_small_chunk_97",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释组织文化"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "基业长青_large_chunk_51",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述组织文化相关内容"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释组织文化"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "认识管理_small_chunk_12",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释组织文化"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "认识管理_large_chunk_73",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释组织文化"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "认识管理_small_chunk_132",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释组织文化"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "公共管理名著精华_large_chunk_33",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释组织文化"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "公共管理名著精华_small_chunk_64",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述组织文化相关内容"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "公共管理名著精华_small_chunk_113",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述组织文化相关内容"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_5",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释组织文化"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释组织文化"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_66",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述组织文化相关内容"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_64",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述组织文化相关内容"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "精益创业2.0_small_chunk_56",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        }
+      ]
+    },
+    {
+      "query_id": "Q008",
+      "query": "什么是马斯洛需求层次理论",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "组织行为学_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释马斯洛需求层次理论"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "认识管理_small_chunk_30",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释马斯洛需求层次理论"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "认识管理_large_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释马斯洛需求层次理论"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "认识管理_small_chunk_86",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释马斯洛需求层次理论"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_15",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "公共管理名著精华_large_chunk_17",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释马斯洛需求层次理论"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "公共管理名著精华_small_chunk_50",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "公共管理名著精华_large_chunk_53",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "提及并部分论述马斯洛需求层次理论"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "市场营销原理_large_chunk_54",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释马斯洛需求层次理论"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_45",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释马斯洛需求层次理论"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "关键跨越_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释马斯洛需求层次理论"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释马斯洛需求层次理论"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释马斯洛需求层次理论"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释马斯洛需求层次理论"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "精益创业2.0_small_chunk_37",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        }
+      ]
+    },
+    {
+      "query_id": "Q009",
+      "query": "什么是双因素理论",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "组织行为学_small_chunk_38",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释双因素理论"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "认识管理_large_chunk_16",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释双因素理论"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "认识管理_small_chunk_86",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释双因素理论"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_45",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释双因素理论"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "高效管理的8020法则_large_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释双因素理论"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_15",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "公共管理名著精华_large_chunk_17",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释双因素理论"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "公共管理名著精华_small_chunk_50",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "市场营销原理_small_chunk_73",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释双因素理论"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释双因素理论"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_45",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_129",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "精益创业2.0_large_chunk_30",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        }
+      ]
+    },
+    {
+      "query_id": "Q010",
+      "query": "什么是企业的宗旨和使命",
+      "query_type": "definition",
+      "difficulty": "medium",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "认识管理_large_chunk_19",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释企业的宗旨和使命"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "认识管理_small_chunk_28",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释企业的宗旨和使命"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "认识管理_small_chunk_46",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释企业的宗旨和使命"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "认识管理_small_chunk_66",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释企业的宗旨和使命"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "组织行为学_large_chunk_45",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释企业的宗旨和使命"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_14",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释企业的宗旨和使命"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_45",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "基业长青_small_chunk_90",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "提及并部分论述企业的宗旨和使命"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "公共管理名著精华_small_chunk_47",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释企业的宗旨和使命"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "精益创业2.0_large_chunk_6",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释企业的宗旨和使命"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_5",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_17",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_48",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_129",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释企业的宗旨和使命"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "高效管理的8020法则_small_chunk_23",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释企业的宗旨和使命"
+        }
+      ]
+    },
+    {
+      "query_id": "Q011",
+      "query": "什么是8020法则",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "context_relevance_score": 2,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "高效管理的8020法则_small_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释8020法则"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "产品思维30讲-梁宁_large_chunk_3",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_15",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_33",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "基业长青_small_chunk_2",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "精益创业2.0_small_chunk_37",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_21",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_large_chunk_41",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "认识管理_small_chunk_62",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "公共管理名著精华_small_chunk_215",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "市场营销原理_small_chunk_292",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "市场营销原理_small_chunk_344",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        }
+      ]
+    },
+    {
+      "query_id": "Q012",
+      "query": "什么是波特五力模型",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "context_relevance_score": 3,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述波特五力模型相关内容"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "组织行为学_large_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释波特五力模型"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "华为管理法任正非的企业管理心得_large_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释波特五力模型"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_45",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_15",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "产品思维30讲-梁宁_large_chunk_19",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释波特五力模型"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释波特五力模型"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_21",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "市场营销原理_small_chunk_121",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_small_chunk_167",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "高效管理的8020法则_small_chunk_27",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "公共管理名著精华_small_chunk_0",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "公共管理名著精华_small_chunk_100",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        }
+      ]
+    },
+    {
+      "query_id": "Q013",
+      "query": "什么是市场营销4P理论",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "市场营销原理_small_chunk_106",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述市场营销4P理论相关内容"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "市场营销原理_large_chunk_190",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释市场营销4P理论"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_49",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释市场营销4P理论"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "认识管理_small_chunk_30",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释市场营销4P理论"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "认识管理_small_chunk_33",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释市场营销4P理论"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "认识管理_large_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释市场营销4P理论"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "认识管理_small_chunk_48",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释市场营销4P理论"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_large_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释市场营销4P理论"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "产品思维30讲-梁宁_large_chunk_11",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释市场营销4P理论"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "公共管理名著精华_small_chunk_6",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "公共管理名著精华_large_chunk_15",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释市场营销4P理论"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "精益创业2.0_small_chunk_92",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释市场营销4P理论"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "组织行为学_large_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释市场营销4P理论"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        }
+      ]
+    },
+    {
+      "query_id": "Q014",
+      "query": "什么是精益创业",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "精益创业2.0_small_chunk_23",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释精益创业"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "精益创业2.0_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述精益创业相关内容"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "精益创业2.0_small_chunk_92",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释精益创业"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "基业长青_small_chunk_27",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "提及并部分论述精益创业"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_64",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_86",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_95",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释精益创业"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "卓有成效的管理者_small_chunk_11",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_large_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释精益创业"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "认识管理_small_chunk_124",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "高效管理的8020法则_small_chunk_57",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "公共管理名著精华_small_chunk_113",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "市场营销原理_small_chunk_188",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        }
+      ]
+    },
+    {
+      "query_id": "Q015",
+      "query": "什么是管理思维中的目标原则",
+      "query_type": "definition",
+      "difficulty": "easy",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_0",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "版权/目录/噪声内容，与query无关"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_5",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释管理思维中的目标原则"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_17",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述管理思维中的目标原则相关内容"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_48",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释管理思维中的目标原则"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释管理思维中的目标原则"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_45",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释管理思维中的目标原则"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "高效管理的8020法则_large_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释管理思维中的目标原则"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "高效管理的8020法则_small_chunk_23",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释管理思维中的目标原则"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "认识管理_small_chunk_12",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释管理思维中的目标原则"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_large_chunk_39",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释管理思维中的目标原则"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "认识管理_small_chunk_48",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述管理思维中的目标原则相关内容"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释管理思维中的目标原则"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "公共管理名著精华_small_chunk_6",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "直接定义/解释管理思维中的目标原则"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "组织行为学_small_chunk_66",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述管理思维中的目标原则相关内容"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "市场营销原理_small_chunk_30",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未找到query核心概念的定义或论述"
+        }
+      ]
+    },
+    {
+      "query_id": "Q016",
+      "query": "小团队主管的四项工作是什么",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_7",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "组织行为学_large_chunk_29",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "关键跨越_small_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_9",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "认识管理_small_chunk_114",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_small_chunk_124",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "精益创业2.0_large_chunk_5",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "卓有成效的管理者_small_chunk_42",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "公共管理名著精华_small_chunk_113",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q017",
+      "query": "如何通过倾听提升下属的工作动力",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "关键跨越_small_chunk_22",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "关键跨越_small_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "高效管理的8020法则_large_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "高效管理的8020法则_small_chunk_23",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_33",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_small_chunk_86",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "公共管理名著精华_large_chunk_31",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_95",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        }
+      ]
+    },
+    {
+      "query_id": "Q018",
+      "query": "如何进行有效的会议管理",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_45",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "关键跨越_large_chunk_16",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "卓有成效的管理者_small_chunk_61",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "高效管理的8020法则_small_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "精益创业2.0_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_21",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "认识管理_small_chunk_140",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "公共管理名著精华_small_chunk_54",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "公共管理名著精华_small_chunk_95",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "版权/目录/噪声内容，与query无关"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "基业长青_small_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        }
+      ]
+    },
+    {
+      "query_id": "Q019",
+      "query": "OKR工作法的实施步骤是什么",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "context_relevance_score": 3,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_large_chunk_0",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "基业长青_small_chunk_77",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "认识管理_small_chunk_77",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "组织行为学_small_chunk_34",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "关键跨越_small_chunk_35",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "市场营销原理_small_chunk_279",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "公共管理名著精华_large_chunk_17",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "公共管理名著精华_small_chunk_103",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q020",
+      "query": "用户体验的五个层次是什么",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 3,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_22",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "市场营销原理_small_chunk_94",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "市场营销原理_small_chunk_160",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "组织行为学_small_chunk_36",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_45",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "关键跨越_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "关键跨越_small_chunk_56",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "精益创业2.0_small_chunk_32",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "基业长青_small_chunk_65",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_45",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "公共管理名著精华_small_chunk_93",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q021",
+      "query": "三级火箭商业模式是什么",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 1,
+      "is_sufficient": false,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_4",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_10",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_12",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_95",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "精益创业2.0_small_chunk_34",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "精益创业2.0_small_chunk_37",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "精益创业2.0_small_chunk_62",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "产品思维30讲-梁宁_large_chunk_11",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_15",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "高效管理的8020法则_small_chunk_57",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "认识管理_large_chunk_15",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "市场营销原理_small_chunk_30",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_21",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_37",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "公共管理名著精华_small_chunk_93",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q022",
+      "query": "新手管理者的三个关键跨越是什么",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "关键跨越_small_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "关键跨越_small_chunk_12",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "关键跨越_small_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "关键跨越_small_chunk_56",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "精益创业2.0_small_chunk_93",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "公共管理名著精华_small_chunk_95",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "版权/目录/噪声内容，与query无关"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "公共管理名著精华_small_chunk_113",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_0",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "版权/目录/噪声内容，与query无关"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_21",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_large_chunk_22",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "高效管理的8020法则_large_chunk_9",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "高效管理的8020法则_small_chunk_23",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "认识管理_small_chunk_114",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        }
+      ]
+    },
+    {
+      "query_id": "Q023",
+      "query": "辅导员工的关键四步是什么",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "关键跨越_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "关键跨越_small_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "关键跨越_small_chunk_47",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "关键跨越_small_chunk_50",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "基业长青_small_chunk_77",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_large_chunk_22",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "组织行为学_small_chunk_66",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "组织行为学_small_chunk_138",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "公共管理名著精华_small_chunk_69",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "认识管理_small_chunk_82",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q024",
+      "query": "华为供应链管理的深淘滩低作堰原则是什么",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 2,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_51",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "认识管理_large_chunk_39",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "认识管理_large_chunk_54",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "关键跨越_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_47",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_0",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "版权/目录/噪声内容，与query无关"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_10",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "市场营销原理_small_chunk_226",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "组织行为学_small_chunk_65",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "公共管理名著精华_large_chunk_43",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        }
+      ]
+    },
+    {
+      "query_id": "Q025",
+      "query": "德鲁克认为管理者如何掌握自己的时间",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "卓有成效的管理者_small_chunk_4",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "卓有成效的管理者_small_chunk_15",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "关键跨越_large_chunk_20",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "关键跨越_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "高效管理的8020法则_large_chunk_28",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "高效管理的8020法则_small_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_21",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_45",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "精益创业2.0_large_chunk_48",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "公共管理名著精华_small_chunk_0",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q026",
+      "query": "卓有成效的管理者如何发挥人的长处",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "卓有成效的管理者_small_chunk_7",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "卓有成效的管理者_small_chunk_31",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "关键跨越_small_chunk_12",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "高效管理的8020法则_large_chunk_28",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "高效管理的8020法则_small_chunk_60",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_large_chunk_52",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "认识管理_small_chunk_114",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "基业长青_small_chunk_42",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "公共管理名著精华_small_chunk_113",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "精益创业2.0_large_chunk_6",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q027",
+      "query": "基业长青的公司有什么共同特质",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "基业长青_large_chunk_0",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "基业长青_small_chunk_8",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "认识管理_small_chunk_30",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "认识管理_small_chunk_159",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "精益创业2.0_small_chunk_17",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "精益创业2.0_large_chunk_30",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_52",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_77",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "产品思维30讲-梁宁_large_chunk_14",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "组织行为学_large_chunk_32",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_5",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_21",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "市场营销原理_small_chunk_209",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        }
+      ]
+    },
+    {
+      "query_id": "Q028",
+      "query": "如何进行市场细分",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "市场营销原理_large_chunk_59",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "市场营销原理_small_chunk_131",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_95",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_104",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_22",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "高效管理的8020法则_large_chunk_9",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "高效管理的8020法则_small_chunk_12",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "认识管理_small_chunk_22",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "认识管理_small_chunk_31",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_small_chunk_48",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "精益创业2.0_small_chunk_50",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_45",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_33",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q029",
+      "query": "如何进行市场定位",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "市场营销原理_small_chunk_141",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_large_chunk_12",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_22",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "认识管理_small_chunk_22",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "认识管理_small_chunk_31",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "认识管理_small_chunk_48",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "公共管理名著精华_large_chunk_15",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "高效管理的8020法则_small_chunk_12",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "高效管理的8020法则_small_chunk_23",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "关键跨越_small_chunk_47",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_1",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "组织行为学_small_chunk_57",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_10",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q030",
+      "query": "竞争战略的基本类型有哪些",
+      "query_type": "framework",
+      "difficulty": "easy",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_7",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_27",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_76",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "公共管理名著精华_small_chunk_6",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "公共管理名著精华_small_chunk_136",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "市场营销原理_small_chunk_369",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_10",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "认识管理_small_chunk_48",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "基业长青_small_chunk_16",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "组织行为学_large_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "组织行为学_large_chunk_46",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_49",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "高效管理的8020法则_large_chunk_5",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q031",
+      "query": "如何打造团队执行力",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_53",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "精益创业2.0_large_chunk_8",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "公共管理名著精华_small_chunk_113",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "组织行为学_small_chunk_66",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "关键跨越_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_10",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_large_chunk_64",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "高效管理的8020法则_large_chunk_23",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "高效管理的8020法则_large_chunk_28",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "产品思维30讲-梁宁_large_chunk_13",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q032",
+      "query": "如何进行组织变革管理",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "组织行为学_small_chunk_132",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_0",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "版权/目录/噪声内容，与query无关"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_33",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "精益创业2.0_small_chunk_93",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "公共管理名著精华_small_chunk_100",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "公共管理名著精华_small_chunk_103",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "公共管理名著精华_small_chunk_113",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_small_chunk_114",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "认识管理_small_chunk_173",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_52",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "高效管理的8020法则_large_chunk_5",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q033",
+      "query": "如何使工作富有成效",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "认识管理_small_chunk_77",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "卓有成效的管理者_small_chunk_42",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "卓有成效的管理者_small_chunk_61",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_53",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_30",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "高效管理的8020法则_small_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "高效管理的8020法则_small_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "关键跨越_small_chunk_39",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "公共管理名著精华_small_chunk_95",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "版权/目录/噪声内容，与query无关"
+        }
+      ]
+    },
+    {
+      "query_id": "Q034",
+      "query": "如何管理知识工作者",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "卓有成效的管理者_small_chunk_4",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "卓有成效的管理者_small_chunk_11",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "认识管理_large_chunk_57",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_53",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "关键跨越_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "公共管理名著精华_small_chunk_113",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_33",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "高效管理的8020法则_large_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "高效管理的8020法则_large_chunk_9",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "精益创业2.0_large_chunk_6",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "精益创业2.0_large_chunk_48",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_52",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        }
+      ]
+    },
+    {
+      "query_id": "Q035",
+      "query": "创新核算制度的关键是什么",
+      "query_type": "framework",
+      "difficulty": "medium",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "精益创业2.0_small_chunk_80",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "实质性论述相关管理方法"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "精益创业2.0_small_chunk_85",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "认识管理_small_chunk_48",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "认识管理_small_chunk_82",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "认识管理_small_chunk_173",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "公共管理名著精华_small_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "公共管理名著精华_small_chunk_149",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_17",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_large_chunk_55",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_86",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关，提及核心概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "华为管理法任正非的企业管理心得_large_chunk_5",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供query所需的方法框架"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的方法/步骤/框架"
+        }
+      ]
+    },
+    {
+      "query_id": "Q036",
+      "query": "小团队如何有效管理",
+      "query_type": "application",
+      "difficulty": "easy",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_53",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "关键跨越_large_chunk_16",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "精益创业2.0_small_chunk_14",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "高效管理的8020法则_large_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "高效管理的8020法则_large_chunk_9",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_small_chunk_114",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "市场营销原理_large_chunk_12",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "公共管理名著精华_small_chunk_113",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "基业长青_small_chunk_131",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        }
+      ]
+    },
+    {
+      "query_id": "Q037",
+      "query": "如何成为卓有成效的管理者",
+      "query_type": "application",
+      "difficulty": "medium",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "卓有成效的管理者_small_chunk_61",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "高效管理的8020法则_small_chunk_10",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "高效管理的8020法则_large_chunk_28",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_53",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "关键跨越_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_0",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "版权/目录/噪声内容，与query无关"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_33",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_30",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "认识管理_small_chunk_114",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "认识管理_small_chunk_124",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "论述相关管理实践"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "公共管理名著精华_small_chunk_95",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "版权/目录/噪声内容，与query无关"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "公共管理名著精华_small_chunk_113",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        }
+      ]
+    },
+    {
+      "query_id": "Q038",
+      "query": "华为如何管理危机意识",
+      "query_type": "application",
+      "difficulty": "medium",
+      "context_relevance_score": 3,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_7",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_17",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_45",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "关键跨越_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "组织行为学_small_chunk_57",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "组织行为学_small_chunk_144",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "公共管理名著精华_large_chunk_30",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "公共管理名著精华_small_chunk_95",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "版权/目录/噪声内容，与query无关"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "公共管理名著精华_small_chunk_100",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "高效管理的8020法则_large_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "精益创业2.0_small_chunk_37",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        }
+      ]
+    },
+    {
+      "query_id": "Q039",
+      "query": "如何应用精益创业方法改进产品",
+      "query_type": "application",
+      "difficulty": "medium",
+      "context_relevance_score": 5,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "精益创业2.0_small_chunk_23",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "精益创业2.0_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "论述相关管理实践"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "精益创业2.0_small_chunk_50",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "精益创业2.0_small_chunk_92",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "论述相关管理实践"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "市场营销原理_small_chunk_10",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_52",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_95",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "认识管理_large_chunk_36",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "认识管理_small_chunk_124",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "产品思维30讲-梁宁_large_chunk_23",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "高效管理的8020法则_large_chunk_5",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "公共管理名著精华_small_chunk_113",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        }
+      ]
+    },
+    {
+      "query_id": "Q040",
+      "query": "如何从业务高手转变为优秀主管",
+      "query_type": "application",
+      "difficulty": "medium",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "关键跨越_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_30",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "高效管理的8020法则_large_chunk_2",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "高效管理的8020法则_large_chunk_9",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_37",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "卓有成效的管理者_small_chunk_42",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_40",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_45",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "认识管理_large_chunk_29",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "公共管理名著精华_small_chunk_113",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        }
+      ]
+    },
+    {
+      "query_id": "Q041",
+      "query": "如何提供优良的顾客价值",
+      "query_type": "application",
+      "difficulty": "easy",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "市场营销原理_small_chunk_343",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "论述相关管理实践"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "产品思维30讲-梁宁_large_chunk_14",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "认识管理_large_chunk_15",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "论述相关管理实践"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "认识管理_small_chunk_62",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "认识管理_small_chunk_82",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_52",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_95",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "高效管理的8020法则_small_chunk_12",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "关键跨越_small_chunk_47",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "基业长青_small_chunk_90",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "公共管理名著精华_small_chunk_115",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "论述相关管理实践"
+        }
+      ]
+    },
+    {
+      "query_id": "Q042",
+      "query": "如何应用8020法则提升管理效率",
+      "query_type": "application",
+      "difficulty": "medium",
+      "context_relevance_score": 2,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "高效管理的8020法则_small_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "关键跨越_small_chunk_39",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "关键跨越_small_chunk_47",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "精益创业2.0_large_chunk_24",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "基业长青_small_chunk_2",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "公共管理名著精华_small_chunk_215",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_3",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_small_chunk_114",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_21",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_2",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_129",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_33",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        }
+      ]
+    },
+    {
+      "query_id": "Q043",
+      "query": "如何进行有效的绩效反馈",
+      "query_type": "application",
+      "difficulty": "medium",
+      "context_relevance_score": 4,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "认识管理_large_chunk_43",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "组织行为学_small_chunk_70",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "组织行为学_small_chunk_86",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "论述相关管理实践"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "公共管理名著精华_large_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "公共管理名著精华_large_chunk_81",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "关键跨越_small_chunk_47",
+          "is_relevant": true,
+          "relevance_score": 4,
+          "reason": "论述相关管理实践"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "卓有成效的管理者_small_chunk_61",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "提供query所需的实践指导"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_33",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_41",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "精益创业2.0_large_chunk_11",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_large_chunk_22",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关实践内容"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "高效管理的8020法则_small_chunk_23",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未提供相关实践指导"
+        }
+      ]
+    },
+    {
+      "query_id": "Q044",
+      "query": "OKR和KPI有什么异同",
+      "query_type": "comparison",
+      "difficulty": "medium",
+      "context_relevance_score": 3,
+      "is_sufficient": false,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_1",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "仅涉及对比一方(OKR)"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_small_chunk_35",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "仅涉及对比一方(OKR)"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "组织行为学_small_chunk_70",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "认识管理_large_chunk_39",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "认识管理_small_chunk_48",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "认识管理_small_chunk_62",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "公共管理名著精华_small_chunk_109",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "基业长青_small_chunk_16",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_large_chunk_12",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "高效管理的8020法则_small_chunk_6",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "高效管理的8020法则_small_chunk_23",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关对比内容"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "市场营销原理_small_chunk_351",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "产品思维30讲-梁宁_large_chunk_4",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_5",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        }
+      ]
+    },
+    {
+      "query_id": "Q045",
+      "query": "泰勒和法约尔的管理思想有何异同",
+      "query_type": "comparison",
+      "difficulty": "hard",
+      "context_relevance_score": 2,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "认识管理_small_chunk_71",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "同时论述对比双方并分析异同"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "组织行为学_large_chunk_34",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_51",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "公共管理名著精华_small_chunk_100",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "公共管理名著精华_small_chunk_215",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "高效管理的8020法则_small_chunk_23",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "高效管理的8020法则_small_chunk_36",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "仅涉及对比一方(泰勒)"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "关键跨越_small_chunk_35",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "市场营销原理_small_chunk_73",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        }
+      ]
+    },
+    {
+      "query_id": "Q046",
+      "query": "X理论和Y理论的核心差异是什么",
+      "query_type": "comparison",
+      "difficulty": "easy",
+      "context_relevance_score": 2,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "认识管理_large_chunk_41",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "同时论述对比双方并分析异同"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "认识管理_small_chunk_144",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "产品思维30讲-梁宁_large_chunk_1",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_15",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关对比内容"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "组织行为学_small_chunk_11",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "基业长青_large_chunk_25",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "精益创业2.0_small_chunk_37",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "高效管理的8020法则_small_chunk_36",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "公共管理名著精华_large_chunk_62",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关对比内容"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_45",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "OKR工作法谷歌、领英等公司的高绩效秘籍_large_chunk_22",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "市场营销原理_large_chunk_0",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_129",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        }
+      ]
+    },
+    {
+      "query_id": "Q047",
+      "query": "领导特质理论和情境领导理论有何差异",
+      "query_type": "comparison",
+      "difficulty": "medium",
+      "context_relevance_score": 3,
+      "is_sufficient": false,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "组织行为学_small_chunk_72",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关对比内容"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_large_chunk_22",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "认识管理_large_chunk_41",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "认识管理_large_chunk_52",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "认识管理_large_chunk_64",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "基业长青_large_chunk_59",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关对比内容"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_1",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_21",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关对比内容"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "精益创业2.0_small_chunk_62",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关对比内容"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "高效管理的8020法则_small_chunk_23",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "高效管理的8020法则_large_chunk_28",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "关键跨越_small_chunk_35",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "市场营销原理_large_chunk_87",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        }
+      ]
+    },
+    {
+      "query_id": "Q048",
+      "query": "科学管理理论和人际关系学派的主要区别是什么",
+      "query_type": "comparison",
+      "difficulty": "medium",
+      "context_relevance_score": 3,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "认识管理_large_chunk_34",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "同时论述对比双方并分析异同"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "组织行为学_small_chunk_8",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关对比内容"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "组织行为学_small_chunk_67",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "仅涉及对比一方(人际关系学派)"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "华为管理法任正非的企业管理心得_small_chunk_51",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "仅涉及对比一方(科学管理理论)"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "基业长青_small_chunk_16",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "基业长青_large_chunk_55",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "市场营销原理_large_chunk_0",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "市场营销原理_small_chunk_73",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_large_chunk_22",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "仅涉及对比一方(人际关系学派)"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "公共管理名著精华_small_chunk_50",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "公共管理名著精华_small_chunk_54",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "公共管理名著精华_large_chunk_62",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_0",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "版权/目录/噪声内容，与query无关"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_64",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        }
+      ]
+    },
+    {
+      "query_id": "Q049",
+      "query": "成本领先战略和差异化战略的适用条件有何不同",
+      "query_type": "comparison",
+      "difficulty": "medium",
+      "context_relevance_score": 2,
+      "is_sufficient": true,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_26",
+          "is_relevant": true,
+          "relevance_score": 5,
+          "reason": "同时论述对比双方并分析异同"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_95",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "仅涉及对比一方(化战略适用条件)"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_large_chunk_18",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_21",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_25",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "组织行为学_large_chunk_37",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "组织行为学_small_chunk_118",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关对比内容"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "高效管理的8020法则_small_chunk_12",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "基业长青_small_chunk_58",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "部分相关对比内容"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "认识管理_small_chunk_48",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "认识管理_large_chunk_64",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "精益创业2.0_large_chunk_37",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "精益创业2.0_small_chunk_71",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "公共管理名著精华_small_chunk_6",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        }
+      ]
+    },
+    {
+      "query_id": "Q050",
+      "query": "马斯洛需求层次论和双因素理论的异同",
+      "query_type": "comparison",
+      "difficulty": "medium",
+      "context_relevance_score": 3,
+      "is_sufficient": false,
+      "chunk_evaluations": [
+        {
+          "rank": 1,
+          "chunk_id": "组织行为学_small_chunk_37",
+          "is_relevant": true,
+          "relevance_score": 3,
+          "reason": "仅涉及对比一方(马斯洛需求层次论)"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_15",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "产品思维30讲-梁宁_small_chunk_37",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "认识管理_small_chunk_30",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "认识管理_small_chunk_86",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 6,
+          "chunk_id": "10人以下小团队管理手册-堀之内克彦_small_chunk_45",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 7,
+          "chunk_id": "基业长青_small_chunk_16",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 8,
+          "chunk_id": "高效管理的8020法则_large_chunk_3",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 9,
+          "chunk_id": "市场营销原理_large_chunk_54",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 10,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_0",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "版权/目录/噪声内容，与query无关"
+        },
+        {
+          "rank": 11,
+          "chunk_id": "管理思维：破解管理难题，引爆团队执行力_small_chunk_3",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 12,
+          "chunk_id": "精益创业2.0_large_chunk_18",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 13,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_large_chunk_12",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 14,
+          "chunk_id": "竞争战略-Michael-E.Porter-陈丽芳_small_chunk_76",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        },
+        {
+          "rank": 15,
+          "chunk_id": "公共管理名著精华_large_chunk_100",
+          "is_relevant": false,
+          "relevance_score": 1,
+          "reason": "未同时涉及对比概念"
+        }
+      ]
+    }
+  ]
+}

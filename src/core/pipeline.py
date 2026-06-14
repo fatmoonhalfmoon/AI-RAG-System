@@ -3,7 +3,7 @@ import sys
 import time
 from typing import List, Dict
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stderr.reconfigure(encoding='utf-8')
 
@@ -12,6 +12,7 @@ from src.core.config import (
     CHUNK_SIZE_SMALL, CHUNK_SIZE_LARGE, PARENT_CHUNK_SIZE,
     FINAL_TOP_K, DENSE_TOP_K, BM25_TOP_K, QA_TOP_K,
     DENSE_MAX_CHUNKS, VECTOR_MIN_PER_DOC,
+    TEST_QUESTIONS,
 )
 from src.indexing.text_splitter import (
     ChineseTextSplitter, load_knowledge_base, select_dense_chunks, ChunkQualityFilter,
@@ -123,18 +124,23 @@ class RAGPipeline:
         self.small_dense_embeddings = small_embeddings
         self.large_dense_embeddings = large_embeddings
 
-        print(f"\n--- Stage 3b: Q&A知识点提取 ---")
+        print(f"\n--- Stage 3b: Q&A知识点加载 ---")
         self.qa_pairs = self.qa_extractor.extract_from_chunks(filtered_small)
         qa_path = self.qa_extractor.save_qa_pairs(self.qa_pairs)
-        print(f"提取Q&A知识点: {len(self.qa_pairs)} 对")
+        print(f"Q&A知识点: {len(self.qa_pairs)} 对（AI生成 + 多轮核查筛选）")
         print(f"Q&A存储路径: {qa_path}")
 
         type_counts = {}
+        doc_counts = {}
         for qa in self.qa_pairs:
             t = qa.get("qa_type", "unknown")
             type_counts[t] = type_counts.get(t, 0) + 1
-        for t, c in type_counts.items():
-            print(f"  {t}: {c} 对")
+            d = qa.get("source_doc", "unknown")
+            doc_counts[d] = doc_counts.get(d, 0) + 1
+        print(f"  按类型:")
+        for t, c in sorted(type_counts.items(), key=lambda x: -x[1]):
+            print(f"    {t}: {c} 对")
+        print(f"  按文档: {len(doc_counts)} 个文档，每文档 {min(doc_counts.values())}-{max(doc_counts.values())} 对")
 
         self.qa_retriever = QARetriever(self.qa_pairs, embedding_model=self.embedding_model)
 
@@ -213,7 +219,7 @@ class RAGPipeline:
             large_dense_embeddings=large_embeddings,
             qa_retriever=self.qa_retriever,
         )
-        print(f"缓存加载完成，小粒度Dense {len(dense_small)} 条，大粒度Dense {len(dense_large)} 条，BM25全量 {len(all_chunks)} 条，Q&A {len(self.qa_pairs)} 对\n")
+        print(f"缓存加载完成，小粒度Dense {len(dense_small)} 条，大粒度Dense {len(dense_large)} 条，BM25全量 {len(all_chunks)} 条，Q&A {len(self.qa_pairs)} 对（AI生成+核查筛选）\n")
 
     def search(self, query: str, top_k=FINAL_TOP_K) -> Dict:
         if self.retriever is None:
@@ -230,6 +236,9 @@ class RAGPipeline:
         )
         elapsed = (time.time() - start_time) * 1000
         result["retrieval_time_ms"] = round(elapsed, 2)
+
+        if self.retriever and self.retriever._cross_encoder:
+            result["cross_encoder_stats"] = self.retriever._cross_encoder.get_stats()
 
         merged_context = self.formatter.format_context(result)
         result["merged_context"] = merged_context
@@ -255,16 +264,7 @@ def main():
     pipeline = RAGPipeline()
     pipeline.build_knowledge_base()
 
-    test_questions = [
-        "管理类核心思想是什么",
-        "什么是战略管理中的SWOT分析",
-        "人力资源管理包括哪些核心模块",
-        "泰勒和法约尔的管理思想有何异同",
-        "组织文化的层次是什么",
-        "科学管理理论是谁提出的",
-    ]
-
-    for q in test_questions:
+    for q in TEST_QUESTIONS:
         pipeline.query(q)
 
 

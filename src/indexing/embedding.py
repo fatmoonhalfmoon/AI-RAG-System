@@ -17,7 +17,14 @@ class BGEEmbeddingModel:
         model_path = local_path if local_path else self.model_name
         print(f"[BGE] 加载模型: {model_path}")
         self._model = SentenceTransformer(model_path)
-        self._dim = self._model.get_embedding_dimension()
+        # 兼容不同版本 sentence-transformers 的维度获取 API
+        if hasattr(self._model, "get_sentence_embedding_dimension"):
+            self._dim = self._model.get_sentence_embedding_dimension()
+        elif hasattr(self._model, "get_embedding_dimension"):
+            self._dim = self._model.get_embedding_dimension()
+        else:
+            # 兜底：编码一个空字符串获取维度
+            self._dim = len(self._model.encode("", normalize_embeddings=True))
         print(f"[BGE] 模型加载完成, 向量维度: {self._dim}")
 
     @property

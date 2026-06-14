@@ -1,3 +1,7 @@
+import copy
+import hashlib
+import json
+import os
 import jieba
 import numpy as np
 from typing import List, Dict, Tuple, Optional
@@ -6,7 +10,9 @@ from src.core.config import (
     DENSE_TOP_K, BM25_TOP_K, QA_TOP_K, RRF_K, MMR_LAMBDA,
     FINAL_TOP_K, MAX_CHUNKS_PER_DOC, QUERY_EXPAND_COUNT,
     DENSE_SMALL_WEIGHT, DENSE_LARGE_WEIGHT, BM25_WEIGHT, QA_WEIGHT,
-    USE_CROSS_ENCODER, CROSS_ENCODER_MODEL, CROSS_ENCODER_TOP_K, CROSS_ENCODER_BATCH_SIZE,
+    USE_CROSS_ENCODER, CROSS_ENCODER_MODEL, CROSS_ENCODER_LOCAL_PATH,
+    CROSS_ENCODER_TOP_K, CROSS_ENCODER_BATCH_SIZE,
+    CROSS_ENCODER_CACHE_ENABLED, CROSS_ENCODER_CACHE_DIR,
 )
 from src.indexing.embedding import EmbeddingModel
 from src.indexing.vector_store import FAISSVectorStore
@@ -82,6 +88,10 @@ DOMAIN_SYNONYMS = {
 class BM25Retriever:
     def __init__(self, chunks: List[Dict]):
         self.chunks = chunks
+        if not chunks:
+            self.doc_name_tokens = []
+            self.bm25 = None
+            return
         tokenized_corpus = [self._tokenize(c["content"]) for c in chunks]
         self.doc_name_tokens = [self._tokenize(c.get("source_doc", "")) for c in chunks]
         self.bm25 = BM25Okapi(tokenized_corpus)
@@ -90,6 +100,8 @@ class BM25Retriever:
         return [w for w in jieba.cut(text) if w.strip() and w not in STOP_WORDS]
 
     def search(self, query: str, top_k=BM25_TOP_K) -> List[Tuple[int, float]]:
+        if self.bm25 is None:
+            return []
         tokenized_query = self._tokenize(query)
         if not tokenized_query:
             return []
@@ -114,6 +126,34 @@ class CrossEncoderReranker:
     def __init__(self, model_name: str = CROSS_ENCODER_MODEL):
         self.model_name = model_name
         self._model = None
+        self.cache_enabled = CROSS_ENCODER_CACHE_ENABLED
+        self.cache_path = os.path.join(CROSS_ENCODER_CACHE_DIR, "cache.json")
+        self._cache = {}
+        self.hit_count = 0
+        self.miss_count = 0
+        os.makedirs(CROSS_ENCODER_CACHE_DIR, exist_ok=True)
+        self._load_cache()
+
+    def _load_cache(self):
+        if os.path.exists(self.cache_path):
+            try:
+                with open(self.cache_path, "r", encoding="utf-8") as f:
+                    self._cache = json.load(f)
+            except Exception:
+                self._cache = {}
+        else:
+            self._cache = {}
+
+    def _save_cache(self):
+        try:
+            with open(self.cache_path, "w", encoding="utf-8") as f:
+                json.dump(self._cache, f, ensure_ascii=False, indent=2)
+        except Exception:
+            pass
+
+    def _make_cache_key(self, query: str, chunks: List[Dict]) -> str:
+        content = query + "|" + "|".join([c["chunk_id"] for c in chunks])
+        return hashlib.md5(content.encode("utf-8")).hexdigest()
 
     def _load_model(self):
         if self._model is not None:
@@ -122,16 +162,36 @@ class CrossEncoderReranker:
         os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
         os.environ['HF_HUB_OFFLINE'] = '1'
         from sentence_transformers import CrossEncoder
-        print(f"[CROSS-ENCODER] 加载精排模型: {self.model_name}")
-        self._model = CrossEncoder(self.model_name, local_files_only=True)
+        model_path = CROSS_ENCODER_LOCAL_PATH if os.path.isdir(CROSS_ENCODER_LOCAL_PATH) else self.model_name
+        print(f"[CROSS-ENCODER] 加载精排模型: {model_path}")
+        self._model = CrossEncoder(model_path, local_files_only=True)
         print(f"[CROSS-ENCODER] 模型加载完成")
 
     def rerank(self, query: str, chunks: List[Dict], top_k: int = FINAL_TOP_K) -> List[Dict]:
         if not chunks:
             return chunks
 
+        if self.cache_enabled:
+            cache_key = self._make_cache_key(query, chunks)
+            cached = self._cache.get(cache_key)
+            if cached is not None:
+                self.hit_count += 1
+                print("[CROSS-ENCODER] 缓存命中，跳过推理")
+                cached_chunk_ids = cached.get("chunk_ids", [])
+                cached_scores = cached.get("scores", [])
+                score_map = dict(zip(cached_chunk_ids, cached_scores))
+                result = []
+                for c in chunks:
+                    new_c = copy.deepcopy(c)
+                    new_c["cross_encoder_score"] = score_map.get(new_c.get("chunk_id"), 0.0)
+                    result.append(new_c)
+                result.sort(key=lambda x: x.get("cross_encoder_score", 0), reverse=True)
+                return result[:top_k]
+
         self._load_model()
 
+        import time
+        t0 = time.time()
         pairs = [(query, c.get("content", "")) for c in chunks]
 
         # 批量处理避免内存溢出
@@ -146,7 +206,29 @@ class CrossEncoderReranker:
             c["cross_encoder_score"] = float(all_scores[i])
 
         chunks.sort(key=lambda x: x.get("cross_encoder_score", 0), reverse=True)
+        elapsed = time.time() - t0
+
+        if self.cache_enabled:
+            self._cache[cache_key] = {
+                "chunk_ids": [c["chunk_id"] for c in chunks],
+                "scores": [float(c["cross_encoder_score"]) for c in chunks],
+                "top_k": top_k,
+            }
+            self._save_cache()
+            self.miss_count += 1
+            print(f"[CROSS-ENCODER] 缓存未命中，推理完成并已保存（耗时 {elapsed:.2f}s）")
+
         return chunks[:top_k]
+
+    def get_stats(self) -> Dict:
+        total = self.hit_count + self.miss_count
+        return {
+            "cache_enabled": self.cache_enabled,
+            "cache_entries": len(self._cache),
+            "hit_count": self.hit_count,
+            "miss_count": self.miss_count,
+            "hit_rate": round(self.hit_count / total, 4) if total > 0 else 0.0,
+        }
 
 
 class HybridRetriever:
@@ -208,7 +290,9 @@ class HybridRetriever:
     def _qa_search(self, query: str, top_k=QA_TOP_K) -> List[Dict]:
         if self.qa_retriever is None:
             return []
-        return self.qa_retriever.search(query, top_k)
+        query_type = self._detect_query_type(query)
+        entities = self._split_comparison_entities(query) if self._is_comparison_query(query) else None
+        return self.qa_retriever.search(query, top_k, query_type=query_type, comparison_entities=entities)
 
     def _rrf_fusion(self, dense_small_results: List[Tuple[str, float, Dict]],
                      dense_large_results: List[Tuple[str, float, Dict]],
@@ -374,6 +458,29 @@ class HybridRetriever:
         sorted_idx = np.argsort(combined)[::-1]
         return [mmr_results[i] for i in sorted_idx]
 
+    def _is_comparison_query(self, query: str) -> bool:
+        return any(kw in query for kw in QUESTION_TYPE_PATTERNS["comparison"])
+
+    def _split_comparison_entities(self, query: str) -> List[str]:
+        import re
+        q = re.sub(
+            r'(有什么|有何|是什么|的异同|的核心差异|的主要区别|的适用条件有何不同|的核心差异是什么|的主要区别是什么)$',
+            '', query
+        ).strip()
+        parts = re.split(r'和|与|及|以及|、', q)
+        entities = []
+        for p in parts:
+            p = re.sub(r'^(什么是|什么叫|如何|怎么)', '', p.strip()).strip()
+            if len(p) >= 2:
+                entities.append(p)
+        return entities[:2]
+
+    def _detect_query_type(self, query: str) -> Optional[str]:
+        for qtype, keywords in QUESTION_TYPE_PATTERNS.items():
+            if any(kw in query for kw in keywords):
+                return qtype
+        return None
+
     def _generate_query_variants(self, query: str) -> List[str]:
         variants = [query]
 
@@ -392,12 +499,12 @@ class HybridRetriever:
         if expanded_keywords_map:
             syn_list = list(expanded_keywords_map.keys())
             variants.append(query + " " + " ".join(syn_list[:4]))
-            for syn in syn_list[:3]:
-                variant = query.replace(
-                    next((k for k, v in expanded_keywords_map.items() if v == expanded_keywords_map.get(syn)), ""), syn
-                ) if syn in expanded_keywords_map else query
-                if variant != query and variant not in variants:
-                    variants.append(variant)
+            # 将 query 中的 domain_word 替换为同义词生成变体
+            for syn, domain_word in list(expanded_keywords_map.items())[:3]:
+                if domain_word in query:
+                    variant = query.replace(domain_word, syn)
+                    if variant != query and variant not in variants:
+                        variants.append(variant)
 
         if len(keywords) >= 3:
             shortened = " ".join(keywords[:len(keywords) // 2 + 1])
@@ -500,6 +607,13 @@ class HybridRetriever:
                use_query_expansion=True) -> Dict:
         query_variants = self._generate_query_variants(query) if use_query_expansion else [query]
 
+        if use_query_expansion and self._is_comparison_query(query):
+            for entity in self._split_comparison_entities(query):
+                for v in self._generate_query_variants(entity):
+                    if v not in query_variants:
+                        query_variants.append(v)
+            query_variants = query_variants[:QUERY_EXPAND_COUNT + 4]
+
         dense_small_score_map: Dict[str, float] = {}
         dense_small_meta_map: Dict[str, Dict] = {}
         dense_large_score_map: Dict[str, float] = {}
@@ -528,12 +642,14 @@ class HybridRetriever:
         qa_results = self._qa_search(query, qa_top_k)
 
         fused = self._rrf_fusion(all_dense_small_results, all_dense_large_results, all_bm25_results, qa_results)
-        deduped = self._dedup_by_source(fused, MAX_CHUNKS_PER_DOC)
+        max_per_doc = 8 if self._is_comparison_query(query) else MAX_CHUNKS_PER_DOC
+        deduped = self._dedup_by_source(fused, max_per_doc)
 
         query_embedding = self.embedding_model.encode_query(query)
         mmr_lambda = self._get_mmr_lambda(query)
+        mmr_pool = final_top_k * 2 if self._is_comparison_query(query) else final_top_k
         mmr_candidates = self._mmr_rerank(
-            deduped, query_embedding, mmr_lambda, final_top_k
+            deduped, query_embedding, mmr_lambda, mmr_pool
         )
         reranked = self._final_rerank(mmr_candidates, query_embedding)
 
@@ -578,6 +694,7 @@ class HybridRetriever:
             "expanded_queries": query_variants,
             "retrieved_chunks": final_chunks,
             "qa_hits": qa_hits,
+            "cross_encoder_enabled": self._cross_encoder is not None,
             "dense_small_candidates": len(dense_small_score_map),
             "dense_large_candidates": len(dense_large_score_map),
             "bm25_candidates": len(bm25_score_map),

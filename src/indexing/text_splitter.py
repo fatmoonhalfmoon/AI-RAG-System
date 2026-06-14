@@ -5,6 +5,9 @@ from src.core.config import (
     CHUNK_SIZE_SMALL, CHUNK_SIZE_LARGE, CHUNK_OVERLAP_SMALL, CHUNK_OVERLAP_LARGE,
     PARENT_CHUNK_SIZE, MIN_CHUNK_LENGTH,
 )
+from src.utils.path_utils import validate_path
+
+_MAX_FILE_SIZE = 500 * 1024 * 1024
 
 _TRADITIONAL_TO_SIMPLIFIED = {
     '法則': '法则', '觀': '观', '論': '论', '導': '导', '業': '业',
@@ -13,43 +16,43 @@ _TRADITIONAL_TO_SIMPLIFIED = {
     '績效': '绩效', '變革': '变革', '創新': '创新', '競爭': '竞争',
     '營銷': '营销', '運營': '运营', '質量': '质量', '效率': '效率',
     '執行力': '执行力', '協作': '协作', '標準化': '标准化',
-    '學': '学', '習': '习', '動': '动', '產': '产', '點': '点',
-    '經': '经', '濟': '济', '開': '开', '發': '发', '關': '关',
+    '學': '学', '習': '习', '動': '动', '產': '产',
+    '經': '经', '濟': '济', '開': '开', '關': '关',
     '係': '系', '實': '实', '踐': '践', '認': '认', '識': '识',
-    '體': '体', '現': '现', '種': '种', '類': '类', '結': '结',
+    '體': '体', '現': '现', '類': '类',
     '構': '构', '過': '过', '程': '程', '環': '环', '境': '境',
-    '義': '义', '務': '务', '責': '责', '權': '权', '據': '据',
+    '義': '义', '責': '责', '權': '权',
     '書': '书', '籍': '籍', '說': '说', '話': '话', '語': '语',
-    '讀': '读', '寫': '写', '計': '计', '劃': '划', '設': '设',
-    '備': '备', '術': '术', '技': '技', '條': '条', '件': '件',
+    '讀': '读', '寫': '写', '劃': '划', '設': '设',
+    '備': '备', '技': '技', '件': '件',
     '規': '规', '則': '则', '範': '范', '圍': '围', '標': '标',
     '準': '准', '確': '确', '應': '应', '當': '当', '從': '从',
     '來': '来', '為': '为', '與': '与', '個': '个', '們': '们',
     '時': '时', '間': '间', '長': '长', '較': '较', '最': '最',
     '進': '进', '行': '行', '對': '对', '於': '于', '將': '将',
-    '會': '会', '能': '能', '無': '无', '有': '有', '這': '这',
+    '能': '能', '無': '无', '有': '有', '這': '这',
     '那': '那', '裡': '里', '還': '还', '卻': '却', '讓': '让',
     '給': '给', '被': '被', '把': '把', '已': '已', '曾': '曾',
-    '電': '电', '網': '网', '數': '数', '據': '据', '資': '资',
-    '源': '源', '總': '总', '結': '结', '評': '评', '價': '价',
+    '電': '电', '網': '网', '數': '数', '資': '资',
+    '源': '源', '總': '总', '評': '评', '價': '价',
     '值': '值', '優': '优', '勢': '势', '劣': '劣', '機': '机',
     '會': '会', '威': '威', '脅': '胁', '戰': '战', '術': '术',
     '層': '层', '級': '级', '職': '职', '務': '务', '階': '阶',
     '段': '段', '歷': '历', '史': '史', '發': '发', '展': '展',
     '變': '变', '遷': '迁', '轉': '转', '型': '型', '態': '态',
     '樣': '样', '式': '式', '種': '种', '區': '区', '別': '别',
-    '異': '异', '同': '同', '質': '质', '量': '量', '量': '量',
+    '異': '异', '同': '同', '質': '质', '量': '量',
     '效': '效', '益': '益', '損': '损', '失': '失', '增': '增',
     '減': '减', '擴': '扩', '張': '张', '縮': '缩', '收': '收',
     '支': '支', '費': '费', '預': '预', '算': '算', '財': '财',
-    '報': '报', '表': '表', '單': '单', '據': '据', '證': '证',
+    '報': '报', '單': '单',
     '據': '据', '調': '调', '查': '查', '研': '研', '究': '究',
     '分': '分', '析': '析', '測': '测', '試': '试', '驗': '验',
-    '證': '证', '估': '估', '計': '计', '算': '算', '統': '统',
+    '證': '证', '估': '估', '算': '算', '統': '统',
     '計': '计', '圖': '图', '表': '表', '冊': '册', '卷': '卷',
     '篇': '篇', '章': '章', '節': '节', '項': '项', '條': '条',
     '款': '款', '目': '目', '錄': '录', '編': '编', '著': '著',
-    '譯': '译', '審': '审', '訂': '订', '修': '修', '訂': '订',
+    '譯': '译', '審': '审', '修': '修', '訂': '订',
     '增': '增', '刪': '删', '補': '补', '充': '充', '附': '附',
     '註': '注', '釋': '释', '參': '参', '考': '考', '引': '引',
     '用': '用', '摘': '摘', '要': '要', '關鍵': '关键', '詞': '词',
@@ -762,10 +765,29 @@ class ChunkQualityFilter:
             return 0.0
         return len(tokens_a & tokens_b) / len(tokens_a | tokens_b)
 
+    def _is_noise_chunk(self, content: str) -> bool:
+        """过滤版权页、纯目录、推荐语等低信息密度 chunk"""
+        if not content or len(content.strip()) < 30:
+            return True
+        lines = [l.strip() for l in content.split('\n') if l.strip()]
+        if not lines:
+            return True
+        noise_lines = sum(1 for l in lines if _is_noise_line(l))
+        if noise_lines / len(lines) > 0.35:
+            return True
+        if '版权所有' in content and ('目录' in content or '版权信息' in content) and len(content) < 2000:
+            return True
+        short_lines = [l for l in lines if len(l) < 22]
+        if len(short_lines) >= 8 and len(short_lines) / len(lines) > 0.55:
+            return True
+        return False
+
     def filter_chunks(self, chunks: List[Dict]) -> List[Dict]:
         filtered = []
         for chunk in chunks:
             content = chunk.get("content", "")
+            if self._is_noise_chunk(content):
+                continue
             is_case = self._is_pure_case(content)
             if is_case:
                 chunk["quality_weight"] = 0.7
@@ -1047,11 +1069,26 @@ def _clean_doc_name(filename: str) -> str:
     return name if name else filename
 
 
+def _check_file_size(filepath: str) -> None:
+    if os.path.getsize(filepath) > _MAX_FILE_SIZE:
+        raise ValueError(f"文件过大: {filepath}")
+
+
+def _check_docx_zip_size(filepath: str) -> None:
+    import zipfile
+    with zipfile.ZipFile(filepath, 'r') as zf:
+        total_uncompressed = sum(info.file_size for info in zf.infolist())
+        if total_uncompressed > _MAX_FILE_SIZE:
+            raise ValueError(f"DOCX解压后过大: {filepath}")
+
+
 def _read_docx_via_zip_xml(filepath: str) -> str:
     """从docx的zip包中直接读取word/document.xml，处理扫描版PDF转DOCX的情况"""
     import zipfile
     from xml.etree import ElementTree as ET
 
+    validate_path(filepath)
+    _check_file_size(filepath)
     with zipfile.ZipFile(filepath, 'r') as zf:
         if 'word/document.xml' not in zf.namelist():
             return ""
@@ -1079,12 +1116,15 @@ def _read_docx_via_zip_xml(filepath: str) -> str:
 def _is_scanned_docx(filepath: str) -> bool:
     """检测DOCX是否为扫描版PDF转制（包含大量图片但无文本）"""
     import zipfile
+    validate_path(filepath)
+    _check_file_size(filepath)
     try:
         with zipfile.ZipFile(filepath, 'r') as zf:
             files = zf.namelist()
             image_count = len([f for f in files if f.startswith('word/media/image')])
             return image_count > 50  # 超过50张图片认为是扫描版
-    except Exception:
+    except (zipfile.BadZipFile, OSError) as e:
+        print(f"[警告] 检测扫描版DOCX失败: {e}")
         return False
 
 
@@ -1099,6 +1139,9 @@ def _ocr_docx_images(filepath: str) -> str:
     except ImportError:
         return ""
 
+    validate_path(filepath)
+    _check_file_size(filepath)
+    _check_docx_zip_size(filepath)
     text_parts = []
     with zipfile.ZipFile(filepath, 'r') as zf:
         image_files = sorted([f for f in zf.namelist() if f.startswith('word/media/image') and f.endswith(('.jpeg', '.jpg', '.png'))])
@@ -1113,13 +1156,17 @@ def _ocr_docx_images(filepath: str) -> str:
                     text = pytesseract.image_to_string(img, lang='chi_sim+eng')
                     if text.strip():
                         text_parts.append(text.strip())
-                except Exception:
+                except (OSError, ValueError) as e:
+                    print(f"[警告] OCR图片处理失败: {e}")
                     continue
 
     return "\n\n".join(text_parts)
 
 
 def _read_docx(filepath: str) -> str:
+    validate_path(filepath)
+    _check_file_size(filepath)
+    _check_docx_zip_size(filepath)
     errors = []
 
     # 预检：是否为扫描版DOCX
@@ -1183,6 +1230,8 @@ def _read_docx(filepath: str) -> str:
 
 
 def _read_pdf(filepath: str) -> str:
+    validate_path(filepath)
+    _check_file_size(filepath)
     text = ""
 
     # 尝试1: PyPDF2
@@ -1193,8 +1242,10 @@ def _read_pdf(filepath: str) -> str:
             t = page.extract_text()
             if t:
                 text += t + "\n"
-    except Exception:
-        pass
+    except ImportError:
+        print(f"[警告] PyPDF2 未安装")
+    except (OSError, ValueError) as e:
+        print(f"[警告] PyPDF2 读取失败: {e}")
 
     # 尝试2: pdfplumber（对扫描版PDF更好）
     if len(text.strip()) < 100:
@@ -1205,8 +1256,10 @@ def _read_pdf(filepath: str) -> str:
                     t = page.extract_text()
                     if t:
                         text += t + "\n"
-        except Exception:
-            pass
+        except ImportError:
+            print(f"[警告] pdfplumber 未安装")
+        except (OSError, ValueError) as e:
+            print(f"[警告] pdfplumber 读取失败: {e}")
 
     # 尝试3: pymupdf (fitz) - 对复杂PDF支持最好
     if len(text.strip()) < 100:
@@ -1216,13 +1269,17 @@ def _read_pdf(filepath: str) -> str:
             for page in doc:
                 text += page.get_text() + "\n"
             doc.close()
-        except Exception:
-            pass
+        except ImportError:
+            print(f"[警告] pymupdf (fitz) 未安装")
+        except (OSError, ValueError) as e:
+            print(f"[警告] pymupdf (fitz) 读取失败: {e}")
 
     return text.strip()
 
 
 def _read_text(filepath: str) -> str:
+    validate_path(filepath)
+    _check_file_size(filepath)
     with open(filepath, 'r', encoding='utf-8') as f:
         return f.read()
 

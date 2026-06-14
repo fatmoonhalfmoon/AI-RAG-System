@@ -1,84 +1,93 @@
-import json
-import os
-from typing import List, Dict, Any
+"""
+RAGAS风格评估 — 检索结果加载器
+================================
+加载 collect_retrieval_results.py 生成的检索结果，
+以及 AI 评估结果（ragas_evaluation.json）。
+
+无需金标数据集，完全 reference-free。
+"""
 
 
-class EvalDataset:
-    def __init__(self, dataset_path: str = None):
-        if dataset_path is None:
+class RetrievalResults:
+    """加载检索结果"""
+
+    def __init__(self, results_path: str = None):
+        import os
+        import json
+        from src.utils.path_utils import validate_path
+
+        if results_path is None:
             base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-            dataset_path = os.path.join(base_dir, "data", "eval", "eval_dataset.json")
-        self.dataset_path = dataset_path
-        self.questions = []
-        self.version = "1.0"
-        self.total_questions = 0
-        self._load()
+            results_path = os.path.join(base_dir, "data", "eval", "retrieval_results.json")
+        self.results_path = results_path
 
-    def _load(self):
-        if not os.path.exists(self.dataset_path):
-            raise FileNotFoundError(f"评估数据集不存在: {self.dataset_path}")
-        with open(self.dataset_path, "r", encoding="utf-8") as f:
+        validate_path(self.results_path, must_exist=True)
+        with open(self.results_path, "r", encoding="utf-8") as f:
             data = json.load(f)
+
         self.version = data.get("version", "1.0")
-        self.total_questions = data.get("total_questions", 0)
-        self.questions = data.get("questions", [])
-        self._validate()
+        self.total_queries = data.get("total_queries", 0)
+        self.top_k = data.get("top_k", 15)
+        self.system_config = data.get("system_config", {})
+        self.results = data.get("results", [])
 
-    def _validate(self):
-        required_fields = ["query_id", "query", "query_type", "difficulty",
-                           "relevant_docs", "answer_snippets", "reference_answer"]
-        pipeline_count = 0
-        human_count = 0
-        other_count = 0
-        for q in self.questions:
-            for field in required_fields:
-                if field not in q:
-                    raise ValueError(f"题目 {q.get('query_id', '?')} 缺少必填字段: {field}")
-            source = q.get("gold_source", "unknown")
-            if source == "pipeline_generated":
-                pipeline_count += 1
-            elif source == "human":
-                human_count += 1
-            else:
-                other_count += 1
+        print(f"[检索结果] 加载完成: {self.total_queries} 个query, top_k={self.top_k}")
 
-        total = len(self.questions)
-        print(f"[数据集] 加载完成: {total} 题, 版本 {self.version}")
-        print(f"[数据集] 金标来源分布: 人工标注={human_count}, 流水线生成={pipeline_count}, 其他={other_count}")
+    def get_by_type(self, query_type: str):
+        return [r for r in self.results if r["query_type"] == query_type]
 
-        if pipeline_count > 0:
-            print(f"[数据集] [警告] {pipeline_count}/{total} 题的金标为 pipeline_generated，评估结果可能被高估！")
-            print(f"[数据集] [警告] 建议运行: python scripts/generate_pool_for_annotation.py")
+    def get_by_difficulty(self, difficulty: str):
+        return [r for r in self.results if r["difficulty"] == difficulty]
 
-        self.gold_source_stats = {
-            "human": human_count,
-            "pipeline_generated": pipeline_count,
-            "other": other_count,
-            "total": total,
-            "trust_level": "high" if pipeline_count == 0 else "low",
-        }
-
-    def get_by_type(self, query_type: str) -> List[Dict]:
-        return [q for q in self.questions if q["query_type"] == query_type]
-
-    def get_by_difficulty(self, difficulty: str) -> List[Dict]:
-        return [q for q in self.questions if q["difficulty"] == difficulty]
-
-    def get_by_query_id(self, query_id: str) -> Dict:
-        for q in self.questions:
-            if q["query_id"] == query_id:
-                return q
+    def get_by_query_id(self, query_id: str):
+        for r in self.results:
+            if r["query_id"] == query_id:
+                return r
         return None
 
-    def get_robustness_queries(self) -> List[Dict]:
-        result = []
-        for q in self.questions:
-            if q.get("robustness_variants"):
-                result.append(q)
-        return result
-
     def __len__(self):
-        return len(self.questions)
+        return len(self.results)
 
     def __iter__(self):
-        return iter(self.questions)
+        return iter(self.results)
+
+
+class RAGASEvaluation:
+    """加载AI评估结果"""
+
+    def __init__(self, eval_path: str = None):
+        import os
+        import json
+
+        if eval_path is None:
+            base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+            eval_path = os.path.join(base_dir, "data", "eval", "ragas_evaluation.json")
+        self.eval_path = eval_path
+
+        if not os.path.exists(eval_path):
+            self.evaluations = []
+            self.total_evaluated = 0
+            print(f"[AI评估] 未找到评估结果: {eval_path}")
+            print(f"[AI评估] 请先运行AI评估流程")
+            return
+
+        with open(eval_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        self.version = data.get("version", "1.0")
+        self.total_evaluated = data.get("total_evaluated", 0)
+        self.evaluations = data.get("evaluations", [])
+
+        print(f"[AI评估] 加载完成: {self.total_evaluated} 个query已评估")
+
+    def get_by_query_id(self, query_id: str):
+        for e in self.evaluations:
+            if e["query_id"] == query_id:
+                return e
+        return None
+
+    def __len__(self):
+        return len(self.evaluations)
+
+    def __iter__(self):
+        return iter(self.evaluations)

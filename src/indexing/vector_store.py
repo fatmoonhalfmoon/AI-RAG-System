@@ -203,12 +203,14 @@ class FAISSVectorStore:
         index_path = os.path.join(save_dir, "faiss.index")
         meta_path = os.path.join(save_dir, "metadata.json")
 
-        # FAISS C++底层不支持中文路径，先写到临时英文路径再复制
-        tmp_dir = os.path.join(tempfile.gettempdir(), "rag_faiss_tmp", name)
-        os.makedirs(tmp_dir, exist_ok=True)
-        tmp_index = os.path.join(tmp_dir, "faiss.index")
-        faiss.write_index(self.index, tmp_index)
-        shutil.copy2(tmp_index, index_path)
+        # FAISS C++底层不支持中文路径，先写到随机临时英文路径再复制
+        tmp_dir = tempfile.mkdtemp(prefix="rag_faiss_tmp_")
+        try:
+            tmp_index = os.path.join(tmp_dir, "faiss.index")
+            faiss.write_index(self.index, tmp_index)
+            shutil.copy2(tmp_index, index_path)
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
 
         with open(meta_path, "w", encoding="utf-8") as f:
             json.dump(self.id_to_metadata, f, ensure_ascii=False, indent=2)
@@ -239,12 +241,14 @@ class FAISSVectorStore:
         if not os.path.exists(index_path) or not os.path.exists(meta_path):
             raise FileNotFoundError(f"向量存储缓存不存在: {save_dir}")
 
-        # FAISS C++底层不支持中文路径，先复制到临时英文路径再读取
-        tmp_dir = os.path.join(tempfile.gettempdir(), "rag_faiss_tmp", name)
-        os.makedirs(tmp_dir, exist_ok=True)
-        tmp_index = os.path.join(tmp_dir, "faiss.index")
-        shutil.copy2(index_path, tmp_index)
-        self.index = faiss.read_index(tmp_index)
+        # FAISS C++底层不支持中文路径，先复制到随机临时英文路径再读取
+        tmp_dir = tempfile.mkdtemp(prefix="rag_faiss_tmp_")
+        try:
+            tmp_index = os.path.join(tmp_dir, "faiss.index")
+            shutil.copy2(index_path, tmp_index)
+            self.index = faiss.read_index(tmp_index)
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
 
         with open(meta_path, "r", encoding="utf-8") as f:
             self.id_to_metadata = json.load(f)

@@ -1,58 +1,70 @@
 import os
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BASE_DIR: str = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # merged_context最大长度限制（下游LLM上下文窗口兼容）
-MAX_MERGED_CONTEXT_LENGTH = 4000
+MAX_MERGED_CONTEXT_LENGTH: int = 4000
 
-KNOWLEDGE_BASE_DIR = os.path.join(BASE_DIR, "data", "knowledge_base")
-OUTPUT_DIR = os.path.join(BASE_DIR, "data", "output")
-VECTOR_STORE_DIR = os.path.join(BASE_DIR, "data", "vector_store")
-QA_STORE_DIR = os.path.join(BASE_DIR, "data", "qa_store")
+KNOWLEDGE_BASE_DIR: str = os.path.join(BASE_DIR, "data", "knowledge_base")
+OUTPUT_DIR: str = os.path.join(BASE_DIR, "data", "output")
+VECTOR_STORE_DIR: str = os.path.join(BASE_DIR, "data", "vector_store")
+QA_STORE_DIR: str = os.path.join(BASE_DIR, "data", "qa_store")
 
-CHUNK_SIZE_SMALL = 600
-CHUNK_SIZE_LARGE = 1200
-CHUNK_OVERLAP_SMALL = 100
-CHUNK_OVERLAP_LARGE = 200
-PARENT_CHUNK_SIZE = 2000
+CHUNK_SIZE_SMALL: int = 600
+CHUNK_SIZE_LARGE: int = 1200
+CHUNK_OVERLAP_SMALL: int = 100
+CHUNK_OVERLAP_LARGE: int = 200
+PARENT_CHUNK_SIZE: int = 2000
 
-DENSE_MAX_CHUNKS = 500
+DENSE_MAX_CHUNKS: int = 500
 
-REFINER_MAX_CHARS_PER_DOC = 30000
+REFINER_MAX_CHARS_PER_DOC: int = 30000
 
-EMBEDDING_MODEL_NAME = "BAAI/bge-large-zh-v1.5"
-EMBEDDING_LOCAL_PATH = os.path.join(BASE_DIR, "models", "BAAI", "bge-large-zh-v1___5")
-EMBEDDING_QUERY_INSTRUCTION = "为这个句子生成表示以用于检索相关文章："
-EMBEDDING_DIM = 1024
+EMBEDDING_MODEL_NAME: str = "BAAI/bge-large-zh-v1.5"
+EMBEDDING_LOCAL_PATH: str = os.path.join(BASE_DIR, "models", "BAAI", "bge-large-zh-v1___5")
+EMBEDDING_QUERY_INSTRUCTION: str = "为这个句子生成表示以用于检索相关文章："
+EMBEDDING_DIM: int = 1024
 
-DENSE_TOP_K = 50
-BM25_TOP_K = 50
-QA_TOP_K = 15
-QA_SEMANTIC_WEIGHT = 0.7
-QA_BM25_WEIGHT = 0.3
-RRF_K = 60
-DENSE_SMALL_WEIGHT = 1.5
-DENSE_LARGE_WEIGHT = 1.2
-BM25_WEIGHT = 1.0
-QA_WEIGHT = 1.3
+DENSE_TOP_K: int = 50
+BM25_TOP_K: int = 50
+QA_TOP_K: int = 15
+QA_SEMANTIC_WEIGHT: float = 0.7
+QA_BM25_WEIGHT: float = 0.3
+RRF_K: int = 60
+DENSE_SMALL_WEIGHT: float = 1.5
+DENSE_LARGE_WEIGHT: float = 1.2
+BM25_WEIGHT: float = 1.0
+QA_WEIGHT: float = 1.3
 
-MMR_LAMBDA = 0.45
+MMR_LAMBDA: float = 0.45
 
-FINAL_TOP_K = 15  # 最终返回chunk数，增大以提升覆盖率
-MAX_CHUNKS_PER_DOC = 5
+FINAL_TOP_K: int = 15  # 最终返回chunk数，增大以提升覆盖率
+MAX_CHUNKS_PER_DOC: int = 5
 
-QUERY_EXPAND_COUNT = 4
+QUERY_EXPAND_COUNT: int = 4
 
-VECTOR_DEDUP_THRESHOLD = 0.90
-VECTOR_QUALITY_FILTER_RATIO = 0.08
-VECTOR_MIN_PER_DOC = 5
+VECTOR_DEDUP_THRESHOLD: float = 0.90
+VECTOR_QUALITY_FILTER_RATIO: float = 0.08
+VECTOR_MIN_PER_DOC: int = 5
 
-MIN_CHUNK_LENGTH = 30
+MIN_CHUNK_LENGTH: int = 30
 
-USE_CROSS_ENCODER = False  # Cross-Encoder精排：CPU上耗时极长（63题约1-2小时），默认关闭；GPU环境可开启
-CROSS_ENCODER_MODEL = "BAAI/bge-reranker-large"
-CROSS_ENCODER_TOP_K = 15
-CROSS_ENCODER_BATCH_SIZE = 8
+USE_CROSS_ENCODER: bool = True  # Cross-Encoder精排：默认启用，配有查询级缓存避免重复推理
+CROSS_ENCODER_MODEL: str = "BAAI/bge-reranker-large"
+CROSS_ENCODER_LOCAL_PATH: str = os.path.join(BASE_DIR, "models", "BAAI", "bge-reranker-large")
+CROSS_ENCODER_TOP_K: int = 15
+CROSS_ENCODER_BATCH_SIZE: int = 8
+CROSS_ENCODER_CACHE_ENABLED: bool = True
+CROSS_ENCODER_CACHE_DIR: str = os.path.join(BASE_DIR, "data", "cross_encoder_cache")
+
+TEST_QUESTIONS: list = [
+    "管理类核心思想是什么",
+    "什么是战略管理中的SWOT分析",
+    "人力资源管理包括哪些核心模块",
+    "泰勒科学管理理论的核心观点是什么",
+    "组织文化的层次是什么",
+    "科学管理理论是谁提出的",
+]
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(VECTOR_STORE_DIR, exist_ok=True)

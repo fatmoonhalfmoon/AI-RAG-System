@@ -117,7 +117,8 @@ class ResultFormatter:
         return output
 
     def save_result(self, retrieval_result: Dict, filename="retrieval_result"):
-        filepath = os.path.join(OUTPUT_DIR, f"{filename}.json")
+        safe_name = os.path.basename(filename)
+        filepath = os.path.join(OUTPUT_DIR, f"{safe_name}.json")
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(retrieval_result, f, ensure_ascii=False, indent=2)
         return filepath

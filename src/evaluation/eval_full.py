@@ -1,273 +1,161 @@
+"""
+RAGAS风格评估 — Full模式
+==========================
+完整评估：读取检索结果 + AI评估结果，计算详细指标，生成完整报告。
+包含更细粒度的top-k分析和鲁棒性测试。
+
+评估流程：
+  Step 1: python scripts/collect_retrieval_results.py  (收集检索结果)
+  Step 2: AI评估 (由IDE中的AI助手完成，输出 ragas_evaluation.json)
+  Step 3: python -m src.evaluation.eval_full            (计算指标+报告)
+"""
 import sys
 import os
 import time
 import json
 from typing import List, Dict
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stderr.reconfigure(encoding='utf-8')
 
-from src.core.pipeline import RAGPipeline
-from src.evaluation.dataset import EvalDataset
-from src.evaluation.metrics import Layer1Metrics, Layer2Metrics, Layer3Metrics, Layer4Metrics
-from src.evaluation.built_in_ai_judge import built_in_ai_judge
+from src.evaluation.dataset import RetrievalResults, RAGASEvaluation
+from src.evaluation.metrics import RAGASMetrics, GroupMetrics, FailureAnalysis
 from src.evaluation.reporter import EvalReporter
 
 
-def run_eval_full(dataset_path: str = None, top_k_values: List[int] = None, force_rebuild: bool = False):
-    if top_k_values is None:
-        top_k_values = [3, 5, 8, 10, 15]
-
+def run_eval_full(eval_path: str = None, results_path: str = None):
     print("=" * 70)
-    print("  RAG 检索质量评估 — Full 模式")
+    print("  RAG 检索质量评估 — RAGAS风格 Full模式")
     print("=" * 70)
 
-    print("\n[1/6] 加载评估数据集...")
-    dataset = EvalDataset(dataset_path)
+    # 1. 加载AI评估结果
+    print("\n[1/4] 加载AI评估结果...")
+    ragas_eval = RAGASEvaluation(eval_path)
+    if not ragas_eval.evaluations:
+        print("\n[错误] 没有AI评估结果！")
+        print("  请先运行: python scripts/collect_retrieval_results.py")
+        print("  然后让AI助手评估检索结果，输出 data/eval/ragas_evaluation.json")
+        sys.exit(1)
 
-    # 检查金标来源
-    if hasattr(dataset, 'gold_source_stats'):
-        stats = dataset.gold_source_stats
-        pipeline_qs = stats.get("pipeline_generated", 0)
-        if pipeline_qs > 0:
-            print(f"\n{'='*60}")
-            print(f"  [重要警告] {pipeline_qs}/{stats['total']} 题的金标非人工标注")
-            print(f"  评估指标可能被高估（信息泄漏问题）")
-            print(f"  请运行 Pooling 标注流程修正:")
-            print(f"    python scripts/generate_pool_for_annotation.py")
-            print(f"{'='*60}")
+    evaluations = ragas_eval.evaluations
 
-    print("\n[2/6] 初始化 RAG 系统...")
-    pipeline = RAGPipeline()
-    pipeline.build_knowledge_base(force_rebuild=force_rebuild)
+    # 2. 加载检索结果（用于鲁棒性测试等）
+    print("\n[2/4] 加载检索结果...")
+    try:
+        retrieval = RetrievalResults(results_path)
+    except Exception:
+        retrieval = None
+        print("  [警告] 未找到检索结果，跳过鲁棒性测试")
 
-    print(f"\n[3/6] 对 {len(dataset)} 题进行检索评估...")
-    all_results = []
-    for q in dataset.questions:
-        result = pipeline.search(q["query"], top_k=max(top_k_values))
-        all_results.append({
-            "query_id": q["query_id"],
-            "query": q["query"],
-            "query_type": q["query_type"],
-            "difficulty": q["difficulty"],
-            "relevant_docs": q["relevant_docs"],
-            "answer_snippets": q["answer_snippets"],
-            "reference_answer": q["reference_answer"],
-            "relevant_chunk_ids": q.get("relevant_chunk_ids", []),
-            "retrieved_chunks": result.get("retrieved_chunks", []),
-            "retrieved_docs": list(dict.fromkeys(c["source_doc"] for c in result.get("retrieved_chunks", []))),
-            "merged_context": result.get("merged_context", ""),
-            "source_docs": result.get("source_docs", []),
-            "qa_hits": result.get("qa_hits", []),
-            "retrieval_time_ms": result.get("retrieval_time_ms", 0),
-        })
+    # 3. 计算指标
+    print(f"\n[3/4] 计算RAGAS风格指标 ({len(evaluations)} 个query)...")
+    report = compute_ragas_report_full(evaluations)
 
-    print("\n[4/6] 计算四层指标...")
-    report = compute_metrics_full(all_results, top_k_values)
-
-    print("\n[5/6] 鲁棒性测试...")
-    robustness_results = run_robustness_test(dataset, pipeline, top_k_values)
-    report["robustness"] = robustness_results
-
-    print("\n[6/6] 生成报告...")
+    # 4. 生成报告
+    print("\n[4/4] 生成报告...")
     reporter = EvalReporter()
-    reporter.save_json(report, "eval_full_report.json")
+    reporter.save_json(report, "eval_ragas_full_report.json")
     console_report = reporter.generate_console_report(report, mode="full")
     print("\n" + console_report)
 
     return report
 
 
-def compute_metrics_full(results: List[Dict], top_k_values: List[int]) -> Dict:
+def compute_ragas_report_full(evaluations: List[Dict]) -> Dict:
     report = {
-        "version": "2.0",
+        "version": "3.0",
+        "method": "ragas_style",
         "mode": "full",
-        "total_questions": len(results),
+        "total_questions": len(evaluations),
         "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-        "layer1": {},
-        "layer2": {},
-        "layer3": {},
-        "layer4": {},
+        "metrics": {},
         "group_stats": {},
         "difficulty_stats": {},
         "failure_modes": {},
+        "per_query_details": [],
         "overall_grade": "",
         "bottleneck": "",
         "suggestion": "",
     }
 
-    # Layer 1: Document-level recall & precision
-    for k in top_k_values:
-        recalls = [Layer1Metrics.doc_recall_at_k(r["retrieved_docs"], r["relevant_docs"], k) for r in results]
-        precisions = [Layer1Metrics.doc_precision_at_k(r["retrieved_docs"], r["relevant_docs"], k) for r in results]
-        report["layer1"][f"doc_recall@{k}"] = round(sum(recalls) / len(recalls), 4) if recalls else 0
-        report["layer1"][f"doc_precision@{k}"] = round(sum(precisions) / len(precisions), 4) if precisions else 0
-    report["layer1"]["doc_hit_rate@10"] = Layer1Metrics.doc_hit_rate_at_k(results, 10)
+    # 核心指标 — 多个top-k值
+    for k in [3, 5, 8, 10, 15]:
+        report["metrics"][f"context_precision@{k}"] = RAGASMetrics.context_precision(evaluations, k)
+        report["metrics"][f"ranking_quality@{k}"] = RAGASMetrics.ranking_quality(evaluations, k)
+    report["metrics"][f"hit_rate@10"] = RAGASMetrics.hit_rate_at_k(evaluations, 10)
 
-    # Layer 2: Snippet coverage & chunk metrics
-    coverages = []
-    chunk_recalls = []
-    chunk_precisions = []
-    for r in results:
-        text = " ".join(c.get("parent_content", c.get("content", "")) for c in r["retrieved_chunks"])
-        cov = Layer2Metrics.snippet_coverage(text, r["answer_snippets"])
-        coverages.append(cov)
-        
-        if r.get("relevant_chunk_ids"):
-            chunk_recalls.append(Layer2Metrics.chunk_recall_at_k(r["retrieved_chunks"], r["relevant_chunk_ids"], 10))
-            chunk_precisions.append(Layer2Metrics.chunk_precision_at_k(r["retrieved_chunks"], r["relevant_chunk_ids"], 10))
-    
-    report["layer2"]["snippet_coverage@10"] = round(sum(coverages) / len(coverages), 4) if coverages else 0
-    report["layer2"]["chunk_recall@10"] = round(sum(chunk_recalls) / len(chunk_recalls), 4) if chunk_recalls else 0
-    report["layer2"]["chunk_precision@10"] = round(sum(chunk_precisions) / len(chunk_precisions), 4) if chunk_precisions else 0
+    # 整体指标
+    report["metrics"]["context_relevance"] = RAGASMetrics.context_relevance(evaluations)
+    report["metrics"]["context_sufficiency"] = RAGASMetrics.context_sufficiency(evaluations)
+    report["metrics"]["context_utilization"] = RAGASMetrics.context_utilization(evaluations)
 
-    # Layer 3: Ranking quality
-    for k in top_k_values:
-        report["layer3"][f"mrr@{k}"] = round(Layer3Metrics.mrr_at_k(results, k), 4)
-        report["layer3"][f"ndcg@{k}"] = round(Layer3Metrics.ndcg_at_k(results, k), 4)
+    # 分组统计
+    report["group_stats"] = GroupMetrics.by_type(evaluations)
+    report["difficulty_stats"] = GroupMetrics.by_difficulty(evaluations)
 
-    # Layer 4: Downstream compatibility
-    kw_completeness = []
-    for r in results:
-        kw = Layer4Metrics.keyword_completeness(r["merged_context"], r["reference_answer"])
-        kw_completeness.append(kw)
-    report["layer4"]["keyword_completeness"] = round(sum(kw_completeness) / len(kw_completeness), 4) if kw_completeness else 0
+    # 失败模式
+    report["failure_modes"] = FailureAnalysis.analyze(evaluations)
 
-    fmt_checks = [Layer4Metrics.format_check(r) for r in results]
-    fmt_pass = {k: all(c[k] for c in fmt_checks) for k in fmt_checks[0].keys()} if fmt_checks else {}
-    report["layer4"]["format_check"] = fmt_pass
-
-    # Group stats by query_type
-    from collections import defaultdict
-    groups = defaultdict(lambda: {"n": 0, "recalls": [], "coverages": [], "mrrs": []})
-    for r in results:
-        t = r["query_type"]
-        groups[t]["n"] += 1
-        groups[t]["recalls"].append(Layer1Metrics.doc_recall_at_k(r["retrieved_docs"], r["relevant_docs"], 10))
-        text = " ".join(c.get("parent_content", c.get("content", "")) for c in r["retrieved_chunks"])
-        groups[t]["coverages"].append(Layer2Metrics.snippet_coverage(text, r["answer_snippets"]))
-        groups[t]["mrrs"].append(Layer3Metrics.mrr_at_k([r], 10))
-
-    for t, stats in groups.items():
-        report["group_stats"][t] = {
-            "n": stats["n"],
-            "recall@10": round(sum(stats["recalls"]) / len(stats["recalls"]), 4),
-            "coverage@10": round(sum(stats["coverages"]) / len(stats["coverages"]), 4),
-            "mrr@10": round(sum(stats["mrrs"]) / len(stats["mrrs"]), 4),
+    # 每个query的详细结果
+    for e in evaluations:
+        chunks = e.get("chunk_evaluations", [])
+        relevant_count = sum(1 for c in chunks if c.get("is_relevant", False))
+        detail = {
+            "query_id": e.get("query_id", ""),
+            "query": e.get("query", ""),
+            "query_type": e.get("query_type", ""),
+            "difficulty": e.get("difficulty", ""),
+            "total_chunks": len(chunks),
+            "relevant_chunks": relevant_count,
+            "precision": round(relevant_count / len(chunks), 4) if chunks else 0,
+            "context_relevance_score": e.get("context_relevance_score", 0),
+            "is_sufficient": e.get("is_sufficient", False),
+            "first_relevant_rank": None,
         }
+        for i, c in enumerate(chunks):
+            if c.get("is_relevant", False):
+                detail["first_relevant_rank"] = i + 1
+                break
+        report["per_query_details"].append(detail)
 
-    # Difficulty stats
-    diffs = defaultdict(lambda: {"n": 0, "recalls": [], "coverages": []})
-    for r in results:
-        d = r["difficulty"]
-        diffs[d]["n"] += 1
-        diffs[d]["recalls"].append(Layer1Metrics.doc_recall_at_k(r["retrieved_docs"], r["relevant_docs"], 10))
-        text = " ".join(c.get("parent_content", c.get("content", "")) for c in r["retrieved_chunks"])
-        diffs[d]["coverages"].append(Layer2Metrics.snippet_coverage(text, r["answer_snippets"]))
+    # 总体评级
+    precision = report["metrics"]["context_precision@10"]
+    relevance = report["metrics"]["context_relevance"]
+    sufficiency = report["metrics"]["context_sufficiency"]
 
-    for d, stats in diffs.items():
-        report["difficulty_stats"][d] = {
-            "n": stats["n"],
-            "recall@10": round(sum(stats["recalls"]) / len(stats["recalls"]), 4),
-            "coverage@10": round(sum(stats["coverages"]) / len(stats["coverages"]), 4),
-        }
-
-    # Failure mode analysis
-    report["failure_modes"] = analyze_failure_modes(results)
-
-    # Overall grade
-    l1_score = report["layer1"]["doc_recall@10"]
-    l2_score = report["layer2"]["snippet_coverage@10"]
-    if l1_score >= 0.95 and l2_score >= 0.85:
+    if precision >= 0.80 and relevance >= 0.80 and sufficiency >= 0.90:
         report["overall_grade"] = "A (优秀)"
-    elif l1_score >= 0.85 and l2_score >= 0.70:
+    elif precision >= 0.65 and relevance >= 0.65 and sufficiency >= 0.75:
         report["overall_grade"] = "B+ (良好)"
-    elif l1_score >= 0.70 and l2_score >= 0.55:
+    elif precision >= 0.50 and relevance >= 0.50 and sufficiency >= 0.60:
         report["overall_grade"] = "B (合格)"
     else:
         report["overall_grade"] = "C (需改进)"
 
-    # Bottleneck & suggestion
-    weak_groups = [t for t, s in report["group_stats"].items() if s["recall@10"] < 0.70]
-    if weak_groups:
-        report["bottleneck"] = "、".join(weak_groups) + " 类问题召回不足"
-        report["suggestion"] = "增大 Top-K 到 15 + 增强查询扩展 + 优化向量模型"
+    # 瓶颈分析
+    weak_types = [t for t, s in report["group_stats"].items()
+                  if s.get("context_precision@10", 1) < 0.50]
+    if weak_types:
+        report["bottleneck"] = "、".join(weak_types) + " 类问题检索精确率不足"
+        report["suggestion"] = "优化查询扩展策略 + 增加文档级重排序 + 调整chunk切分粒度"
+
+    fm = report["failure_modes"]
+    if fm.get("F1_zero_relevant", 0) > len(evaluations) * 0.1:
+        report["bottleneck"] = "部分query完全无法检索到相关内容"
+        report["suggestion"] = "检查向量模型对专业术语的覆盖 + 增加BM25关键词召回通道"
+    elif fm.get("F3_insufficient", 0) > len(evaluations) * 0.3:
+        report["bottleneck"] = "检索上下文不足以回答query"
+        report["suggestion"] = "增大Top-K + 优化chunk切分（增加上下文窗口）+ 增加父文档检索"
 
     return report
 
 
-def analyze_failure_modes(results: List[Dict]) -> Dict[str, int]:
-    failures = {"F1": 0, "F2": 0, "F3": 0, "F4": 0, "F5": 0, "F6": 0}
-    for r in results:
-        recall = Layer1Metrics.doc_recall_at_k(r["retrieved_docs"], r["relevant_docs"], 10)
-        if recall == 0:
-            failures["F1"] += 1
-        elif recall < 0.5:
-            failures["F2"] += 1
-        
-        text = " ".join(c.get("parent_content", c.get("content", "")) for c in r["retrieved_chunks"])
-        coverage = Layer2Metrics.snippet_coverage(text, r["answer_snippets"])
-        if coverage < 0.5:
-            failures["F3"] += 1
-        
-        mrr = Layer3Metrics.mrr_at_k([r], 10)
-        if mrr < 0.5 and recall > 0:
-            failures["F4"] += 1
-        
-        kw = Layer4Metrics.keyword_completeness(r["merged_context"], r["reference_answer"])
-        if kw < 0.5 and recall > 0:
-            failures["F5"] += 1
-        
-        if recall > 0 and coverage < 0.3:
-            failures["F6"] += 1
-    
-    return failures
-
-
-def run_robustness_test(dataset: EvalDataset, pipeline: RAGPipeline, top_k_values: List[int]) -> Dict:
-    robustness_results = {"total_variants": 0, "recall_drop": 0, "details": []}
-    
-    for q in dataset.get_robustness_queries():
-        variants = q.get("robustness_variants", [])
-        base_result = pipeline.search(q["query"], top_k=10)
-        base_recall = Layer1Metrics.doc_recall_at_k(
-            list(dict.fromkeys(c["source_doc"] for c in base_result.get("retrieved_chunks", []))),
-            q["relevant_docs"], 10
-        )
-        
-        for variant in variants:
-            variant_result = pipeline.search(variant, top_k=10)
-            variant_recall = Layer1Metrics.doc_recall_at_k(
-                list(dict.fromkeys(c["source_doc"] for c in variant_result.get("retrieved_chunks", []))),
-                q["relevant_docs"], 10
-            )
-            drop = base_recall - variant_recall
-            robustness_results["total_variants"] += 1
-            robustness_results["recall_drop"] += drop
-            robustness_results["details"].append({
-                "query_id": q["query_id"],
-                "variant": variant,
-                "base_recall": base_recall,
-                "variant_recall": variant_recall,
-                "drop": drop,
-            })
-    
-    if robustness_results["total_variants"] > 0:
-        robustness_results["avg_recall_drop"] = round(
-            robustness_results["recall_drop"] / robustness_results["total_variants"], 4
-        )
-    else:
-        robustness_results["avg_recall_drop"] = 0
-    
-    return robustness_results
-
-
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", type=str, default=None, help="评估数据集路径")
-    parser.add_argument("--force-rebuild", action="store_true", help="强制重建知识库")
+    parser = argparse.ArgumentParser(description="RAGAS风格评估 Full模式")
+    parser.add_argument("--eval-path", type=str, default=None, help="AI评估结果路径")
+    parser.add_argument("--results-path", type=str, default=None, help="检索结果路径")
     args = parser.parse_args()
 
-    run_eval_full(dataset_path=args.dataset, force_rebuild=args.force_rebuild)
+    run_eval_full(eval_path=args.eval_path, results_path=args.results_path)

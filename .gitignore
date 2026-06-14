@@ -49,3 +49,22 @@ models/
 # OS
 .DS_Store
 Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Generated output
+data/output/
+
+# Vector store cache (auto-generated, large binary files)
+data/vector_store/
+
+# Cross-encoder cache (auto-generated)
+data/cross_encoder_cache/
+
+# Large binary files
+*.npy
+*.index
+*.faiss
